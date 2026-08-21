@@ -4,8 +4,8 @@
     "tagline": "Landscape photography from the fells, tarns and lakes of Cumbria — a growing collection, organised by location.",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "blea-tarn",
-      "photo": "Blea Tarn.jpeg"
+      "album": "black-and-white",
+      "photo": "rgjkMAJASQ.jpeg"
     },
     "github": {
       "user": "Kellyart7",
@@ -791,6 +791,284 @@
         {
           "file": "HolyIslandRustyBoat copy.jpg",
           "caption": "HolyIslandRustyBoat copy",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "black-and-white",
+      "title": "Black and White",
+      "blurb": "",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Fine Art/Black and White",
+      "photos": [
+        {
+          "file": "3GracesBWFA.jpeg",
+          "caption": "3GracesBWFA",
+          "include": true
+        },
+        {
+          "file": "_MG_0640-Enhanced-NR copy.jpg",
+          "caption": "_MG_0640-Enhanced-NR copy",
+          "include": true
+        },
+        {
+          "file": "_MG_8772.jpeg",
+          "caption": "_MG_8772",
+          "include": true
+        },
+        {
+          "file": "_MG_9257.jpeg",
+          "caption": "_MG_9257",
+          "include": true
+        },
+        {
+          "file": "AbbeySideViewBW.jpeg",
+          "caption": "AbbeySideViewBW",
+          "include": true
+        },
+        {
+          "file": "AbbyFA.jpeg",
+          "caption": "AbbyFA",
+          "include": true
+        },
+        {
+          "file": "Allyway.jpeg",
+          "caption": "Allyway",
+          "include": true
+        },
+        {
+          "file": "BAHousseFA.jpeg",
+          "caption": "BAHousseFA",
+          "include": true
+        },
+        {
+          "file": "BentTreeTarn copy.jpeg",
+          "caption": "BentTreeTarn copy",
+          "include": true
+        },
+        {
+          "file": "blackpoolFA.jpeg",
+          "caption": "blackpoolFA",
+          "include": true
+        },
+        {
+          "file": "BoltonAbbyArchFA.jpeg",
+          "caption": "BoltonAbbyArchFA",
+          "include": true
+        },
+        {
+          "file": "BWfog.jpeg",
+          "caption": "BWfog",
+          "include": true
+        },
+        {
+          "file": "BWMerseyEstury.jpeg",
+          "caption": "BWMerseyEstury",
+          "include": true
+        },
+        {
+          "file": "BWSelfy.jpeg",
+          "caption": "BWSelfy",
+          "include": true
+        },
+        {
+          "file": "chatsworth.jpeg",
+          "caption": "chatsworth",
+          "include": true
+        },
+        {
+          "file": "ClaytonView.jpeg",
+          "caption": "ClaytonView",
+          "include": true
+        },
+        {
+          "file": "CorfeCastleFA.jpeg",
+          "caption": "CorfeCastleFA",
+          "include": true
+        },
+        {
+          "file": "FApumphouse.jpeg",
+          "caption": "FApumphouse",
+          "include": true
+        },
+        {
+          "file": "Flower.jpeg",
+          "caption": "Flower",
+          "include": true
+        },
+        {
+          "file": "GatetotheWoods.jpeg",
+          "caption": "GatetotheWoods",
+          "include": true
+        },
+        {
+          "file": "GH.jpeg",
+          "caption": "GH",
+          "include": true
+        },
+        {
+          "file": "grandSquare.jpeg",
+          "caption": "grandSquare",
+          "include": true
+        },
+        {
+          "file": "IMG_0229.jpeg",
+          "caption": "IMG_0229",
+          "include": true
+        },
+        {
+          "file": "IMG_1801.jpeg",
+          "caption": "IMG_1801",
+          "include": true
+        },
+        {
+          "file": "KefCruiseLiner.jpg",
+          "caption": "KefCruiseLiner",
+          "include": true
+        },
+        {
+          "file": "KefPortBW copy.jpg",
+          "caption": "KefPortBW copy",
+          "include": true
+        },
+        {
+          "file": "KnarsboroughFA.jpeg",
+          "caption": "KnarsboroughFA",
+          "include": true
+        },
+        {
+          "file": "lpoolskylineAlbertDock.jpeg",
+          "caption": "lpoolskylineAlbertDock",
+          "include": true
+        },
+        {
+          "file": "LTreeUllswaterFA.jpeg",
+          "caption": "LTreeUllswaterFA",
+          "include": true
+        },
+        {
+          "file": "lythamPier.jpeg",
+          "caption": "lythamPier",
+          "include": true
+        },
+        {
+          "file": "LythamPierBW.jpeg",
+          "caption": "LythamPierBW",
+          "include": true
+        },
+        {
+          "file": "lythamPierColour.jpeg",
+          "caption": "lythamPierColour",
+          "include": false
+        },
+        {
+          "file": "lythamPierTexyture.jpeg",
+          "caption": "lythamPierTexyture",
+          "include": true
+        },
+        {
+          "file": "MalhamBarn.jpeg",
+          "caption": "MalhamBarn",
+          "include": true
+        },
+        {
+          "file": "paddys.jpeg",
+          "caption": "paddys",
+          "include": true
+        },
+        {
+          "file": "Paddys2.jpeg",
+          "caption": "Paddys2",
+          "include": true
+        },
+        {
+          "file": "PaddysBest.jpeg",
+          "caption": "PaddysBest",
+          "include": true
+        },
+        {
+          "file": "PaddysPSp.jpg",
+          "caption": "PaddysPSp",
+          "include": true
+        },
+        {
+          "file": "PaddyWW.jpeg",
+          "caption": "PaddyWW",
+          "include": true
+        },
+        {
+          "file": "Per2.jpeg",
+          "caption": "Per2",
+          "include": true
+        },
+        {
+          "file": "PHillSummit FA.jpeg",
+          "caption": "PHillSummit FA",
+          "include": true
+        },
+        {
+          "file": "PierHeavyBWcopy.jpg",
+          "caption": "PierHeavyBWcopy",
+          "include": true
+        },
+        {
+          "file": "PierSC.jpeg",
+          "caption": "PierSC",
+          "include": true
+        },
+        {
+          "file": "RGbwFA.jpeg",
+          "caption": "RGbwFA",
+          "include": false
+        },
+        {
+          "file": "rgjkMAJA2.jpeg",
+          "caption": "rgjkMAJA2",
+          "include": false
+        },
+        {
+          "file": "rgjkMAJASQ.jpeg",
+          "caption": "rgjkMAJASQ",
+          "include": false
+        },
+        {
+          "file": "RGRubyWoodsFA.jpeg",
+          "caption": "RGRubyWoodsFA",
+          "include": true
+        },
+        {
+          "file": "RydalLake.jpeg",
+          "caption": "RydalLake",
+          "include": true
+        },
+        {
+          "file": "Saalback.jpeg",
+          "caption": "Saalback",
+          "include": true
+        },
+        {
+          "file": "SeascapeFA.jpeg",
+          "caption": "SeascapeFA",
+          "include": true
+        },
+        {
+          "file": "SilvertoneDCGate.jpeg",
+          "caption": "SilvertoneDCGate",
+          "include": true
+        },
+        {
+          "file": "UllswaterFA.jpeg",
+          "caption": "UllswaterFA",
+          "include": true
+        },
+        {
+          "file": "WoodsEntrance.jpeg",
+          "caption": "WoodsEntrance",
+          "include": true
+        },
+        {
+          "file": "wrayCastleViewBWFA.jpeg",
+          "caption": "wrayCastleViewBWFA",
           "include": true
         }
       ]
