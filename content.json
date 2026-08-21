@@ -503,6 +503,209 @@
           "include": true
         }
       ]
+    },
+    {
+      "key": "new-album",
+      "title": "Panoramics",
+      "blurb": "Portfolio of my work in progress images, ready for a print run",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Pano Project",
+      "photos": [
+        {
+          "file": "AlbertDock.jpeg",
+          "caption": "AlbertDock",
+          "include": true
+        },
+        {
+          "file": "angalsey.jpeg",
+          "caption": "angalsey",
+          "include": true
+        },
+        {
+          "file": "bluebellswide.jpeg",
+          "caption": "bluebellswide",
+          "include": true
+        },
+        {
+          "file": "FountainsAbby.jpeg",
+          "caption": "FountainsAbby",
+          "include": true
+        },
+        {
+          "file": "FullLoughriggTarn copy.jpg",
+          "caption": "FullLoughriggTarn copy",
+          "include": true
+        },
+        {
+          "file": "goldenski.heic",
+          "caption": "goldenski",
+          "include": false
+        },
+        {
+          "file": "HenleyBeach.jpeg",
+          "caption": "HenleyBeach",
+          "include": true
+        },
+        {
+          "file": "Holywalk.jpeg",
+          "caption": "Holywalk",
+          "include": true
+        },
+        {
+          "file": "kricthberg.jpeg",
+          "caption": "kricthberg",
+          "include": true
+        },
+        {
+          "file": "KritchburgLearningSlope.jpeg",
+          "caption": "KritchburgLearningSlope",
+          "include": true
+        },
+        {
+          "file": "LandsEndLighthouse copy.jpeg",
+          "caption": "LandsEndLighthouse copy",
+          "include": true
+        },
+        {
+          "file": "lindersfarne.jpeg",
+          "caption": "lindersfarne",
+          "include": true
+        },
+        {
+          "file": "loneParadise.jpeg",
+          "caption": "loneParadise",
+          "include": true
+        },
+        {
+          "file": "LoufriggTarnPano copy.jpg",
+          "caption": "LoufriggTarnPano copy",
+          "include": true
+        },
+        {
+          "file": "MalhamValley.jpeg",
+          "caption": "MalhamValley",
+          "include": true
+        },
+        {
+          "file": "malhm.jpeg",
+          "caption": "malhm",
+          "include": true
+        },
+        {
+          "file": "mistyspringwood.jpeg",
+          "caption": "mistyspringwood",
+          "include": true
+        },
+        {
+          "file": "MoolabarWave.jpg",
+          "caption": "MoolabarWave",
+          "include": true
+        },
+        {
+          "file": "moolabyBeach.jpeg",
+          "caption": "moolabyBeach",
+          "include": true
+        },
+        {
+          "file": "OldMillMBlur copy.jpg",
+          "caption": "OldMillMBlur copy",
+          "include": true
+        },
+        {
+          "file": "RedCarpet.jpeg",
+          "caption": "RedCarpet",
+          "include": true
+        },
+        {
+          "file": "RydalBluebells copy.jpg",
+          "caption": "RydalBluebells copy",
+          "include": true
+        },
+        {
+          "file": "SeafordSunset copy.jpeg",
+          "caption": "SeafordSunset copy",
+          "include": true
+        },
+        {
+          "file": "skiathos.jpeg",
+          "caption": "skiathos",
+          "include": true
+        },
+        {
+          "file": "SkiathosOldPort.jpeg",
+          "caption": "SkiathosOldPort",
+          "include": true
+        },
+        {
+          "file": "Skisforeground.heic",
+          "caption": "Skisforeground",
+          "include": false
+        },
+        {
+          "file": "skopoles.jpg",
+          "caption": "skopoles",
+          "include": true
+        },
+        {
+          "file": "snowdonfromAngelsey.jpeg",
+          "caption": "snowdonfromAngelsey",
+          "include": true
+        },
+        {
+          "file": "Soll.jpeg",
+          "caption": "Soll",
+          "include": true
+        },
+        {
+          "file": "Splden.jpg",
+          "caption": "Splden",
+          "include": true
+        },
+        {
+          "file": "TarnHowsAurtumn.jpeg",
+          "caption": "TarnHowsAurtumn",
+          "include": true
+        },
+        {
+          "file": "TarnHowsFoggy.jpeg",
+          "caption": "TarnHowsFoggy",
+          "include": true
+        },
+        {
+          "file": "TarnHowsFoggyBW.jpg",
+          "caption": "TarnHowsFoggyBW",
+          "include": true
+        },
+        {
+          "file": "TarnHowsFoggymedow.jpg",
+          "caption": "TarnHowsFoggymedow",
+          "include": true
+        },
+        {
+          "file": "TarnPano.jpeg",
+          "caption": "TarnPano",
+          "include": true
+        },
+        {
+          "file": "TarnPano1234.jpeg",
+          "caption": "TarnPano1234",
+          "include": true
+        },
+        {
+          "file": "TarnPanoclean.jpg",
+          "caption": "TarnPanoclean",
+          "include": true
+        },
+        {
+          "file": "ThirlmereredTree.jpg",
+          "caption": "ThirlmereredTree",
+          "include": true
+        },
+        {
+          "file": "WelshCottage.jpeg",
+          "caption": "WelshCottage",
+          "include": true
+        }
+      ]
     }
   ]
 }
