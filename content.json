@@ -1,0 +1,508 @@
+{
+  "site": {
+    "title": "Kellyart Photography",
+    "tagline": "Landscape photography from the fells, tarns and lakes of Cumbria — a growing collection, organised by location.",
+    "root": "/Volumes/Public/Network Photos/PORTFOLIO",
+    "hero": {
+      "album": "blea-tarn",
+      "photo": "Blea Tarn.jpeg"
+    },
+    "github": {
+      "user": "Kellyart7",
+      "repo": "kellyart-photography"
+    }
+  },
+  "albums": [
+    {
+      "key": "blea-tarn",
+      "title": "Blea Tarn",
+      "blurb": "A small, still tarn cradled beneath the Langdale Pikes.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Blea Tarn",
+      "photos": [
+        {
+          "file": "Blea Tarn.jpeg",
+          "caption": "Blea Tarn, morning calm",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_00.jpeg",
+          "caption": "Reflections across the water",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_06.jpeg",
+          "caption": "Pikes above the tarn",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_10.jpeg",
+          "caption": "Shoreline pines",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_35.jpeg",
+          "caption": "Still water study",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_90.jpeg",
+          "caption": "Late light on the tarn",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "buttermere",
+      "title": "Buttermere",
+      "blurb": "Lakeshore paths, mist and mirror-still water in the western fells.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Buttermere",
+      "photos": [
+        {
+          "file": "buttermere copy.jpg",
+          "caption": "Buttermere shoreline",
+          "include": true
+        },
+        {
+          "file": "Buttermerewateerfall copy.jpg",
+          "caption": "Waterfall above the lake",
+          "include": true
+        },
+        {
+          "file": "buttermererockmist.jpeg",
+          "caption": "Rock and morning mist",
+          "include": true
+        },
+        {
+          "file": "buttermereTreeframe.jpeg",
+          "caption": "Framed by lakeside trees",
+          "include": true
+        },
+        {
+          "file": "classicfence.jpg",
+          "caption": "The classic fence line",
+          "include": true
+        },
+        {
+          "file": "CrummokPano copy.jpg",
+          "caption": "Crummock Water panorama",
+          "include": true
+        },
+        {
+          "file": "knarleyTree.jpg",
+          "caption": "The gnarled lakeside tree",
+          "include": true
+        },
+        {
+          "file": "LoneButttermereTree.jpeg",
+          "caption": "Lone tree, Buttermere",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "derwentwater",
+      "title": "Derwentwater",
+      "blurb": "Keswick's lake, bridges and soft valley light.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Derwent",
+      "photos": [
+        {
+          "file": "Bridge-Pano copy.jpg",
+          "caption": "Bridge panorama",
+          "include": true
+        },
+        {
+          "file": "KeswickHDR.jpeg",
+          "caption": "Keswick shoreline",
+          "include": true
+        },
+        {
+          "file": "_MG_0235.jpeg",
+          "caption": "Derwentwater, morning",
+          "include": true
+        },
+        {
+          "file": "_MG_0250.jpeg",
+          "caption": "Along the shore",
+          "include": true
+        },
+        {
+          "file": "_MG_0269.jpeg",
+          "caption": "Fells across the water",
+          "include": true
+        },
+        {
+          "file": "_MG_0315.jpeg",
+          "caption": "Derwentwater study",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "elterwater",
+      "title": "Elterwater & Langdale",
+      "blurb": "Reed-fringed water beneath the Langdale Pikes.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Elterwater",
+      "photos": [
+        {
+          "file": "LangdalesTreeframe.jpeg",
+          "caption": "The Langdale Pikes, framed",
+          "include": true
+        },
+        {
+          "file": "AutumnReflections.jpeg",
+          "caption": "Autumn reflections",
+          "include": true
+        },
+        {
+          "file": "CowsonBeach.jpg",
+          "caption": "Cowson beach",
+          "include": true
+        },
+        {
+          "file": "JKRGElterWater.jpeg",
+          "caption": "Elterwater, still morning",
+          "include": true
+        },
+        {
+          "file": "redMushMerge.jpeg",
+          "caption": "Woodland fungi study",
+          "include": true
+        },
+        {
+          "file": "SQBratheySnowy.jpeg",
+          "caption": "Brathay in snow",
+          "include": true
+        },
+        {
+          "file": "sunrays.jpeg",
+          "caption": "Sunrays through the trees",
+          "include": true
+        },
+        {
+          "file": "TreeShadowsBrath.jpeg",
+          "caption": "Tree shadows, Brathay",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "grasmere",
+      "title": "Grasmere",
+      "blurb": "Wordsworth's village lake, cottages and island views.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Grassmere",
+      "photos": [
+        {
+          "file": "BWvillage.jpeg",
+          "caption": "The village, black and white",
+          "include": true
+        },
+        {
+          "file": "grasmereCottage copy.jpg",
+          "caption": "Lakeland cottage",
+          "include": true
+        },
+        {
+          "file": "GrassmereGold.jpeg",
+          "caption": "Golden hour, Grasmere",
+          "include": true
+        },
+        {
+          "file": "GrassmereIsland.jpeg",
+          "caption": "The island",
+          "include": true
+        },
+        {
+          "file": "GrassmereSeagull.jpeg",
+          "caption": "Seagull over the lake",
+          "include": true
+        },
+        {
+          "file": "whitehouse.jpeg",
+          "caption": "The white house",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "haweswater",
+      "title": "Haweswater",
+      "blurb": "A remote reservoir valley, wide skies and rock shorelines.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Hawswater",
+      "photos": [
+        {
+          "file": "HawswaterPANO.jpeg",
+          "caption": "Haweswater panorama",
+          "include": true
+        },
+        {
+          "file": "169lake.jpeg",
+          "caption": "Wide lake view",
+          "include": true
+        },
+        {
+          "file": "RockLake.jpeg",
+          "caption": "Rock shoreline",
+          "include": true
+        },
+        {
+          "file": "_MG_2198.jpeg",
+          "caption": "Haweswater, morning",
+          "include": true
+        },
+        {
+          "file": "_MG_2246.jpeg",
+          "caption": "Valley light",
+          "include": true
+        },
+        {
+          "file": "_MG_2286.jpeg",
+          "caption": "Haweswater study",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "loughrigg",
+      "title": "Loughrigg Fell",
+      "blurb": "High views over Elterwater, Rydal and Windermere.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Loughrigg",
+      "photos": [
+        {
+          "file": "LoughrigPANO.jpeg",
+          "caption": "View from Loughrigg, panorama",
+          "include": true
+        },
+        {
+          "file": "BWRydalPat.jpg",
+          "caption": "Path above Rydal, black and white",
+          "include": true
+        },
+        {
+          "file": "CumbrianPaths.jpg",
+          "caption": "Cumbrian fell paths",
+          "include": true
+        },
+        {
+          "file": "ElterEpic.jpeg",
+          "caption": "Elterwater from the fell",
+          "include": true
+        },
+        {
+          "file": "FluffyWaterfall.jpeg",
+          "caption": "Waterfall, long exposure",
+          "include": true
+        },
+        {
+          "file": "RydalWalkers.jpg",
+          "caption": "Walkers above Rydal",
+          "include": true
+        },
+        {
+          "file": "ViewtoElterwater.jpg",
+          "caption": "Looking toward Elterwater",
+          "include": true
+        },
+        {
+          "file": "WindermereSelfy.jpg",
+          "caption": "Windermere from the summit",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "further-views",
+      "title": "Further Views",
+      "blurb": "A few more favourites from around the valleys.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Other",
+      "photos": [
+        {
+          "file": "LakesandGeese copy.jpg",
+          "caption": "Geese on the water",
+          "include": true
+        },
+        {
+          "file": "BrathyWalkers copy.jpg",
+          "caption": "Walkers by the Brathay",
+          "include": true
+        },
+        {
+          "file": "_MG_1093.jpeg",
+          "caption": "Lakeland view",
+          "include": true
+        },
+        {
+          "file": "_MG_1820.jpeg",
+          "caption": "Valley study",
+          "include": true
+        },
+        {
+          "file": "_MG_1849.jpeg",
+          "caption": "Fellside light",
+          "include": true
+        },
+        {
+          "file": "_MG_1924.jpeg",
+          "caption": "Lakeland view",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "rydal-water",
+      "title": "Rydal Water",
+      "blurb": "A small lake between Grasmere and Ambleside, quiet and wooded.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Rydal",
+      "photos": [
+        {
+          "file": "rydal.jpeg",
+          "caption": "Rydal Water, morning",
+          "include": true
+        },
+        {
+          "file": "RydalPano1.jpeg",
+          "caption": "Rydal Water panorama",
+          "include": true
+        },
+        {
+          "file": "RydalLoneTreeBW.jpeg",
+          "caption": "Lone tree, black and white",
+          "include": true
+        },
+        {
+          "file": "RydalCave copy.jpeg",
+          "caption": "Rydal Cave",
+          "include": true
+        },
+        {
+          "file": "_MG_1153.jpeg",
+          "caption": "Rydal Water study",
+          "include": true
+        },
+        {
+          "file": "RydalWalkers.jpeg",
+          "caption": "Walkers by the lake",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "tarn-hows",
+      "title": "Tarn Hows",
+      "blurb": "A National Trust beauty spot of pine, water and mist.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Tarn Hows",
+      "photos": [
+        {
+          "file": "FoggyMorningPano.jpg",
+          "caption": "Foggy morning panorama",
+          "include": true
+        },
+        {
+          "file": "Bracken copy.jpg",
+          "caption": "Autumn bracken",
+          "include": true
+        },
+        {
+          "file": "MistyFence copy.jpg",
+          "caption": "Fence in the mist",
+          "include": true
+        },
+        {
+          "file": "ReflectingTree copy.jpg",
+          "caption": "Reflecting tree",
+          "include": true
+        },
+        {
+          "file": "TarnHowsGoldenL (1).jpg",
+          "caption": "Golden light",
+          "include": true
+        },
+        {
+          "file": "TarnHowsGraphicBW copy (1).jpg",
+          "caption": "Graphic study, black and white",
+          "include": true
+        },
+        {
+          "file": "THGlow.jpg",
+          "caption": "Evening glow",
+          "include": true
+        },
+        {
+          "file": "TarnHowsSundown.jpeg",
+          "caption": "Sundown at Tarn Hows",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "thirlmere",
+      "title": "Thirlmere",
+      "blurb": "A dramatic reservoir valley with waterfalls and autumn colour.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Thirlemere",
+      "photos": [
+        {
+          "file": "_MG_0527-Enhanced-NR.jpg",
+          "caption": "Thirlmere, enhanced",
+          "include": true
+        },
+        {
+          "file": "AutumnBurst copy.jpg",
+          "caption": "Autumn colour burst",
+          "include": true
+        },
+        {
+          "file": "CrazyGrasshue.jpeg",
+          "caption": "Grasses in the wind",
+          "include": true
+        },
+        {
+          "file": "ragingTorrent.jpeg",
+          "caption": "A raging torrent",
+          "include": true
+        },
+        {
+          "file": "WaterFallHDR copy.jpg",
+          "caption": "Waterfall, HDR",
+          "include": true
+        },
+        {
+          "file": "WetandMistyautum.jpeg",
+          "caption": "Wet and misty autumn",
+          "include": true
+        },
+        {
+          "file": "yellowSplashtree.jpeg",
+          "caption": "Autumn tree, yellow splash",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "ullswater",
+      "title": "Ullswater",
+      "blurb": "England's 'most beautiful lake', wide waters beneath the fells.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Ullswater",
+      "photos": [
+        {
+          "file": "QuiteSiteUllswater20220615_05.jpeg",
+          "caption": "A quiet spot on Ullswater",
+          "include": true
+        },
+        {
+          "file": "SensetUllswater.jpeg",
+          "caption": "Sunset over Ullswater",
+          "include": true
+        },
+        {
+          "file": "SunsetTreeUllswater.jpeg",
+          "caption": "Sunset tree",
+          "include": true
+        },
+        {
+          "file": "UllwateQuiteSitePANO.jpeg",
+          "caption": "Ullswater panorama",
+          "include": true
+        }
+      ]
+    }
+  ]
+}
