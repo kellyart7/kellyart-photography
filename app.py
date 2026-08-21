@@ -41,6 +41,7 @@ STATE_PATH = APP_DIR / "content.json"
 DOCS_DIR = APP_DIR / "docs"
 CACHE_DIR = APP_DIR / ".thumb_cache"
 PORT = int(os.environ.get("PORT", "8765"))
+HOST = "127.0.0.1"  # this Mac only
 
 DEFAULT_ROOT = "/Volumes/Public/Network Photos/PORTFOLIO"
 SITE_TITLE = "Kellyart Photography"
@@ -925,7 +926,7 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     load_state()
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    server = ThreadingHTTPServer((HOST, PORT), Handler)
     url = f"http://localhost:{PORT}"
     print(f"\nKellyart Photography curator running at {url}\n(Ctrl+C to stop)\n")
     threading.Timer(0.6, lambda: webbrowser.open(url)).start()

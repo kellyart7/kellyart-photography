@@ -11,13 +11,17 @@ publish a real multi-page site to GitHub Pages — all from your Mac, whenever y
    pip3 install --user pillow
    ```
 
-2. **Run the app:**
+2. **Run the app** — either double-click **"Start Kellyart Curator.command"** in this
+   folder (Finder may ask "Are you sure you want to open it?" the first time — click
+   **Open**), or from Terminal:
    ```
    cd ~/Documents/kellyart-photography-app
    python3 app.py
    ```
-   Your browser opens automatically at `http://localhost:8765`. Leave the Terminal
-   window open while you use it; close it (Ctrl+C) when you're done.
+   Your Mac's browser opens automatically at `http://localhost:8765`. Leave that
+   window open while you use it; close it (Ctrl+C, or just close the Terminal
+   window) when you're done. This only runs on this Mac — it's not reachable from
+   your phone or any other device.
 
 3. **First publish** — click **Publish**. Since you already have `git`/`gh`
    authenticated on this Mac, the app will:
