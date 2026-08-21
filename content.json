@@ -4,8 +4,8 @@
     "tagline": "Landscape photography from the fells, tarns and lakes of Cumbria — a growing collection, organised by location.",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "black-and-white",
-      "photo": "rgjkMAJASQ.jpeg"
+      "album": "buttermere",
+      "photo": "CrummokPano copy.jpg"
     },
     "github": {
       "user": "Kellyart7",
@@ -1069,6 +1069,164 @@
         {
           "file": "wrayCastleViewBWFA.jpeg",
           "caption": "wrayCastleViewBWFA",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "northern-lights",
+      "title": "Northern Lights",
+      "blurb": "All original Skys captured from my garden in Accrington.  Some foregrounds have been added from my own my portfolio for fun, imaging what it would have looked like ",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Night and ASTRO/AURORA",
+      "photos": [
+        {
+          "file": "AuroraAccy.jpeg",
+          "caption": "AuroraAccy",
+          "include": true
+        },
+        {
+          "file": "AuroraAccy.jpg",
+          "caption": "AuroraAccy",
+          "include": false
+        },
+        {
+          "file": "AuroraLytham copy.jpeg",
+          "caption": "AuroraLytham copy",
+          "include": false
+        },
+        {
+          "file": "AuroraLytham copy.jpg",
+          "caption": "AuroraLytham copy",
+          "include": true
+        },
+        {
+          "file": "backgardenAroura.jpeg",
+          "caption": "backgardenAroura",
+          "include": false
+        },
+        {
+          "file": "backgardenAroura.jpg",
+          "caption": "backgardenAroura",
+          "include": true
+        },
+        {
+          "file": "BigDipperArora copy.jpg",
+          "caption": "BigDipperArora copy",
+          "include": true
+        },
+        {
+          "file": "ClaytonLancs copy.jpg",
+          "caption": "ClaytonLancs copy",
+          "include": true
+        },
+        {
+          "file": "EletricSolarWind copy.jpeg",
+          "caption": "EletricSolarWind copy",
+          "include": false
+        },
+        {
+          "file": "EletricSolarWind copy.jpg",
+          "caption": "EletricSolarWind copy",
+          "include": true
+        },
+        {
+          "file": "IMG_7501-Enhanced-NR copy-1.jpeg",
+          "caption": "IMG_7501-Enhanced-NR copy-1",
+          "include": true
+        },
+        {
+          "file": "IMG_7501-Enhanced-NR copy.jpeg",
+          "caption": "IMG_7501-Enhanced-NR copy",
+          "include": false
+        },
+        {
+          "file": "IMG_7501-Enhanced-NR copy.jpg",
+          "caption": "IMG_7501-Enhanced-NR copy",
+          "include": true
+        },
+        {
+          "file": "KingStAurora copy.jpeg",
+          "caption": "KingStAurora copy",
+          "include": false
+        },
+        {
+          "file": "KingStAurora copy.jpg",
+          "caption": "KingStAurora copy",
+          "include": true
+        },
+        {
+          "file": "LythamPierAurora copy.jpeg",
+          "caption": "LythamPierAurora copy",
+          "include": false
+        },
+        {
+          "file": "LythamPierAurora copy.jpg",
+          "caption": "LythamPierAurora copy",
+          "include": true
+        },
+        {
+          "file": "PendleHill copy.jpg",
+          "caption": "PendleHill copy",
+          "include": true
+        },
+        {
+          "file": "PolarisOutShoneby the Aroura copy.jpeg",
+          "caption": "PolarisOutShoneby the Aroura copy",
+          "include": true
+        },
+        {
+          "file": "PolarisOutShoneby the Aroura copy.jpg",
+          "caption": "PolarisOutShoneby the Aroura copy",
+          "include": false
+        },
+        {
+          "file": "Polisis Green copy.jpeg",
+          "caption": "Polisis Green copy",
+          "include": true
+        },
+        {
+          "file": "Polisis Green copy.jpg",
+          "caption": "Polisis Green copy",
+          "include": false
+        },
+        {
+          "file": "Processed copy.jpeg",
+          "caption": "Processed copy",
+          "include": false
+        },
+        {
+          "file": "Processed copy.jpg",
+          "caption": "Processed copy",
+          "include": true
+        },
+        {
+          "file": "timelapse.jpg",
+          "caption": "timelapse",
+          "include": true
+        },
+        {
+          "file": "vert.jpg",
+          "caption": "vert",
+          "include": false
+        },
+        {
+          "file": "VerticalVid.jpg",
+          "caption": "VerticalVid",
+          "include": true
+        },
+        {
+          "file": "WhalleyAurora copy.jpeg",
+          "caption": "WhalleyAurora copy",
+          "include": false
+        },
+        {
+          "file": "WhalleyAurora copy.jpg",
+          "caption": "WhalleyAurora copy",
+          "include": true
+        },
+        {
+          "file": "WindermereAuroraSelfi copy.jpg",
+          "caption": "WindermereAuroraSelfi copy",
           "include": true
         }
       ]
