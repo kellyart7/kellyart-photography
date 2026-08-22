@@ -1,5 +1,14 @@
 
 (function(){
+  document.addEventListener('contextmenu', function(e){
+    if(e.target && e.target.tagName === 'IMG'){ e.preventDefault(); }
+  });
+  document.addEventListener('dragstart', function(e){
+    if(e.target && e.target.tagName === 'IMG'){ e.preventDefault(); }
+  });
+})();
+
+(function(){
   var tiles = Array.prototype.slice.call(document.querySelectorAll('.tile'));
   if(!tiles.length) return;
   var lb = document.getElementById('lightbox');

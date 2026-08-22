@@ -299,7 +299,7 @@ html{scroll-behavior:smooth;}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Libre Franklin",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;}
 h1,h2,h3,.display{font-family:"Newsreader",Georgia,"Times New Roman",serif;font-weight:500;text-wrap:balance;margin:0;}
 a{color:inherit;text-decoration:none;}
-img{max-width:100%;display:block;}
+img{max-width:100%;display:block;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;}
 button{font-family:inherit;cursor:pointer;}
 
 .topbar{position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--bg) 92%, transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
@@ -318,7 +318,7 @@ button{font-family:inherit;cursor:pointer;}
 .quicklinks-links a{border:1px solid var(--line);background:var(--surface-2);color:var(--ink);padding:0.44rem 1rem;border-radius:999px;font-size:0.83rem;font-weight:600;transition:border-color 0.15s ease, background 0.15s ease, color 0.15s ease;}
 .quicklinks-links a:hover{border-color:var(--moss);background:var(--moss);color:var(--moss-ink);}
 
-.hero{position:relative;min-height:clamp(320px,50vh,560px);display:flex;align-items:flex-end;padding:6vw 6vw 3.2rem;background:linear-gradient(180deg, rgba(20,23,18,0.12) 0%, rgba(14,16,12,0.68) 88%), var(--hero-img) center 60%/cover no-repeat;}
+.hero{position:relative;min-height:clamp(260px,40vh,440px);display:flex;align-items:flex-end;padding:5vw 6vw 2.4rem;background:linear-gradient(180deg, rgba(20,23,18,0.12) 0%, rgba(14,16,12,0.68) 88%), var(--hero-img) center 60%/cover no-repeat;}
 .hero-inner{position:relative;z-index:1;color:#F2F3EC;max-width:46rem;}
 .hero-eyebrow{font-size:0.78rem;letter-spacing:0.18em;text-transform:uppercase;color:#D6DACB;margin-bottom:1rem;font-weight:600;}
 .hero h1{font-size:clamp(2.4rem,6vw,4.2rem);line-height:1.02;color:#F6F6EF;}
@@ -334,9 +334,11 @@ main{max-width:1400px;margin:0 auto;padding:0 1.4rem;}
 .card-label h3{font-size:1.2rem;color:#F6F6EF;}
 .card-label span{font-size:0.78rem;letter-spacing:0.06em;text-transform:uppercase;color:#C8CEBC;}
 
-.album-head{padding:3.2rem 0 1.4rem;border-bottom:1px solid var(--line);margin-bottom:1.6rem;}
+.album-head{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:0.8rem 1.6rem;padding:2.1rem 0 1.4rem;border-bottom:1px solid var(--line);margin-bottom:1.6rem;}
+.album-head-text{flex:1 1 26rem;}
 .album-head h2{font-size:clamp(1.7rem,2.8vw,2.3rem);}
 .album-head p{color:var(--ink-soft);font-size:1rem;max-width:36rem;line-height:1.55;margin-top:0.5rem;}
+.album-count{flex-shrink:0;font-size:0.78rem;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-soft);border:1px solid var(--line);background:var(--surface);padding:0.4rem 0.9rem;border-radius:999px;margin-bottom:0.2rem;}
 
 .grid{columns:4 240px;column-gap:1rem;padding-bottom:3rem;}
 .tile{break-inside:avoid;margin-bottom:1rem;position:relative;border-radius:6px;overflow:hidden;background:var(--surface-2);box-shadow:var(--shadow);border:0;padding:0;display:block;width:100%;}
@@ -378,6 +380,15 @@ footer{margin-top:3rem;padding:2.4rem 1.4rem 3rem;border-top:1px solid var(--lin
 """
 
 GALLERY_JS = """
+(function(){
+  document.addEventListener('contextmenu', function(e){
+    if(e.target && e.target.tagName === 'IMG'){ e.preventDefault(); }
+  });
+  document.addEventListener('dragstart', function(e){
+    if(e.target && e.target.tagName === 'IMG'){ e.preventDefault(); }
+  });
+})();
+
 (function(){
   var tiles = Array.prototype.slice.call(document.querySelectorAll('.tile'));
   if(!tiles.length) return;
@@ -515,9 +526,13 @@ def build_site(state, log=print):
         if cover_rel:
             album_covers[album["key"]] = cover_rel
 
+        n_photos = len(tiles_html)
         body = topbar("../") + f'''
 <main>
-  <div class="album-head"><h2>{esc(album["title"])}</h2><p>{esc(album.get("blurb",""))}</p></div>
+  <div class="album-head">
+    <div class="album-head-text"><h2>{esc(album["title"])}</h2><p>{esc(album.get("blurb",""))}</p></div>
+    <span class="album-count">{n_photos} photograph{"s" if n_photos != 1 else ""}</span>
+  </div>
   <div class="grid">{''.join(tiles_html)}</div>
 </main>
 {comments_html}
@@ -578,6 +593,7 @@ def build_site(state, log=print):
   <div class="card-grid">{''.join(cards)}</div>
 </main>
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span></footer>
+<script src="assets/gallery.js"></script>
 '''
     home_html = page_shell(site["title"], site["tagline"], topbar("", show_home=False) + home_body, css_href="assets/style.css")
     (DOCS_DIR / "index.html").write_text(home_html, encoding="utf-8")
@@ -756,6 +772,7 @@ main{padding:1.4rem 1.8rem;overflow-y:auto;}
 </header>
 <div class="layout">
   <nav class="albums">
+    <div id="siteSettingsBtn" class="album-item" style="margin-bottom:1rem;border-bottom:1px solid var(--line);padding-bottom:0.9rem;"><span>&#9998; Home page text</span></div>
     <h2>Albums</h2>
     <div id="albumList"></div>
     <button id="btnNewAlbum" style="width:100%;margin-top:0.8rem;">+ New album from folder</button>
@@ -770,6 +787,7 @@ main{padding:1.4rem 1.8rem;overflow-y:auto;}
 <script>
 var state = null;
 var activeAlbum = null;
+var showSiteEditor = false;
 
 function toast(msg){
   var t = document.getElementById('toast');
@@ -795,20 +813,33 @@ function render(){
 }
 
 function renderAlbumList(){
+  var siteBtn = document.getElementById('siteSettingsBtn');
+  siteBtn.classList.toggle('active', showSiteEditor);
   var el = document.getElementById('albumList');
   el.innerHTML = '';
   state.albums.forEach(function(a){
     var n = a.photos.filter(function(p){return p.include;}).length;
     var div = document.createElement('div');
-    div.className = 'album-item' + (a.key === activeAlbum ? ' active' : '');
+    div.className = 'album-item' + (!showSiteEditor && a.key === activeAlbum ? ' active' : '');
     div.innerHTML = '<span>' + a.title + '</span><small>' + n + '</small>';
-    div.addEventListener('click', function(){ activeAlbum = a.key; document.getElementById('newAlbumPanel').classList.add('hidden'); render(); });
+    div.addEventListener('click', function(){ showSiteEditor = false; activeAlbum = a.key; document.getElementById('newAlbumPanel').classList.add('hidden'); render(); });
     el.appendChild(div);
   });
 }
 
+function renderSiteEditor(){
+  var el = document.getElementById('albumEditor');
+  el.innerHTML =
+    '<div class="field"><label>Site title</label><input id="fSiteTitle" value="' + escAttr(state.site.title) + '"></div>' +
+    '<div class="field"><label>Home page blurb</label><textarea id="fSiteTagline" rows="3">' + escHtml(state.site.tagline || '') + '</textarea></div>' +
+    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">This title and blurb are what visitors see on the hero image at the top of your home page. Changes save automatically — click Build site, then Publish, to make them live.</p>';
+  el.querySelector('#fSiteTitle').addEventListener('change', function(e){ state.site.title = e.target.value; save(); toast('Saved.'); });
+  el.querySelector('#fSiteTagline').addEventListener('change', function(e){ state.site.tagline = e.target.value; save(); toast('Saved.'); });
+}
+
 function renderEditor(){
   var el = document.getElementById('albumEditor');
+  if(showSiteEditor){ renderSiteEditor(); return; }
   var album = state.albums.find(function(a){ return a.key === activeAlbum; });
   if(!album){ el.innerHTML = '<p>No album selected.</p>'; return; }
   el.innerHTML = '';
@@ -882,6 +913,12 @@ function openAddPhotos(album){
   renderBrowser(panel, album.sourceFolder);
   panel.scrollIntoView({behavior:'smooth'});
 }
+
+document.getElementById('siteSettingsBtn').addEventListener('click', function(){
+  showSiteEditor = true; activeAlbum = null;
+  document.getElementById('newAlbumPanel').classList.add('hidden');
+  render();
+});
 
 document.getElementById('btnNewAlbum').addEventListener('click', function(){
   var panel = document.getElementById('newAlbumPanel');
