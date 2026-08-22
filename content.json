@@ -4,13 +4,14 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "bluebells",
-      "photo": "BBfallentree copy.jpeg"
+      "album": "sea-scapes",
+      "photo": " calmingblackpool.jpeg"
     },
     "github": {
       "user": "Kellyart7",
       "repo": "kellyart-photography"
-    }
+    },
+    "eyebrow": "The English Landscape"
   },
   "albums": [
     {
@@ -1607,6 +1608,119 @@
           "file": "YewOK.jpeg",
           "caption": "YewOK",
           "include": true
+        }
+      ]
+    },
+    {
+      "key": "sea-scapes",
+      "title": "Sea Scapes",
+      "blurb": "a selection of coastline images",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Seascapes",
+      "photos": [
+        {
+          "file": " calmingblackpool.jpeg",
+          "caption": " Calming Blackpool",
+          "include": true
+        },
+        {
+          "file": "3boatsFA.jpeg",
+          "caption": "3 boats",
+          "include": true
+        },
+        {
+          "file": "_MG_1190.jpeg",
+          "caption": "God Rays",
+          "include": true
+        },
+        {
+          "file": "_MG_2673.jpeg",
+          "caption": "Fetch",
+          "include": true
+        },
+        {
+          "file": "_MG_2681.jpeg",
+          "caption": "Serene ",
+          "include": true
+        },
+        {
+          "file": "_MG_2691.jpeg",
+          "caption": "_MG_2691",
+          "include": false
+        },
+        {
+          "file": "_MG_9938 1.jpeg",
+          "caption": "_MG_9938 1",
+          "include": true
+        },
+        {
+          "file": "_MG_9938.jpeg",
+          "caption": "_MG_9938",
+          "include": true
+        },
+        {
+          "file": "Aloneshoreline.jpeg",
+          "caption": "Alone shoreline",
+          "include": true
+        },
+        {
+          "file": "BeachmanandDog.jpg",
+          "caption": "Beach man and Dog",
+          "include": true
+        },
+        {
+          "file": "BlueNicMorcambeBay.jpeg",
+          "caption": "Blue Hour Morcambe Bay",
+          "include": true
+        },
+        {
+          "file": "BpoolPier.jpeg",
+          "caption": "The Pier",
+          "include": true
+        },
+        {
+          "file": "FistralBeachPainting.jpeg",
+          "caption": "Fistral Beach Painterly tones",
+          "include": true
+        },
+        {
+          "file": "LandsEndLighthouse.jpeg",
+          "caption": "Lands End Lighthouse",
+          "include": true
+        },
+        {
+          "file": "LandsEndLighthouse3712.jpeg",
+          "caption": "Lands End Lighthouse ",
+          "include": true
+        },
+        {
+          "file": "letterboxPier.jpeg",
+          "caption": "letter boxP ier",
+          "include": false
+        },
+        {
+          "file": "PierSunbathers copy.jpg",
+          "caption": "Pier Sunbathers ",
+          "include": true
+        },
+        {
+          "file": "RGBenjiStMicksM.jpeg",
+          "caption": "RGBenjiStMicksM",
+          "include": false
+        },
+        {
+          "file": "RoseBenjiStMichealMount.jpeg",
+          "caption": "RoseBenjiStMichealMount",
+          "include": false
+        },
+        {
+          "file": "STAnnePier.jpeg",
+          "caption": "STAnnePier",
+          "include": false
+        },
+        {
+          "file": "Untitled-1.jpeg",
+          "caption": "Untitled-1",
+          "include": false
         }
       ]
     }
