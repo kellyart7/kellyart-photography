@@ -49,6 +49,24 @@ SITE_TAGLINE = "Landscape photography from the fells, tarns and lakes of Cumbria
 GITHUB_USER = "Kellyart7"
 GITHUB_REPO = "kellyart-photography"
 
+# --- Contact form (Formspree) --------------------------------------------
+# One-time setup: create a free form at https://formspree.io, then paste the
+# form ID (the part after /f/ in the endpoint it gives you) below. Until you
+# do, the contact page shows a plain "email me" link instead of the form —
+# see README.md for the exact steps.
+FORMSPREE_FORM_ID = "REPLACE_WITH_FORMSPREE_ID"
+CONTACT_EMAIL = "kellyart7@yahoo.co.uk"
+
+# --- Comments (giscus, powered by GitHub Discussions) ---------------------
+# One-time setup: turn on "Discussions" for your GitHub repo, then configure
+# https://giscus.app for that repo and paste the two IDs it gives you below.
+# Until you do, the comments section is simply left off each page — see
+# README.md for the exact steps.
+GISCUS_REPO = f"{GITHUB_USER}/{GITHUB_REPO}"
+GISCUS_CATEGORY = "Comments"
+GISCUS_REPO_ID = "REPLACE_WITH_REPO_ID"
+GISCUS_CATEGORY_ID = "REPLACE_WITH_CATEGORY_ID"
+
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".heic"}
 THUMB_MAX = 640
 FULL_MAX = 1600
@@ -290,6 +308,13 @@ button{font-family:inherit;cursor:pointer;}
 .home-btn:hover{border-color:var(--moss);}
 .home-btn svg{width:14px;height:14px;}
 .topbar-title{font-family:"Newsreader",serif;font-size:1rem;color:var(--ink-soft);}
+.contact-link{margin-left:auto;border:1px solid var(--line);background:transparent;color:var(--ink-soft);padding:0.5rem 1rem;border-radius:999px;font-size:0.86rem;font-weight:600;flex-shrink:0;}
+.contact-link:hover{border-color:var(--moss);color:var(--ink);}
+
+.quicklinks{display:flex;flex-wrap:wrap;align-items:center;gap:0.55rem;padding:2rem 0 0.4rem;}
+.quicklinks-label{width:100%;font-size:0.76rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:0.3rem;}
+.quicklinks a{border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0.5rem 1.05rem;border-radius:999px;font-size:0.85rem;font-weight:600;transition:border-color 0.15s ease, background 0.15s ease;}
+.quicklinks a:hover{border-color:var(--moss);background:var(--surface-2);}
 
 .hero{position:relative;min-height:70vh;display:flex;align-items:flex-end;padding:6vw 6vw 4rem;background:linear-gradient(180deg, rgba(20,23,18,0.12) 0%, rgba(14,16,12,0.68) 88%), var(--hero-img) center 60%/cover no-repeat;}
 .hero-inner{position:relative;z-index:1;color:#F2F3EC;max-width:46rem;}
@@ -320,6 +345,22 @@ main{max-width:1400px;margin:0 auto;padding:0 1.4rem;}
 .tile:focus-visible{outline:2px solid var(--moss);outline-offset:2px;}
 
 footer{margin-top:3rem;padding:2.4rem 1.4rem 3rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;color:var(--ink-soft);font-size:0.86rem;max-width:1400px;margin-left:auto;margin-right:auto;}
+
+.comments-wrap{max-width:1400px;margin:0 auto;padding:0.5rem 1.4rem 3rem;}
+.comments-wrap h3{font-family:"Newsreader",serif;font-weight:500;font-size:1.3rem;margin-bottom:1.2rem;}
+
+.contact-wrap{max-width:34rem;padding:3.5rem 0 4rem;}
+.contact-wrap h2{font-size:clamp(1.7rem,2.8vw,2.3rem);}
+.contact-wrap>p{color:var(--ink-soft);font-size:1rem;line-height:1.55;margin-top:0.6rem;}
+.contact-form{display:flex;flex-direction:column;gap:1.1rem;margin-top:1.8rem;}
+.contact-form label{display:flex;flex-direction:column;gap:0.4rem;font-size:0.82rem;font-weight:600;color:var(--ink-soft);}
+.contact-form input,.contact-form textarea{font-family:inherit;font-size:0.95rem;padding:0.75rem 0.9rem;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);}
+.contact-form textarea{min-height:150px;resize:vertical;}
+.contact-form input:focus,.contact-form textarea:focus{outline:2px solid var(--moss);outline-offset:1px;}
+.contact-form button{align-self:flex-start;background:var(--moss);color:var(--moss-ink);border:0;padding:0.8rem 1.7rem;border-radius:999px;font-weight:600;font-size:0.92rem;}
+.contact-form button:hover{opacity:0.9;}
+.contact-fallback{margin-top:1.8rem;font-size:0.98rem;line-height:1.6;}
+.contact-fallback a{color:var(--moss);font-weight:600;text-decoration:underline;text-underline-offset:2px;}
 
 .lightbox{position:fixed;inset:0;z-index:100;background:var(--overlay);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.2s ease;}
 .lightbox.open{opacity:1;pointer-events:auto;}
@@ -397,8 +438,9 @@ def page_shell(title, description, body, css_href="assets/style.css", root_prefi
 
 def topbar(root_prefix, show_home=True):
     home_link = f"{root_prefix}index.html" if root_prefix else "index.html"
+    contact_link = f"{root_prefix}contact/index.html" if root_prefix else "contact/index.html"
     btn = f'''<a class="home-btn" href="{home_link}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8M5 10v10h14V10"/></svg>Home</a>''' if show_home else ""
-    return f'''<div class="topbar"><div class="topbar-inner">{btn}<span class="topbar-title">Kellyart Photography</span></div></div>'''
+    return f'''<div class="topbar"><div class="topbar-inner">{btn}<span class="topbar-title">Kellyart Photography</span><a class="contact-link" href="{contact_link}">Contact</a></div></div>'''
 
 def build_site(state, log=print):
     site = state["site"]
@@ -411,6 +453,31 @@ def build_site(state, log=print):
 
     warnings = []
     album_covers = {}
+
+    giscus_ready = not (GISCUS_REPO_ID.startswith("REPLACE_") or GISCUS_CATEGORY_ID.startswith("REPLACE_"))
+    comments_html = ""
+    if giscus_ready:
+        comments_html = f'''
+<div class="comments-wrap">
+  <h3>Comments</h3>
+  <script src="https://giscus.app/client.js"
+    data-repo="{GISCUS_REPO}"
+    data-repo-id="{GISCUS_REPO_ID}"
+    data-category="{GISCUS_CATEGORY}"
+    data-category-id="{GISCUS_CATEGORY_ID}"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>'''
+    else:
+        warnings.append("Comments are not set up yet — giscus IDs are still placeholders (see README.md).")
 
     for album in albums:
         out_dir = DOCS_DIR / album["key"]
@@ -451,6 +518,7 @@ def build_site(state, log=print):
   <div class="album-head"><h2>{esc(album["title"])}</h2><p>{esc(album.get("blurb",""))}</p></div>
   <div class="grid">{''.join(tiles_html)}</div>
 </main>
+{comments_html}
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span><a href="../index.html" class="home-btn">Home</a></footer>
 {LIGHTBOX_HTML}
 <script src="../assets/gallery.js"></script>
@@ -485,6 +553,11 @@ def build_site(state, log=print):
             f'</a>'
         )
 
+    quicklinks = ''.join(
+        f'<a href="{a["key"]}/index.html">{esc(a["title"])}</a>'
+        for a in albums if a["key"] in album_covers
+    )
+
     home_body = f'''
 <header class="hero" id="top" style="--hero-img:url('{hero_rel or ""}')">
   <div class="hero-inner">
@@ -494,12 +567,45 @@ def build_site(state, log=print):
   </div>
 </header>
 <main>
+  <nav class="quicklinks" aria-label="Jump to a location">
+    <span class="quicklinks-label">Jump to a location</span>
+    {quicklinks}
+  </nav>
   <div class="card-grid">{''.join(cards)}</div>
 </main>
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span></footer>
 '''
     home_html = page_shell(site["title"], site["tagline"], topbar("", show_home=False) + home_body, css_href="assets/style.css")
     (DOCS_DIR / "index.html").write_text(home_html, encoding="utf-8")
+
+    # Contact page
+    formspree_ready = not FORMSPREE_FORM_ID.startswith("REPLACE_")
+    if formspree_ready:
+        contact_field_html = f'''<form class="contact-form" action="https://formspree.io/f/{FORMSPREE_FORM_ID}" method="POST">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="_replyto" required></label>
+      <label>Message<textarea name="message" required></textarea></label>
+      <button type="submit">Send message</button>
+    </form>'''
+    else:
+        warnings.append("The contact form is not set up yet — FORMSPREE_FORM_ID is still a placeholder (see README.md); showing a plain email link instead.")
+        contact_field_html = f'<p class="contact-fallback">Drop me a line at <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> — I read every message.</p>'
+
+    contact_body = topbar("../") + f'''
+<main>
+  <div class="contact-wrap">
+    <h2>Get in touch</h2>
+    <p>Questions about a print, a location, or just want to say hello? Send a message below.</p>
+    {contact_field_html}
+  </div>
+</main>
+<footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span><a href="../index.html" class="home-btn">Home</a></footer>
+'''
+    contact_html = page_shell("Contact — Kellyart Photography", "Get in touch about prints, locations or feedback.", contact_body, css_href="../assets/style.css")
+    (DOCS_DIR / "contact").mkdir(parents=True, exist_ok=True)
+    (DOCS_DIR / "contact" / "index.html").write_text(contact_html, encoding="utf-8")
+    log("Built contact/index.html")
+
     (DOCS_DIR / ".nojekyll").write_text("", encoding="utf-8")
     log(f"Built index.html ({len(cards)} albums)")
     return {"albums": len(albums), "warnings": warnings}

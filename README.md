@@ -39,6 +39,66 @@ publish a real multi-page site to GitHub Pages — all from your Mac, whenever y
    You can point your own domain at this later via GitHub Pages' custom domain setting,
    if you want `kellyart-photography.com` instead of the github.io address.
 
+## Setting up comments and the contact form (one-time, optional)
+
+The site already has a **Jump to a location** quick-links bar on the home page, a
+**Contact** page (linked from the top of every page), and a **Comments** section
+on every album page. Two of those need a short one-time setup before they're
+"live" — until you do this, the site still works fine: the contact page shows a
+plain "email me" link, and the comments section is simply left off each page.
+
+### Contact form (Formspree — free)
+
+1. Go to **[formspree.io](https://formspree.io)** and sign up (free plan is
+   plenty — 50 messages/month).
+2. Click **+ New Form**, name it something like "Kellyart Photography contact",
+   and set the notification email to wherever you want messages to land
+   (defaults to your Formspree sign-up email).
+3. Formspree shows you an endpoint like `https://formspree.io/f/abcdwxyz` —
+   you only need the part after `/f/`, e.g. `abcdwxyz`.
+4. Open **app.py** in a text editor, find this line near the top:
+   ```
+   FORMSPREE_FORM_ID = "REPLACE_WITH_FORMSPREE_ID"
+   ```
+   and replace the placeholder with your ID, e.g.:
+   ```
+   FORMSPREE_FORM_ID = "abcdwxyz"
+   ```
+5. Save, then in the app click **Build site** and **Publish**. The Contact
+   page now shows a real form; submissions land straight in your inbox — your
+   email address is never shown on the page itself.
+
+### Comments (giscus — free, uses your GitHub repo's Discussions)
+
+1. On GitHub, open **github.com/Kellyart7/kellyart-photography** → **Settings**
+   → tick **Discussions** (under the "Features" section) → **Set up discussions**.
+2. Still on GitHub, go to that repo's **Discussions** tab → **Categories** (the
+   gear/pencil icon) and create a new category called exactly **Comments**,
+   format "Open-ended discussion" (or reuse an existing one, just make sure
+   the name matches what you put in `GISCUS_CATEGORY` in app.py — it's
+   `"Comments"` by default).
+3. Go to **[giscus.app](https://giscus.app)**, scroll to **giscus is a
+   comment system powered by GitHub Discussions**, and:
+   - Under **Repository**, type `Kellyart7/kellyart-photography` and wait for
+     the green check (you may need to install the free "giscus" GitHub App on
+     that repo first — the page links you straight to it).
+   - Under **Page ↔ Discussions Mapping**, choose **pathname**.
+   - Under **Discussion Category**, choose **Comments**.
+   - Leave the rest on the defaults.
+4. Scroll down to **Enable giscus** — it shows a snippet of HTML. You only
+   need two values out of it: `data-repo-id="..."` and
+   `data-category-id="..."`.
+5. Open **app.py**, find these lines near the top:
+   ```
+   GISCUS_REPO_ID = "REPLACE_WITH_REPO_ID"
+   GISCUS_CATEGORY_ID = "REPLACE_WITH_CATEGORY_ID"
+   ```
+   and paste in the two values from giscus.app (keep the quote marks).
+6. Save, then **Build site** and **Publish**. Every album page now has a
+   comments box at the bottom — visitors sign in with GitHub to comment
+   (nothing to moderate on your end; comments show up as posts in your repo's
+   Discussions tab, where you can delete/hide anything if needed).
+
 ## Everyday use
 
 - **Add photos to an existing album** — select the album on the left, click
