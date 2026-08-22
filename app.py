@@ -202,6 +202,7 @@ DEFAULT_STATE = {
     "site": {
         "title": SITE_TITLE,
         "tagline": SITE_TAGLINE,
+        "eyebrow": "Lake District · England",
         "root": DEFAULT_ROOT,
         "hero": {"album": "loughrigg", "photo": "LoughrigPANO.jpeg"},
         "github": {"user": GITHUB_USER, "repo": GITHUB_REPO},
@@ -575,17 +576,18 @@ def build_site(state, log=print):
         for a in albums if a["key"] in album_covers
     )
 
+    eyebrow = site.get("eyebrow") or "Lake District · England"
     home_body = f'''
 <header class="hero" id="top" style="--hero-img:url('{hero_rel or ""}')">
   <div class="hero-inner">
-    <div class="hero-eyebrow">Lake District &middot; England</div>
+    <div class="hero-eyebrow">{esc(eyebrow)}</div>
     <h1>{esc(site["title"])}</h1>
     <p>{esc(site["tagline"])}</p>
   </div>
 </header>
-<nav class="quicklinks-bar" aria-label="Jump to a location">
+<nav class="quicklinks-bar" aria-label="Select a project">
   <div class="quicklinks-inner">
-    <span class="quicklinks-label">Jump to a location</span>
+    <span class="quicklinks-label">Select a Project</span>
     <div class="quicklinks-links">{quicklinks}</div>
   </div>
 </nav>
@@ -830,9 +832,11 @@ function renderAlbumList(){
 function renderSiteEditor(){
   var el = document.getElementById('albumEditor');
   el.innerHTML =
+    '<div class="field"><label>Subtitle (small text above the title)</label><input id="fSiteEyebrow" value="' + escAttr(state.site.eyebrow || 'Lake District · England') + '"></div>' +
     '<div class="field"><label>Site title</label><input id="fSiteTitle" value="' + escAttr(state.site.title) + '"></div>' +
     '<div class="field"><label>Home page blurb</label><textarea id="fSiteTagline" rows="3">' + escHtml(state.site.tagline || '') + '</textarea></div>' +
-    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">This title and blurb are what visitors see on the hero image at the top of your home page. Changes save automatically — click Build site, then Publish, to make them live.</p>';
+    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">These are what visitors see on the hero image at the top of your home page. Changes save automatically — click Build site, then Publish, to make them live.</p>';
+  el.querySelector('#fSiteEyebrow').addEventListener('change', function(e){ state.site.eyebrow = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTitle').addEventListener('change', function(e){ state.site.title = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTagline').addEventListener('change', function(e){ state.site.tagline = e.target.value; save(); toast('Saved.'); });
 }

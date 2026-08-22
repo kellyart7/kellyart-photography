@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Kellyart Photography",
-    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective.",
+    "title": "Kelly Art Photography",
+    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
       "album": "bluebells",
@@ -84,12 +84,12 @@
         },
         {
           "file": "CrummokPano copy.jpg",
-          "caption": "Crummock Water panorama",
+          "caption": "Panoramic Vies",
           "include": true
         },
         {
           "file": "knarleyTree.jpg",
-          "caption": "The gnarled lakeside tree",
+          "caption": "Lakeside tree",
           "include": true
         },
         {
@@ -101,7 +101,7 @@
     },
     {
       "key": "derwentwater",
-      "title": "Derwentwater",
+      "title": "Derwent Water",
       "blurb": "Keswick's lake, bridges and soft valley light.",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Derwent",
       "photos": [
@@ -112,12 +112,12 @@
         },
         {
           "file": "KeswickHDR.jpeg",
-          "caption": "Keswick shoreline",
+          "caption": "Keswick Dramatic shoreline",
           "include": true
         },
         {
           "file": "_MG_0235.jpeg",
-          "caption": "Derwentwater, morning",
+          "caption": "Morning Due",
           "include": true
         },
         {
@@ -132,7 +132,7 @@
         },
         {
           "file": "_MG_0315.jpeg",
-          "caption": "Derwentwater study",
+          "caption": "Fells study",
           "include": true
         }
       ]
@@ -145,7 +145,7 @@
       "photos": [
         {
           "file": "LangdalesTreeframe.jpeg",
-          "caption": "The Langdale Pikes, framed",
+          "caption": "Langdale Pikes, framed",
           "include": true
         },
         {
@@ -155,7 +155,7 @@
         },
         {
           "file": "CowsonBeach.jpg",
-          "caption": "Cowson beach",
+          "caption": "Cows on the  beach",
           "include": true
         },
         {
@@ -165,7 +165,7 @@
         },
         {
           "file": "redMushMerge.jpeg",
-          "caption": "Woodland fungi study",
+          "caption": "Woodland fungi ",
           "include": true
         },
         {
@@ -203,7 +203,7 @@
         },
         {
           "file": "GrassmereGold.jpeg",
-          "caption": "Golden hour, Grasmere",
+          "caption": "Golden hour",
           "include": true
         },
         {
@@ -213,12 +213,12 @@
         },
         {
           "file": "GrassmereSeagull.jpeg",
-          "caption": "Seagull over the lake",
+          "caption": "Seagull calm",
           "include": true
         },
         {
           "file": "whitehouse.jpeg",
-          "caption": "The white house",
+          "caption": "The white cottage  ",
           "include": true
         }
       ]
@@ -269,7 +269,7 @@
       "photos": [
         {
           "file": "LoughrigPANO.jpeg",
-          "caption": "View from Loughrigg, panorama",
+          "caption": "Loughrigg panorama",
           "include": true
         },
         {
@@ -512,57 +512,57 @@
       "photos": [
         {
           "file": "bam.jpeg",
-          "caption": "bam",
+          "caption": "Bamburgh Castle grass",
           "include": true
         },
         {
           "file": "Banburg copy.jpg",
-          "caption": "Banburg copy",
+          "caption": "Bamburgh Castle river",
           "include": true
         },
         {
           "file": "BanburgBW copy.jpg",
-          "caption": "BanburgBW copy",
+          "caption": "Holy Island",
           "include": true
         },
         {
           "file": "BanburgCastlePath copy.jpg",
-          "caption": "BanburgCastlePath copy",
+          "caption": "Bamburgh Castle path",
           "include": true
         },
         {
           "file": "Banburgdetail copy.jpg",
-          "caption": "Banburgdetail copy",
+          "caption": "Bamburgh Castle ",
           "include": true
         },
         {
           "file": "BanburgHolyWalk.jpg",
-          "caption": "BanburgHolyWalk",
+          "caption": "Romantic walk",
           "include": true
         },
         {
           "file": "BanburgPath copy.jpg",
-          "caption": "BanburgPath copy",
+          "caption": "Bamburgh Castle more paths",
           "include": true
         },
         {
           "file": "BanCastleSand copy.jpg",
-          "caption": "BanCastleSand copy",
+          "caption": "Bamburgh Castle dunes",
           "include": true
         },
         {
           "file": "beachLayerCastle copy.jpg",
-          "caption": "beachLayerCastle copy",
+          "caption": "Bamburgh Castle dune",
           "include": true
         },
         {
           "file": "BoatShed copy.jpg",
-          "caption": "BoatShed copy",
+          "caption": "Holy Island Boat shed",
           "include": true
         },
         {
           "file": "CastleHI copy.jpg",
-          "caption": "CastleHI copy",
+          "caption": "Holy Island ",
           "include": true
         },
         {
@@ -572,22 +572,22 @@
         },
         {
           "file": "HolyCastle copy.jpg",
-          "caption": "HolyCastle copy",
+          "caption": "Holy Island ",
           "include": true
         },
         {
           "file": "HolyDecayBoat copy.jpg",
-          "caption": "HolyDecayBoat copy",
+          "caption": "Holy Island wreck",
           "include": true
         },
         {
           "file": "HolyIsland copy.jpg",
-          "caption": "HolyIsland copy",
+          "caption": "Holy Island shore",
           "include": true
         },
         {
           "file": "HolyIslandRustyBoat copy.jpg",
-          "caption": "HolyIslandRustyBoat copy",
+          "caption": "Holy Island Boat",
           "include": true
         }
       ]
@@ -600,12 +600,12 @@
       "photos": [
         {
           "file": "3GracesBWFA.jpeg",
-          "caption": "3GracesBWFA",
+          "caption": "Liverpool waterfront ",
           "include": true
         },
         {
           "file": "_MG_0640-Enhanced-NR copy.jpg",
-          "caption": "_MG_0640-Enhanced-NR copy",
+          "caption": "Paddys Wigwam",
           "include": true
         },
         {
@@ -615,57 +615,57 @@
         },
         {
           "file": "_MG_9257.jpeg",
-          "caption": "_MG_9257",
+          "caption": "Grassess ",
           "include": true
         },
         {
           "file": "AbbeySideViewBW.jpeg",
-          "caption": "AbbeySideViewBW",
+          "caption": "Fountains Ruin",
           "include": true
         },
         {
           "file": "AbbyFA.jpeg",
-          "caption": "AbbyFA",
+          "caption": "ruin",
           "include": true
         },
         {
           "file": "Allyway.jpeg",
-          "caption": "Allyway",
+          "caption": "Ally way",
           "include": true
         },
         {
           "file": "BAHousseFA.jpeg",
-          "caption": "BAHousseFA",
+          "caption": "Stately ",
           "include": true
         },
         {
           "file": "BentTreeTarn copy.jpeg",
-          "caption": "BentTreeTarn copy",
+          "caption": "Bowing tree",
           "include": true
         },
         {
           "file": "blackpoolFA.jpeg",
-          "caption": "blackpoolFA",
+          "caption": "Blackpool shore",
           "include": true
         },
         {
           "file": "BoltonAbbyArchFA.jpeg",
-          "caption": "BoltonAbbyArchFA",
+          "caption": "Bolton Abby",
           "include": true
         },
         {
           "file": "BWfog.jpeg",
-          "caption": "BWfog",
+          "caption": "Foggy view",
           "include": true
         },
         {
           "file": "BWMerseyEstury.jpeg",
-          "caption": "BWMerseyEstury",
+          "caption": "Mersey Estury",
           "include": true
         },
         {
           "file": "BWSelfy.jpeg",
-          "caption": "BWSelfy",
+          "caption": "BW Selfy Windermere",
           "include": true
         },
         {
@@ -675,17 +675,17 @@
         },
         {
           "file": "ClaytonView.jpeg",
-          "caption": "ClaytonView",
+          "caption": "Clayton View",
           "include": true
         },
         {
           "file": "CorfeCastleFA.jpeg",
-          "caption": "CorfeCastleFA",
+          "caption": "Corfe Castle",
           "include": true
         },
         {
           "file": "FApumphouse.jpeg",
-          "caption": "FApumphouse",
+          "caption": "Liverpool pumphouse",
           "include": true
         },
         {
@@ -695,7 +695,7 @@
         },
         {
           "file": "GatetotheWoods.jpeg",
-          "caption": "GatetotheWoods",
+          "caption": "Gate to the Woods",
           "include": true
         },
         {
@@ -720,32 +720,32 @@
         },
         {
           "file": "KefCruiseLiner.jpg",
-          "caption": "KefCruiseLiner",
+          "caption": "Kefalonia Cruise port",
           "include": true
         },
         {
           "file": "KefPortBW copy.jpg",
-          "caption": "KefPortBW copy",
+          "caption": "Kefalonia Port",
           "include": true
         },
         {
           "file": "KnarsboroughFA.jpeg",
-          "caption": "KnarsboroughFA",
+          "caption": "Knarsborough",
           "include": true
         },
         {
           "file": "lpoolskylineAlbertDock.jpeg",
-          "caption": "lpoolskylineAlbertDock",
+          "caption": "Albert Dock",
           "include": true
         },
         {
           "file": "LTreeUllswaterFA.jpeg",
-          "caption": "LTreeUllswaterFA",
+          "caption": "Tree Ullswater",
           "include": true
         },
         {
           "file": "lythamPier.jpeg",
-          "caption": "lythamPier",
+          "caption": "Lytham Pier",
           "include": true
         },
         {
