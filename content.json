@@ -1230,6 +1230,169 @@
           "include": true
         }
       ]
+    },
+    {
+      "key": "spring-wood-whalley",
+      "title": "Spring Wood Whalley",
+      "blurb": "Much lauded for its bluebell & ransom displays, this semi-natural ancient woodland is one of the best examples in Lancashire and has Biological Heritage status. There is an access for all route, one leading to the centre of the wood, suitable for buggies and trampers, and a steeper path, climbing to the summit via the arboretum. Highly recommended for woodland enthusiasts or those who just enjoy listening to Warblers, Jays and Chiffchaffs whilst eating ice cream and watching squirrels feeding",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Woodlands/Spring Woods",
+      "photos": [
+        {
+          "file": "3treesfgy copy.jpg",
+          "caption": "3treesfgy copy",
+          "include": false
+        },
+        {
+          "file": "3treesfgy.jpeg",
+          "caption": "3treesfgy",
+          "include": true
+        },
+        {
+          "file": "autum fall.jpeg",
+          "caption": "autum fall",
+          "include": true
+        },
+        {
+          "file": "AutumnFog copy.jpg",
+          "caption": "AutumnFog copy",
+          "include": true
+        },
+        {
+          "file": "AutumnOrange copy.jpg",
+          "caption": "AutumnOrange copy",
+          "include": true
+        },
+        {
+          "file": "benchView copy.jpg",
+          "caption": "benchView copy",
+          "include": true
+        },
+        {
+          "file": "bendyoak.jpeg",
+          "caption": "bendyoak",
+          "include": true
+        },
+        {
+          "file": "billylikesthis1.jpeg",
+          "caption": "billylikesthis1",
+          "include": true
+        },
+        {
+          "file": "brokenTree copy.jpg",
+          "caption": "brokenTree copy",
+          "include": true
+        },
+        {
+          "file": "fallenTree.jpeg",
+          "caption": "fallenTree",
+          "include": true
+        },
+        {
+          "file": "FalLight copy.jpg",
+          "caption": "FalLight copy",
+          "include": true
+        },
+        {
+          "file": "fgypath1 copy.jpg",
+          "caption": "fgypath1 copy",
+          "include": true
+        },
+        {
+          "file": "FGyWoods copy.jpg",
+          "caption": "FGyWoods copy",
+          "include": true
+        },
+        {
+          "file": "flatwoodsmist.jpeg",
+          "caption": "flatwoodsmist",
+          "include": true
+        },
+        {
+          "file": "HazyWoodsOrten copy.jpg",
+          "caption": "HazyWoodsOrten copy",
+          "include": true
+        },
+        {
+          "file": "ITimetoExplore.jpg",
+          "caption": "ITimetoExplore",
+          "include": true
+        },
+        {
+          "file": "MistyMystree.jpeg",
+          "caption": "MistyMystree",
+          "include": true
+        },
+        {
+          "file": "panoPreAutumn.jpg",
+          "caption": "panoPreAutumn",
+          "include": true
+        },
+        {
+          "file": "PeepingSheep.jpeg",
+          "caption": "PeepingSheep",
+          "include": true
+        },
+        {
+          "file": "PiXProcessedFoggy.jpeg",
+          "caption": "PiXProcessedFoggy",
+          "include": true
+        },
+        {
+          "file": "PixWoods.jpg",
+          "caption": "PixWoods",
+          "include": true
+        },
+        {
+          "file": "RedCarpet copy.jpg",
+          "caption": "RedCarpet copy",
+          "include": true
+        },
+        {
+          "file": "Showoff.jpeg",
+          "caption": "Showoff",
+          "include": true
+        },
+        {
+          "file": "SilverBirch copy.jpg",
+          "caption": "SilverBirch copy",
+          "include": false
+        },
+        {
+          "file": "SilverBirch.jpeg",
+          "caption": "SilverBirch",
+          "include": true
+        },
+        {
+          "file": "StreamedBlueBells copy.jpg",
+          "caption": "StreamedBlueBells copy",
+          "include": true
+        },
+        {
+          "file": "wideVistaBBs.jpeg",
+          "caption": "wideVistaBBs",
+          "include": true
+        },
+        {
+          "file": "WiswellView copy.jpg",
+          "caption": "WiswellView copy",
+          "include": true
+        },
+        {
+          "file": "yBluebells copy.jpg",
+          "caption": "yBluebells copy",
+          "include": true
+        },
+        {
+          "file": "YForest copy.jpg",
+          "caption": "YForest copy",
+          "include": false
+        },
+        {
+          "file": "YForest.jpeg",
+          "caption": "YForest",
+          "include": true
+        }
+      ]
     }
   ]
 }
