@@ -4,8 +4,8 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "sea-scapes",
-      "photo": " calmingblackpool.jpeg"
+      "album": "st-michaels",
+      "photo": "stMicksHydranger copy.jpg"
     },
     "github": {
       "user": "Kellyart7",
@@ -312,7 +312,7 @@
     },
     {
       "key": "further-views",
-      "title": "More Lake Districk",
+      "title": "Lake District",
       "blurb": "A few more favourites from around the valleys.",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Other",
       "photos": [
@@ -1614,7 +1614,7 @@
     {
       "key": "sea-scapes",
       "title": "Sea Scapes",
-      "blurb": "a selection of coastline images",
+      "blurb": "Seascape photography can be both challenging and rewarding, demanding patience, careful timing and a close eye on the changing conditions. Tides, weather, waves and light can transform the same location from one moment to the next, while capturing the movement and power of the sea requires both creativity and technical skill. When everything comes together, however, the results can be truly dramatic and unforgettable.",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Seascapes",
       "photos": [
         {
@@ -1721,6 +1721,276 @@
           "file": "Untitled-1.jpeg",
           "caption": "Untitled-1",
           "include": false
+        }
+      ]
+    },
+    {
+      "key": "whalley-village",
+      "title": "Whalley Village",
+      "blurb": "Whalley is a historic Lancashire village rich in character, with the River Calder, traditional buildings and the magnificent ruins of Whalley Abbey providing a wonderful sense of place. The abbey’s ancient stonework, peaceful grounds and surrounding village offer a wealth of photographic opportunities, capturing both the beauty of the landscape and the history that has shaped this special corner of the Ribble Valley.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lancashire/Whalley",
+      "photos": [
+        {
+          "file": "_MG_1530.jpeg",
+          "caption": "_MG_1530",
+          "include": true
+        },
+        {
+          "file": "_MG_1531-1.jpeg",
+          "caption": "_MG_1531-1",
+          "include": true
+        },
+        {
+          "file": "_MG_1531.jpeg",
+          "caption": "_MG_1531",
+          "include": true
+        },
+        {
+          "file": "_MG_1599.jpeg",
+          "caption": "_MG_1599",
+          "include": true
+        },
+        {
+          "file": "AbbyBW.jpeg",
+          "caption": "Abby Moon",
+          "include": true
+        },
+        {
+          "file": "AbbyPanorama-1.jpeg",
+          "caption": "AbbyPanorama",
+          "include": true
+        },
+        {
+          "file": "IMG_0101.jpeg",
+          "caption": "River Calder",
+          "include": true
+        },
+        {
+          "file": "IMG_0103.jpeg",
+          "caption": "Calder Viaduct",
+          "include": true
+        },
+        {
+          "file": "IMG_0115.jpeg",
+          "caption": "Calder view",
+          "include": true
+        },
+        {
+          "file": "IMG_0119.jpeg",
+          "caption": "Village ",
+          "include": true
+        },
+        {
+          "file": "WhalleyHiKeyColourPano 20x8.jpg",
+          "caption": "Whalley roundabout ",
+          "include": true
+        },
+        {
+          "file": "WhallyAbbtPanoHDR.jpeg",
+          "caption": "Abby gardens",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "liverpool",
+      "title": "Liverpool",
+      "blurb": "",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Liverpool",
+      "photos": [
+        {
+          "file": "albertdock.jpeg",
+          "caption": "Albert dock",
+          "include": true
+        },
+        {
+          "file": "CrosbyVista.jpeg",
+          "caption": "Crosby Vista",
+          "include": true
+        },
+        {
+          "file": "FineArtCrosby.jpeg",
+          "caption": "Fine Art Crosby Statue ",
+          "include": true
+        },
+        {
+          "file": "JKcolLpoolWaterFront copy.jpg",
+          "caption": " Water Front mash up",
+          "include": true
+        },
+        {
+          "file": "LpoolwaterfrontDynamic.jpeg",
+          "caption": "Waterfront Dynamic",
+          "include": true
+        },
+        {
+          "file": "Style1.jpg",
+          "caption": "Style1",
+          "include": false
+        },
+        {
+          "file": "Style2Poam.jpg",
+          "caption": "Poem ",
+          "include": true
+        },
+        {
+          "file": "theBayofGormley.jpeg",
+          "caption": "Bay of Gormley",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "padstow",
+      "title": "Padstow",
+      "blurb": "Padstow is a charming Cornish harbour town, full of character, colour and photographic interest. From the working harbour and traditional fishing boats to the narrow streets and dramatic coastline nearby, the area offers a wonderful variety of subjects. The changing tides and coastal light make every visit an opportunity to capture something new.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Cornwall/Padstow",
+      "photos": [
+        {
+          "file": "GatetoPadstow copy.jpg",
+          "caption": "Gate to Padstow",
+          "include": true
+        },
+        {
+          "file": "HabourBoats copy.jpg",
+          "caption": "Habour Boats ",
+          "include": true
+        },
+        {
+          "file": "myThoughts copy.jpg",
+          "caption": "My thoughts ",
+          "include": true
+        },
+        {
+          "file": "padstoeBay copy.jpg",
+          "caption": "Padstow Bay",
+          "include": true
+        },
+        {
+          "file": "Padstow copy.jpg",
+          "caption": "Padstow town",
+          "include": true
+        },
+        {
+          "file": "padstowboats copy.jpg",
+          "caption": "padstow boats",
+          "include": true
+        },
+        {
+          "file": "PadstowPano copy.jpg",
+          "caption": "Padstow Pano",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "st-ives",
+      "title": "St Ives",
+      "blurb": "St Ives is a wonderfully photogenic coastal town, where golden beaches, turquoise waters and a maze of narrow streets provide endless inspiration. The changing light, colourful harbour and dramatic Cornish coastline make it a perfect location for capturing everything from intimate details to sweeping seascapes.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Cornwall/St Ives",
+      "photos": [
+        {
+          "file": "3boatsFA copy.jpg",
+          "caption": "3 boats",
+          "include": true
+        },
+        {
+          "file": "3ships copy.jpg",
+          "caption": "Three Yachts ",
+          "include": true
+        },
+        {
+          "file": "BatsLighthouse copy.jpg",
+          "caption": "Boats Lighthouse",
+          "include": true
+        },
+        {
+          "file": "BayBoats copy.jpg",
+          "caption": "Bay Boats ",
+          "include": true
+        },
+        {
+          "file": "BeachedBoatsIsIves copy.jpg",
+          "caption": "Beached Boats",
+          "include": true
+        },
+        {
+          "file": "BenjistIves copy.jpg",
+          "caption": "Benji stIves copy",
+          "include": true
+        },
+        {
+          "file": "boats.jpg",
+          "caption": "Washed up ",
+          "include": true
+        },
+        {
+          "file": "BRGStIves copy.jpg",
+          "caption": "BRGStIves copy",
+          "include": false
+        },
+        {
+          "file": "RGBBoatStIves copy.jpg",
+          "caption": "RGBBoatStIves copy",
+          "include": false
+        },
+        {
+          "file": "RGBStIves.jpg",
+          "caption": "RGBStIves",
+          "include": false
+        },
+        {
+          "file": "StIvesBeachBum copy.jpg",
+          "caption": " Beach Bum ",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "st-michaels",
+      "title": "St Michael’s Mount ",
+      "blurb": "St Michael’s Mount is one of Cornwall’s most iconic and dramatic photographic locations, rising from the sea just off the coast at Marazion. The changing tides, which reveal and cover the historic causeway, create endless opportunities for composition, while the castle and its reflections provide a striking focal point. From dramatic sunsets to moody coastal weather, St Michael’s Mount is a location that never fails to inspire.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Cornwall/St Michaels",
+      "photos": [
+        {
+          "file": "boattryip.jpg",
+          "caption": "St Michael’s Mount boat trip",
+          "include": true
+        },
+        {
+          "file": "RGBenjiStMicksM copy.jpg",
+          "caption": "RGBenjiStMicksM copy",
+          "include": false
+        },
+        {
+          "file": "RGBenjiSTMiichealsMountA4.jpg",
+          "caption": "RGBenjiSTMiichealsMountA4",
+          "include": false
+        },
+        {
+          "file": "RoseBenjiStMichealMount copy.jpg",
+          "caption": "RoseBenjiStMichealMount copy",
+          "include": false
+        },
+        {
+          "file": "StMichealsMountlonefigure copy.jpg",
+          "caption": "St Michael’s Mount  lone figure ",
+          "include": true
+        },
+        {
+          "file": "stMicks copy.jpg",
+          "caption": "St Michael’s Mount ",
+          "include": true
+        },
+        {
+          "file": "stMicksHydranger copy.jpg",
+          "caption": "St Micheals Mount Flowers",
+          "include": true
+        },
+        {
+          "file": "warmBWStMicheals.jpg",
+          "caption": "St Micheals Mount Sepica",
+          "include": true
         }
       ]
     }
