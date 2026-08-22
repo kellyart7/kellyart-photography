@@ -4,8 +4,8 @@
     "tagline": "Landscape photography from the fells, tarns and lakes of Cumbria — a growing collection, organised by location.",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "buttermere",
-      "photo": "CrummokPano copy.jpg"
+      "album": "bluebells",
+      "photo": "BBfallentree copy.jpeg"
     },
     "github": {
       "user": "Kellyart7",
@@ -311,7 +311,7 @@
     },
     {
       "key": "further-views",
-      "title": "Further Views",
+      "title": "More Lake Districk",
       "blurb": "A few more favourites from around the valleys.",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Other",
       "photos": [
@@ -500,209 +500,6 @@
         {
           "file": "UllwateQuiteSitePANO.jpeg",
           "caption": "Ullswater panorama",
-          "include": true
-        }
-      ]
-    },
-    {
-      "key": "new-album",
-      "title": "Panoramics",
-      "blurb": "Portfolio of my work in progress images, ready for a print run.  My panoramic series explores the unique potential of the wide-format image, capturing landscapes in a way that reflects the scale and grandeur of the scene as experienced in person. By bringing together a wider field of view, panoramics allow sweeping compositions, dramatic skies and subtle details to work together, creating images that draw the viewer into the landscape and offer a greater sense of place.",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Pano Project",
-      "photos": [
-        {
-          "file": "AlbertDock.jpeg",
-          "caption": "AlbertDock",
-          "include": true
-        },
-        {
-          "file": "angalsey.jpeg",
-          "caption": "angalsey",
-          "include": true
-        },
-        {
-          "file": "bluebellswide.jpeg",
-          "caption": "bluebellswide",
-          "include": true
-        },
-        {
-          "file": "FountainsAbby.jpeg",
-          "caption": "FountainsAbby",
-          "include": true
-        },
-        {
-          "file": "FullLoughriggTarn copy.jpg",
-          "caption": "FullLoughriggTarn copy",
-          "include": true
-        },
-        {
-          "file": "goldenski.heic",
-          "caption": "goldenski",
-          "include": false
-        },
-        {
-          "file": "HenleyBeach.jpeg",
-          "caption": "HenleyBeach",
-          "include": true
-        },
-        {
-          "file": "Holywalk.jpeg",
-          "caption": "Holywalk",
-          "include": true
-        },
-        {
-          "file": "kricthberg.jpeg",
-          "caption": "kricthberg",
-          "include": true
-        },
-        {
-          "file": "KritchburgLearningSlope.jpeg",
-          "caption": "KritchburgLearningSlope",
-          "include": true
-        },
-        {
-          "file": "LandsEndLighthouse copy.jpeg",
-          "caption": "LandsEndLighthouse copy",
-          "include": true
-        },
-        {
-          "file": "lindersfarne.jpeg",
-          "caption": "lindersfarne",
-          "include": true
-        },
-        {
-          "file": "loneParadise.jpeg",
-          "caption": "loneParadise",
-          "include": true
-        },
-        {
-          "file": "LoufriggTarnPano copy.jpg",
-          "caption": "LoufriggTarnPano copy",
-          "include": true
-        },
-        {
-          "file": "MalhamValley.jpeg",
-          "caption": "MalhamValley",
-          "include": true
-        },
-        {
-          "file": "malhm.jpeg",
-          "caption": "malhm",
-          "include": true
-        },
-        {
-          "file": "mistyspringwood.jpeg",
-          "caption": "mistyspringwood",
-          "include": true
-        },
-        {
-          "file": "MoolabarWave.jpg",
-          "caption": "MoolabarWave",
-          "include": true
-        },
-        {
-          "file": "moolabyBeach.jpeg",
-          "caption": "moolabyBeach",
-          "include": true
-        },
-        {
-          "file": "OldMillMBlur copy.jpg",
-          "caption": "OldMillMBlur copy",
-          "include": true
-        },
-        {
-          "file": "RedCarpet.jpeg",
-          "caption": "RedCarpet",
-          "include": true
-        },
-        {
-          "file": "RydalBluebells copy.jpg",
-          "caption": "RydalBluebells copy",
-          "include": true
-        },
-        {
-          "file": "SeafordSunset copy.jpeg",
-          "caption": "SeafordSunset copy",
-          "include": true
-        },
-        {
-          "file": "skiathos.jpeg",
-          "caption": "skiathos",
-          "include": true
-        },
-        {
-          "file": "SkiathosOldPort.jpeg",
-          "caption": "SkiathosOldPort",
-          "include": true
-        },
-        {
-          "file": "Skisforeground.heic",
-          "caption": "Skisforeground",
-          "include": false
-        },
-        {
-          "file": "skopoles.jpg",
-          "caption": "skopoles",
-          "include": true
-        },
-        {
-          "file": "snowdonfromAngelsey.jpeg",
-          "caption": "snowdonfromAngelsey",
-          "include": true
-        },
-        {
-          "file": "Soll.jpeg",
-          "caption": "Soll",
-          "include": true
-        },
-        {
-          "file": "Splden.jpg",
-          "caption": "Splden",
-          "include": true
-        },
-        {
-          "file": "TarnHowsAurtumn.jpeg",
-          "caption": "TarnHowsAurtumn",
-          "include": true
-        },
-        {
-          "file": "TarnHowsFoggy.jpeg",
-          "caption": "TarnHowsFoggy",
-          "include": true
-        },
-        {
-          "file": "TarnHowsFoggyBW.jpg",
-          "caption": "TarnHowsFoggyBW",
-          "include": true
-        },
-        {
-          "file": "TarnHowsFoggymedow.jpg",
-          "caption": "TarnHowsFoggymedow",
-          "include": true
-        },
-        {
-          "file": "TarnPano.jpeg",
-          "caption": "TarnPano",
-          "include": true
-        },
-        {
-          "file": "TarnPano1234.jpeg",
-          "caption": "TarnPano1234",
-          "include": true
-        },
-        {
-          "file": "TarnPanoclean.jpg",
-          "caption": "TarnPanoclean",
-          "include": true
-        },
-        {
-          "file": "ThirlmereredTree.jpg",
-          "caption": "ThirlmereredTree",
-          "include": true
-        },
-        {
-          "file": "WelshCottage.jpeg",
-          "caption": "WelshCottage",
           "include": true
         }
       ]
@@ -1390,6 +1187,425 @@
         {
           "file": "YForest.jpeg",
           "caption": "YForest",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "panorama",
+      "title": "Panorama",
+      "blurb": "My panoramic series explores the unique potential of the wide-format image, capturing landscapes in a way that reflects the scale and grandeur of the scene as experienced in person. By bringing together a wider field of view, panoramics allow sweeping compositions, dramatic skies and subtle details to work together, creating images that draw the viewer into the landscape and offer a greater sense of place.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Pano Project",
+      "photos": [
+        {
+          "file": "AlbertDock.jpeg",
+          "caption": "AlbertDock",
+          "include": true
+        },
+        {
+          "file": "angalsey.jpeg",
+          "caption": "angalsey",
+          "include": true
+        },
+        {
+          "file": "bluebellswide.jpeg",
+          "caption": "bluebellswide",
+          "include": true
+        },
+        {
+          "file": "FountainsAbby.jpeg",
+          "caption": "FountainsAbby",
+          "include": true
+        },
+        {
+          "file": "FullLoughriggTarn copy.jpg",
+          "caption": "FullLoughriggTarn copy",
+          "include": true
+        },
+        {
+          "file": "goldenski.heic",
+          "caption": "goldenski",
+          "include": false
+        },
+        {
+          "file": "HenleyBeach.jpeg",
+          "caption": "HenleyBeach",
+          "include": true
+        },
+        {
+          "file": "Holywalk.jpeg",
+          "caption": "Holywalk",
+          "include": true
+        },
+        {
+          "file": "kricthberg.jpeg",
+          "caption": "kricthberg",
+          "include": true
+        },
+        {
+          "file": "KritchburgLearningSlope.jpeg",
+          "caption": "KritchburgLearningSlope",
+          "include": true
+        },
+        {
+          "file": "LandsEndLighthouse copy.jpeg",
+          "caption": "LandsEndLighthouse copy",
+          "include": true
+        },
+        {
+          "file": "lindersfarne.jpeg",
+          "caption": "lindersfarne",
+          "include": true
+        },
+        {
+          "file": "loneParadise.jpeg",
+          "caption": "loneParadise",
+          "include": true
+        },
+        {
+          "file": "LoufriggTarnPano copy.jpg",
+          "caption": "LoufriggTarnPano copy",
+          "include": true
+        },
+        {
+          "file": "MalhamValley.jpeg",
+          "caption": "MalhamValley",
+          "include": true
+        },
+        {
+          "file": "malhm.jpeg",
+          "caption": "malhm",
+          "include": true
+        },
+        {
+          "file": "mistyspringwood.jpeg",
+          "caption": "mistyspringwood",
+          "include": true
+        },
+        {
+          "file": "MoolabarWave.jpg",
+          "caption": "MoolabarWave",
+          "include": true
+        },
+        {
+          "file": "moolabyBeach.jpeg",
+          "caption": "moolabyBeach",
+          "include": true
+        },
+        {
+          "file": "OldMillMBlur copy.jpg",
+          "caption": "OldMillMBlur copy",
+          "include": true
+        },
+        {
+          "file": "RedCarpet.jpeg",
+          "caption": "RedCarpet",
+          "include": true
+        },
+        {
+          "file": "RydalBluebells copy.jpg",
+          "caption": "RydalBluebells copy",
+          "include": true
+        },
+        {
+          "file": "SeafordSunset copy.jpeg",
+          "caption": "SeafordSunset copy",
+          "include": true
+        },
+        {
+          "file": "skiathos.jpeg",
+          "caption": "skiathos",
+          "include": true
+        },
+        {
+          "file": "SkiathosOldPort.jpeg",
+          "caption": "SkiathosOldPort",
+          "include": true
+        },
+        {
+          "file": "Skisforeground.heic",
+          "caption": "Skisforeground",
+          "include": false
+        },
+        {
+          "file": "skopoles.jpg",
+          "caption": "skopoles",
+          "include": true
+        },
+        {
+          "file": "snowdonfromAngelsey.jpeg",
+          "caption": "snowdonfromAngelsey",
+          "include": true
+        },
+        {
+          "file": "Soll.jpeg",
+          "caption": "Soll",
+          "include": true
+        },
+        {
+          "file": "Splden.jpg",
+          "caption": "Splden",
+          "include": true
+        },
+        {
+          "file": "TarnHowsAurtumn.jpeg",
+          "caption": "TarnHowsAurtumn",
+          "include": true
+        },
+        {
+          "file": "TarnHowsFoggy.jpeg",
+          "caption": "TarnHowsFoggy",
+          "include": true
+        },
+        {
+          "file": "TarnHowsFoggyBW.jpg",
+          "caption": "TarnHowsFoggyBW",
+          "include": true
+        },
+        {
+          "file": "TarnHowsFoggymedow.jpg",
+          "caption": "TarnHowsFoggymedow",
+          "include": true
+        },
+        {
+          "file": "TarnPano.jpeg",
+          "caption": "TarnPano",
+          "include": true
+        },
+        {
+          "file": "TarnPano1234.jpeg",
+          "caption": "TarnPano1234",
+          "include": true
+        },
+        {
+          "file": "TarnPanoclean.jpg",
+          "caption": "TarnPanoclean",
+          "include": true
+        },
+        {
+          "file": "ThirlmereredTree.jpg",
+          "caption": "ThirlmereredTree",
+          "include": true
+        },
+        {
+          "file": "WelshCottage.jpeg",
+          "caption": "WelshCottage",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "bluebells",
+      "title": "Bluebells",
+      "blurb": "Bluebells in Spring Woods in Whalley is a magical place to photograph in spring, when the woodland floor is transformed into a carpet of vibrant bluebells. The soft light filtering through the trees, combined with the delicate flowers and ancient woodland atmosphere, creates endless opportunities for peaceful and atmospheric images. It is a wonderful example of how nature can create its own beautiful photographic compositions.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Woodlands/Bluebells",
+      "photos": [
+        {
+          "file": "BBcloseup copy.jpeg",
+          "caption": "BBcloseup copy",
+          "include": true
+        },
+        {
+          "file": "BBcloseup copy.jpg",
+          "caption": "BBcloseup copy",
+          "include": false
+        },
+        {
+          "file": "BBellsHarshSun copy.jpeg",
+          "caption": "BBellsHarshSun copy",
+          "include": true
+        },
+        {
+          "file": "BBellsHarshSun copy.jpg",
+          "caption": "BBellsHarshSun copy",
+          "include": false
+        },
+        {
+          "file": "BBfallentree copy.jpeg",
+          "caption": "BBfallentree copy",
+          "include": true
+        },
+        {
+          "file": "BBfallentree copy.jpg",
+          "caption": "BBfallentree copy",
+          "include": false
+        },
+        {
+          "file": "BBfallentree3712.jpeg",
+          "caption": "BBfallentree3712",
+          "include": true
+        },
+        {
+          "file": "BBwoodssq copy.jpeg",
+          "caption": "BBwoodssq copy",
+          "include": false
+        },
+        {
+          "file": "BBwoodssq copy.jpg",
+          "caption": "BBwoodssq copy",
+          "include": true
+        },
+        {
+          "file": "BBwoodssq.jpeg",
+          "caption": "BBwoodssq",
+          "include": false
+        },
+        {
+          "file": "BlueBellsTreeFrame copy.jpeg",
+          "caption": "BlueBellsTreeFrame copy",
+          "include": false
+        },
+        {
+          "file": "BlueBellsTreeFrame copy.jpg",
+          "caption": "BlueBellsTreeFrame copy",
+          "include": false
+        },
+        {
+          "file": "BlueBellsTreeFrame.jpeg",
+          "caption": "BlueBellsTreeFrame",
+          "include": true
+        },
+        {
+          "file": "BlueBellsTreeFrame3712.jpeg",
+          "caption": "BlueBellsTreeFrame3712",
+          "include": true
+        },
+        {
+          "file": "bluebelltrak.jpeg",
+          "caption": "bluebelltrak",
+          "include": true
+        },
+        {
+          "file": "BluebellValley copy.jpeg",
+          "caption": "BluebellValley copy",
+          "include": false
+        },
+        {
+          "file": "BluebellValley copy.jpg",
+          "caption": "BluebellValley copy",
+          "include": true
+        },
+        {
+          "file": "BluebirdSheepFrame copy.jpeg",
+          "caption": "BluebirdSheepFrame copy",
+          "include": true
+        },
+        {
+          "file": "BluebirdSheepFrame copy.jpg",
+          "caption": "BluebirdSheepFrame copy",
+          "include": false
+        },
+        {
+          "file": "framedsheep.jpeg",
+          "caption": "framedsheep",
+          "include": true
+        },
+        {
+          "file": "PathPanoBlueBells copy.jpeg",
+          "caption": "PathPanoBlueBells copy",
+          "include": false
+        },
+        {
+          "file": "PathPanoBlueBells copy.jpg",
+          "caption": "PathPanoBlueBells copy",
+          "include": false
+        },
+        {
+          "file": "PathPanoBlueBells.jpeg",
+          "caption": "PathPanoBlueBells",
+          "include": true
+        },
+        {
+          "file": "PaththruBluebells copy.jpg",
+          "caption": "PaththruBluebells copy",
+          "include": false
+        },
+        {
+          "file": "PaththruBluebells.jpeg",
+          "caption": "PaththruBluebells",
+          "include": true
+        },
+        {
+          "file": "SheepovertheFence.jpeg",
+          "caption": "SheepovertheFence",
+          "include": true
+        },
+        {
+          "file": "SpringBluebella3 copy.jpeg",
+          "caption": "SpringBluebella3 copy",
+          "include": false
+        },
+        {
+          "file": "SpringBluebella3 copy.jpg",
+          "caption": "SpringBluebella3 copy",
+          "include": false
+        },
+        {
+          "file": "SpringBluebella3.jpeg",
+          "caption": "SpringBluebella3",
+          "include": true
+        },
+        {
+          "file": "SpringBluebella3712.jpeg",
+          "caption": "SpringBluebella3712",
+          "include": true
+        },
+        {
+          "file": "SubdudeWoods copy.jpg",
+          "caption": "SubdudeWoods copy",
+          "include": true
+        },
+        {
+          "file": "WGarlicBluebells copy.jpeg",
+          "caption": "WGarlicBluebells copy",
+          "include": false
+        },
+        {
+          "file": "WGarlicBluebells copy.jpg",
+          "caption": "WGarlicBluebells copy",
+          "include": true
+        },
+        {
+          "file": "whiteFlowers.jpeg",
+          "caption": "whiteFlowers",
+          "include": true
+        },
+        {
+          "file": "WMossBluebells copy.jpg",
+          "caption": "WMossBluebells copy",
+          "include": true
+        }
+      ]
+    },
+    {
+      "key": "the-lone-tree",
+      "title": "The Lone Tree",
+      "blurb": "The lone tree is one of the most powerful subjects in landscape photography, offering simplicity, isolation and a strong sense of character. Set against an expansive landscape or dramatic sky, a single tree can become a natural focal point, drawing the viewer into the image while suggesting stories of resilience, solitude and the passage of time.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Woodlands/Lone Tree",
+      "photos": [
+        {
+          "file": "GTHarwardLoneTree.jpeg",
+          "caption": "GTHarwardLoneTree",
+          "include": false
+        },
+        {
+          "file": "HiTherejpeg.jpeg",
+          "caption": "HiTherejpeg",
+          "include": true
+        },
+        {
+          "file": "LoneTreeHarwoodwide.jpeg",
+          "caption": "LoneTreeHarwoodwide",
+          "include": false
+        },
+        {
+          "file": "MyDomain.jpeg",
+          "caption": "MyDomain",
+          "include": true
+        },
+        {
+          "file": "YewOK.jpeg",
+          "caption": "YewOK",
           "include": true
         }
       ]
