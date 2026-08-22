@@ -311,12 +311,14 @@ button{font-family:inherit;cursor:pointer;}
 .contact-link{margin-left:auto;border:1px solid var(--line);background:transparent;color:var(--ink-soft);padding:0.5rem 1rem;border-radius:999px;font-size:0.86rem;font-weight:600;flex-shrink:0;}
 .contact-link:hover{border-color:var(--moss);color:var(--ink);}
 
-.quicklinks{display:flex;flex-wrap:wrap;align-items:center;gap:0.55rem;padding:2rem 0 0.4rem;}
-.quicklinks-label{width:100%;font-size:0.76rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:0.3rem;}
-.quicklinks a{border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0.5rem 1.05rem;border-radius:999px;font-size:0.85rem;font-weight:600;transition:border-color 0.15s ease, background 0.15s ease;}
-.quicklinks a:hover{border-color:var(--moss);background:var(--surface-2);}
+.quicklinks-bar{background:var(--surface);border-bottom:1px solid var(--line);}
+.quicklinks-inner{max-width:1400px;margin:0 auto;padding:1.15rem 1.4rem;display:flex;flex-wrap:wrap;align-items:center;gap:0.7rem 0.9rem;}
+.quicklinks-label{font-size:0.74rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;flex-shrink:0;}
+.quicklinks-links{display:flex;flex-wrap:wrap;gap:0.5rem;}
+.quicklinks-links a{border:1px solid var(--line);background:var(--surface-2);color:var(--ink);padding:0.44rem 1rem;border-radius:999px;font-size:0.83rem;font-weight:600;transition:border-color 0.15s ease, background 0.15s ease, color 0.15s ease;}
+.quicklinks-links a:hover{border-color:var(--moss);background:var(--moss);color:var(--moss-ink);}
 
-.hero{position:relative;min-height:70vh;display:flex;align-items:flex-end;padding:6vw 6vw 4rem;background:linear-gradient(180deg, rgba(20,23,18,0.12) 0%, rgba(14,16,12,0.68) 88%), var(--hero-img) center 60%/cover no-repeat;}
+.hero{position:relative;min-height:clamp(320px,50vh,560px);display:flex;align-items:flex-end;padding:6vw 6vw 3.2rem;background:linear-gradient(180deg, rgba(20,23,18,0.12) 0%, rgba(14,16,12,0.68) 88%), var(--hero-img) center 60%/cover no-repeat;}
 .hero-inner{position:relative;z-index:1;color:#F2F3EC;max-width:46rem;}
 .hero-eyebrow{font-size:0.78rem;letter-spacing:0.18em;text-transform:uppercase;color:#D6DACB;margin-bottom:1rem;font-weight:600;}
 .hero h1{font-size:clamp(2.4rem,6vw,4.2rem);line-height:1.02;color:#F6F6EF;}
@@ -324,7 +326,7 @@ button{font-family:inherit;cursor:pointer;}
 
 main{max-width:1400px;margin:0 auto;padding:0 1.4rem;}
 
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.4rem;padding:3.5rem 0;}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.4rem;padding:2.6rem 0 3.5rem;}
 .card{position:relative;border-radius:8px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/5;background:var(--surface-2);}
 .card img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;}
 .card:hover img{transform:scale(1.04);}
@@ -566,11 +568,13 @@ def build_site(state, log=print):
     <p>{esc(site["tagline"])}</p>
   </div>
 </header>
-<main>
-  <nav class="quicklinks" aria-label="Jump to a location">
+<nav class="quicklinks-bar" aria-label="Jump to a location">
+  <div class="quicklinks-inner">
     <span class="quicklinks-label">Jump to a location</span>
-    {quicklinks}
-  </nav>
+    <div class="quicklinks-links">{quicklinks}</div>
+  </div>
+</nav>
+<main>
   <div class="card-grid">{''.join(cards)}</div>
 </main>
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span></footer>
