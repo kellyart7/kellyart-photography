@@ -4,15 +4,15 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "northumberland",
-      "photo": "BanburgHolyWalk.jpg"
+      "album": "st-michaels",
+      "photo": "StMichealsMountlonefigure copy.jpg"
     },
     "github": {
       "user": "Kellyart7",
       "repo": "kellyart-photography"
     },
     "eyebrow": "The English Landscape",
-    "featuredIntro": "Special captured moments "
+    "featuredIntro": "Special captured moments on my travels"
   },
   "albums": [
     {
@@ -25,7 +25,7 @@
           "file": "Blea Tarn.jpeg",
           "caption": "Blea Tarn, morning calm",
           "include": true,
-          "featured": true,
+          "featured": false,
           "story": "ggdg"
         },
         {
@@ -36,7 +36,9 @@
         {
           "file": "BleaTarn06_06.jpeg",
           "caption": "Pikes above the tarn",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Classic shot featuring the Langdale Pikes"
         },
         {
           "file": "BleaTarn06_10.jpeg",
@@ -51,7 +53,7 @@
         {
           "file": "BleaTarn06_90.jpeg",
           "caption": "Late light on the tarn",
-          "include": false
+          "include": true
         }
       ]
     },
@@ -157,7 +159,7 @@
           "caption": "Langdale Pikes, framed",
           "include": true,
           "featured": true,
-          "story": "gshfh"
+          "story": "Cold day warm feeling"
         },
         {
           "file": "AutumnReflections.jpeg",
@@ -167,7 +169,9 @@
         {
           "file": "CowsonBeach.jpg",
           "caption": "Cows on the  beach",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Who forgot the swimsuit "
         },
         {
           "file": "JKRGElterWater.jpeg",
@@ -215,7 +219,9 @@
         {
           "file": "GrassmereGold.jpeg",
           "caption": "Golden hour",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Wow reminds me of a Turner painting"
         },
         {
           "file": "GrassmereIsland.jpeg",
@@ -263,7 +269,9 @@
         {
           "file": "_MG_2246.jpeg",
           "caption": "Valley light",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Hang on spring here soon"
         },
         {
           "file": "_MG_2286.jpeg",
@@ -316,7 +324,9 @@
         {
           "file": "WindermereSelfy.jpg",
           "caption": "Windermere from the summit",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "The art of contemplation "
         }
       ]
     },
@@ -627,8 +637,8 @@
         },
         {
           "file": "_MG_8772.jpeg",
-          "caption": "_MG_8772",
-          "include": true
+          "caption": "St ",
+          "include": false
         },
         {
           "file": "_MG_9257.jpeg",
@@ -722,7 +732,7 @@
         },
         {
           "file": "grandSquare.jpeg",
-          "caption": "grandSquare",
+          "caption": "The Grand Square",
           "include": true
         },
         {
@@ -732,7 +742,7 @@
         },
         {
           "file": "IMG_1801.jpeg",
-          "caption": "IMG_1801",
+          "caption": "Those angles",
           "include": true
         },
         {
@@ -848,7 +858,9 @@
         {
           "file": "RGRubyWoodsFA.jpeg",
           "caption": "RGRubyWoodsFA",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Canine therapy"
         },
         {
           "file": "RydalLake.jpeg",
@@ -858,7 +870,7 @@
         {
           "file": "Saalback.jpeg",
           "caption": "Saalback",
-          "include": true
+          "include": false
         },
         {
           "file": "SeascapeFA.jpeg",
@@ -965,7 +977,7 @@
         },
         {
           "file": "KingStAurora copy.jpg",
-          "caption": "KingStAurora copy",
+          "caption": "King St Aurora ",
           "include": true
         },
         {
@@ -1035,12 +1047,12 @@
         },
         {
           "file": "WhalleyAurora copy.jpg",
-          "caption": "WhalleyAurora copy",
+          "caption": "Whalley Aurora ",
           "include": true
         },
         {
           "file": "WindermereAuroraSelfi copy.jpg",
-          "caption": "WindermereAuroraSelfi copy",
+          "caption": "Windermere Aurora",
           "include": true
         }
       ]
@@ -1073,10 +1085,10 @@
         },
         {
           "file": "AutumnOrange copy.jpg",
-          "caption": "AutumnOrange copy",
+          "caption": "Autumn Orange ",
           "include": true,
           "featured": true,
-          "story": "hyjtbty t ythj j "
+          "story": "Spectacular display"
         },
         {
           "file": "benchView copy.jpg",
@@ -1090,8 +1102,10 @@
         },
         {
           "file": "billylikesthis1.jpeg",
-          "caption": "billylikesthis1",
-          "include": true
+          "caption": "Billy likes this",
+          "include": true,
+          "featured": true,
+          "story": "Not sure why"
         },
         {
           "file": "brokenTree copy.jpg",
@@ -1116,41 +1130,41 @@
         {
           "file": "FGyWoods copy.jpg",
           "caption": "FGyWoods copy",
-          "include": true
+          "include": false
         },
         {
           "file": "flatwoodsmist.jpeg",
-          "caption": "flatwoodsmist",
+          "caption": "Misty glow",
           "include": true
         },
         {
           "file": "HazyWoodsOrten copy.jpg",
-          "caption": "HazyWoodsOrten copy",
+          "caption": "Hazy Woods",
           "include": true
         },
         {
           "file": "ITimetoExplore.jpg",
-          "caption": "ITimetoExplore",
+          "caption": "Time toE xplore",
           "include": true
         },
         {
           "file": "MistyMystree.jpeg",
-          "caption": "MistyMystree",
+          "caption": "Misty Mystree",
           "include": true
         },
         {
           "file": "panoPreAutumn.jpg",
-          "caption": "panoPreAutumn",
+          "caption": "I was strolling along",
           "include": true
         },
         {
           "file": "PeepingSheep.jpeg",
-          "caption": "PeepingSheep",
+          "caption": "Peeping Sheep",
           "include": true
         },
         {
           "file": "PiXProcessedFoggy.jpeg",
-          "caption": "PiXProcessedFoggy",
+          "caption": "Peek a boo",
           "include": true
         },
         {
@@ -1160,12 +1174,12 @@
         },
         {
           "file": "RedCarpet copy.jpg",
-          "caption": "RedCarpet copy",
+          "caption": "Red Carpet ",
           "include": true
         },
         {
           "file": "Showoff.jpeg",
-          "caption": "Showoff",
+          "caption": "Show off",
           "include": true
         },
         {
@@ -1180,12 +1194,12 @@
         },
         {
           "file": "StreamedBlueBells copy.jpg",
-          "caption": "StreamedBlueBells copy",
+          "caption": "Streaming Bluebells",
           "include": true
         },
         {
           "file": "wideVistaBBs.jpeg",
-          "caption": "wideVistaBBs",
+          "caption": "Just trees",
           "include": true
         },
         {
@@ -1195,7 +1209,7 @@
         },
         {
           "file": "yBluebells copy.jpg",
-          "caption": "yBluebells copy",
+          "caption": "Y here",
           "include": true
         },
         {
@@ -1205,7 +1219,7 @@
         },
         {
           "file": "YForest.jpeg",
-          "caption": "YForest",
+          "caption": "Cool",
           "include": true
         }
       ]
@@ -1299,7 +1313,9 @@
         {
           "file": "mistyspringwood.jpeg",
           "caption": "Misty springwood",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Take me there"
         },
         {
           "file": "MoolabarWave.jpg",
@@ -1609,7 +1625,7 @@
         },
         {
           "file": "HiTherejpeg.jpeg",
-          "caption": "HiTherejpeg",
+          "caption": "Hi There, don't forget",
           "include": true
         },
         {
@@ -1777,7 +1793,7 @@
         },
         {
           "file": "AbbyPanorama-1.jpeg",
-          "caption": "Abb y Panorama",
+          "caption": "Abbey Panorama",
           "include": true
         },
         {
@@ -1977,7 +1993,9 @@
         {
           "file": "boattryip.jpg",
           "caption": "St Michael’s Mount boat trip",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Why walk"
         },
         {
           "file": "RGBenjiStMicksM copy.jpg",

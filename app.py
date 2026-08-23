@@ -32,6 +32,12 @@ except ImportError:
     print("Install it once with:\n\n    pip3 install --user pillow\n")
     sys.exit(1)
 
+# Pillow's "decompression bomb" guard is meant to protect against malicious
+# uploads from strangers on the internet. Every photo this app processes
+# comes from your own library, so it's safe to disable — without this, large
+# panoramas/scans just print a harmless-but-noisy DecompressionBombWarning.
+Image.MAX_IMAGE_PIXELS = None
+
 # ----------------------------------------------------------------------------
 # Configuration
 # ----------------------------------------------------------------------------
@@ -798,8 +804,9 @@ main{padding:1.4rem 1.8rem;overflow-y:auto;}
 .photo img{width:100%;height:130px;object-fit:cover;display:block;background:#eee;}
 .photo.excluded img{opacity:0.35;}
 .photo-body{padding:0.5rem 0.6rem;}
-.photo-body input{width:100%;border:1px solid transparent;background:transparent;font-size:0.82rem;padding:0.2rem;}
-.photo-body input:focus{border-color:var(--line);background:var(--bg);}
+.photo-body input.capInput{width:100%;border:1px solid transparent;background:transparent;font-size:0.82rem;padding:0.2rem;}
+.photo-body input.capInput:focus{border-color:var(--line);background:var(--bg);}
+.photo-controls input{width:auto;flex-shrink:0;}
 .photo-controls{display:flex;flex-wrap:wrap;align-items:center;margin-top:0.3rem;}
 .photo-controls label{font-size:0.76rem;display:flex;align-items:center;white-space:nowrap;margin:0.15rem 0.7rem 0.15rem 0;}
 .photo-controls label:last-child{margin-right:0;}
