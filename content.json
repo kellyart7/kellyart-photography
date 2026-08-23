@@ -24,7 +24,9 @@
         {
           "file": "Blea Tarn.jpeg",
           "caption": "Blea Tarn, morning calm",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "ggdg"
         },
         {
           "file": "BleaTarn06_00.jpeg",
@@ -49,7 +51,7 @@
         {
           "file": "BleaTarn06_90.jpeg",
           "caption": "Late light on the tarn",
-          "include": true
+          "include": false
         }
       ]
     },
@@ -153,7 +155,9 @@
         {
           "file": "LangdalesTreeframe.jpeg",
           "caption": "Langdale Pikes, framed",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "gshfh"
         },
         {
           "file": "AutumnReflections.jpeg",
@@ -406,7 +410,9 @@
         {
           "file": "Bracken copy.jpg",
           "caption": "Autumn bracken",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "dfhdhdhhf"
         },
         {
           "file": "MistyFence copy.jpg",
@@ -535,7 +541,7 @@
         {
           "file": "BanburgCastlePath copy.jpg",
           "caption": "Bamburgh Castle path",
-          "include": true
+          "include": false
         },
         {
           "file": "Banburgdetail copy.jpg",
@@ -557,7 +563,7 @@
         {
           "file": "BanCastleSand copy.jpg",
           "caption": "Bamburgh Castle dunes",
-          "include": true
+          "include": false
         },
         {
           "file": "beachLayerCastle copy.jpg",
@@ -582,17 +588,17 @@
         {
           "file": "HolyCastle copy.jpg",
           "caption": "Holy Island ",
-          "include": true
+          "include": false
         },
         {
           "file": "HolyDecayBoat copy.jpg",
           "caption": "Holy Island wreck",
-          "include": true
+          "include": false
         },
         {
           "file": "HolyIsland copy.jpg",
           "caption": "Holy Island shore",
-          "include": true
+          "include": false
         },
         {
           "file": "HolyIslandRustyBoat copy.jpg",
@@ -627,17 +633,17 @@
         {
           "file": "_MG_9257.jpeg",
           "caption": "Grassess ",
-          "include": true
+          "include": false
         },
         {
           "file": "AbbeySideViewBW.jpeg",
           "caption": "Fountains Ruin",
-          "include": true
+          "include": false
         },
         {
           "file": "AbbyFA.jpeg",
           "caption": "ruin",
-          "include": true
+          "include": false
         },
         {
           "file": "Allyway.jpeg",
@@ -647,7 +653,7 @@
         {
           "file": "BAHousseFA.jpeg",
           "caption": "Stately ",
-          "include": true
+          "include": false
         },
         {
           "file": "BentTreeTarn copy.jpeg",
@@ -657,12 +663,12 @@
         {
           "file": "blackpoolFA.jpeg",
           "caption": "Blackpool shore",
-          "include": true
+          "include": false
         },
         {
           "file": "BoltonAbbyArchFA.jpeg",
           "caption": "Bolton Abby",
-          "include": true
+          "include": false
         },
         {
           "file": "BWfog.jpeg",
@@ -682,12 +688,12 @@
         {
           "file": "chatsworth.jpeg",
           "caption": "chatsworth",
-          "include": true
+          "include": false
         },
         {
           "file": "ClaytonView.jpeg",
           "caption": "Clayton View",
-          "include": true
+          "include": false
         },
         {
           "file": "CorfeCastleFA.jpeg",
@@ -702,7 +708,7 @@
         {
           "file": "Flower.jpeg",
           "caption": "Flower",
-          "include": true
+          "include": false
         },
         {
           "file": "GatetotheWoods.jpeg",
@@ -712,7 +718,7 @@
         {
           "file": "GH.jpeg",
           "caption": "GH",
-          "include": true
+          "include": false
         },
         {
           "file": "grandSquare.jpeg",
@@ -722,7 +728,7 @@
         {
           "file": "IMG_0229.jpeg",
           "caption": "IMG_0229",
-          "include": true
+          "include": false
         },
         {
           "file": "IMG_1801.jpeg",
@@ -752,17 +758,17 @@
         {
           "file": "LTreeUllswaterFA.jpeg",
           "caption": "Tree Ullswater",
-          "include": true
+          "include": false
         },
         {
           "file": "lythamPier.jpeg",
           "caption": "Lytham Pier",
-          "include": true
+          "include": false
         },
         {
           "file": "LythamPierBW.jpeg",
           "caption": "LythamPierBW",
-          "include": true
+          "include": false
         },
         {
           "file": "lythamPierColour.jpeg",
@@ -772,17 +778,17 @@
         {
           "file": "lythamPierTexyture.jpeg",
           "caption": "lythamPierTexyture",
-          "include": true
+          "include": false
         },
         {
           "file": "MalhamBarn.jpeg",
           "caption": "MalhamBarn",
-          "include": true
+          "include": false
         },
         {
           "file": "paddys.jpeg",
           "caption": "paddys",
-          "include": true
+          "include": false
         },
         {
           "file": "Paddys2.jpeg",
@@ -792,17 +798,17 @@
         {
           "file": "PaddysBest.jpeg",
           "caption": "PaddysBest",
-          "include": true
+          "include": false
         },
         {
           "file": "PaddysPSp.jpg",
           "caption": "PaddysPSp",
-          "include": true
+          "include": false
         },
         {
           "file": "PaddyWW.jpeg",
           "caption": "PaddyWW",
-          "include": true
+          "include": false
         },
         {
           "file": "Per2.jpeg",
@@ -817,12 +823,12 @@
         {
           "file": "PierHeavyBWcopy.jpg",
           "caption": "PierHeavyBWcopy",
-          "include": true
+          "include": false
         },
         {
           "file": "PierSC.jpeg",
           "caption": "PierSC",
-          "include": true
+          "include": false
         },
         {
           "file": "RGbwFA.jpeg",
@@ -867,17 +873,17 @@
         {
           "file": "UllswaterFA.jpeg",
           "caption": "UllswaterFA",
-          "include": true
+          "include": false
         },
         {
           "file": "WoodsEntrance.jpeg",
           "caption": "WoodsEntrance",
-          "include": true
+          "include": false
         },
         {
           "file": "wrayCastleViewBWFA.jpeg",
           "caption": "wrayCastleViewBWFA",
-          "include": true
+          "include": false
         }
       ]
     },
@@ -925,7 +931,7 @@
         {
           "file": "ClaytonLancs copy.jpg",
           "caption": "ClaytonLancs copy",
-          "include": true
+          "include": false
         },
         {
           "file": "EletricSolarWind copy.jpeg",
@@ -935,7 +941,7 @@
         {
           "file": "EletricSolarWind copy.jpg",
           "caption": "EletricSolarWind copy",
-          "include": true
+          "include": false
         },
         {
           "file": "IMG_7501-Enhanced-NR copy-1.jpeg",
@@ -950,7 +956,7 @@
         {
           "file": "IMG_7501-Enhanced-NR copy.jpg",
           "caption": "IMG_7501-Enhanced-NR copy",
-          "include": true
+          "include": false
         },
         {
           "file": "KingStAurora copy.jpeg",
@@ -980,7 +986,7 @@
         {
           "file": "PolarisOutShoneby the Aroura copy.jpeg",
           "caption": "PolarisOutShoneby the Aroura copy",
-          "include": true
+          "include": false
         },
         {
           "file": "PolarisOutShoneby the Aroura copy.jpg",
@@ -1005,7 +1011,7 @@
         {
           "file": "Processed copy.jpg",
           "caption": "Processed copy",
-          "include": true
+          "include": false
         },
         {
           "file": "timelapse.jpg",
@@ -1068,7 +1074,9 @@
         {
           "file": "AutumnOrange copy.jpg",
           "caption": "AutumnOrange copy",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "hyjtbty t ythj j "
         },
         {
           "file": "benchView copy.jpg",
@@ -1078,7 +1086,7 @@
         {
           "file": "bendyoak.jpeg",
           "caption": "bendyoak",
-          "include": true
+          "include": false
         },
         {
           "file": "billylikesthis1.jpeg",
@@ -1088,7 +1096,7 @@
         {
           "file": "brokenTree copy.jpg",
           "caption": "brokenTree copy",
-          "include": true
+          "include": false
         },
         {
           "file": "fallenTree.jpeg",
@@ -1098,7 +1106,7 @@
         {
           "file": "FalLight copy.jpg",
           "caption": "FalLight copy",
-          "include": true
+          "include": false
         },
         {
           "file": "fgypath1 copy.jpg",
@@ -1148,7 +1156,7 @@
         {
           "file": "PixWoods.jpg",
           "caption": "PixWoods",
-          "include": true
+          "include": false
         },
         {
           "file": "RedCarpet copy.jpg",
@@ -1183,7 +1191,7 @@
         {
           "file": "WiswellView copy.jpg",
           "caption": "WiswellView copy",
-          "include": true
+          "include": false
         },
         {
           "file": "yBluebells copy.jpg",
@@ -1216,7 +1224,7 @@
         {
           "file": "angalsey.jpeg",
           "caption": "Angalsey",
-          "include": true
+          "include": false
         },
         {
           "file": "bluebellswide.jpeg",
@@ -1246,12 +1254,12 @@
         {
           "file": "Holywalk.jpeg",
           "caption": "Holy Island walk",
-          "include": true
+          "include": false
         },
         {
           "file": "kricthberg.jpeg",
           "caption": "Kricthberg Ski run",
-          "include": true
+          "include": false
         },
         {
           "file": "KritchburgLearningSlope.jpeg",
@@ -1281,12 +1289,12 @@
         {
           "file": "MalhamValley.jpeg",
           "caption": "Malham Valley",
-          "include": true
+          "include": false
         },
         {
           "file": "malhm.jpeg",
           "caption": "Malhm",
-          "include": true
+          "include": false
         },
         {
           "file": "mistyspringwood.jpeg",
@@ -1306,7 +1314,7 @@
         {
           "file": "OldMillMBlur copy.jpg",
           "caption": "Old Mill MBlur",
-          "include": true
+          "include": false
         },
         {
           "file": "RedCarpet.jpeg",
@@ -1331,7 +1339,7 @@
         {
           "file": "SkiathosOldPort.jpeg",
           "caption": "Skiathos Old Port",
-          "include": true
+          "include": false
         },
         {
           "file": "Skisforeground.heic",
@@ -1346,7 +1354,7 @@
         {
           "file": "snowdonfromAngelsey.jpeg",
           "caption": "Snowdon From Angelsey",
-          "include": true
+          "include": false
         },
         {
           "file": "Soll.jpeg",
@@ -1361,7 +1369,7 @@
         {
           "file": "TarnHowsAurtumn.jpeg",
           "caption": "Tarn How's Aurtumn",
-          "include": true
+          "include": false
         },
         {
           "file": "TarnHowsFoggy.jpeg",
@@ -1376,12 +1384,12 @@
         {
           "file": "TarnHowsFoggymedow.jpg",
           "caption": "Tarn How's Foggy medow",
-          "include": true
+          "include": false
         },
         {
           "file": "TarnPano.jpeg",
           "caption": "Loughrigg Tarn Pano",
-          "include": true
+          "include": false
         },
         {
           "file": "TarnPano1234.jpeg",
@@ -1396,7 +1404,7 @@
         {
           "file": "ThirlmereredTree.jpg",
           "caption": "Thirlmerered Tree",
-          "include": true
+          "include": false
         },
         {
           "file": "WelshCottage.jpeg",
@@ -1474,7 +1482,7 @@
         {
           "file": "BlueBellsTreeFrame.jpeg",
           "caption": "Bluebells sunshine",
-          "include": true
+          "include": false
         },
         {
           "file": "BlueBellsTreeFrame3712.jpeg",
@@ -1484,7 +1492,7 @@
         {
           "file": "bluebelltrak.jpeg",
           "caption": "Winding up",
-          "include": true
+          "include": false
         },
         {
           "file": "BluebellValley copy.jpeg",
@@ -1554,7 +1562,7 @@
         {
           "file": "SpringBluebella3.jpeg",
           "caption": "Trio ",
-          "include": true
+          "include": false
         },
         {
           "file": "SpringBluebella3712.jpeg",
@@ -1579,7 +1587,7 @@
         {
           "file": "whiteFlowers.jpeg",
           "caption": "White show",
-          "include": true
+          "include": false
         },
         {
           "file": "WMossBluebells copy.jpg",
@@ -1662,7 +1670,7 @@
         {
           "file": "_MG_9938 1.jpeg",
           "caption": "_MG_9938 1",
-          "include": true
+          "include": false
         },
         {
           "file": "_MG_9938.jpeg",
@@ -1687,12 +1695,12 @@
         {
           "file": "BpoolPier.jpeg",
           "caption": "The Pier",
-          "include": true
+          "include": false
         },
         {
           "file": "FistralBeachPainting.jpeg",
           "caption": "Fistral Beach Painterly tones",
-          "include": true
+          "include": false
         },
         {
           "file": "LandsEndLighthouse.jpeg",
@@ -1702,7 +1710,7 @@
         {
           "file": "LandsEndLighthouse3712.jpeg",
           "caption": "Lands End Lighthouse ",
-          "include": true
+          "include": false
         },
         {
           "file": "letterboxPier.jpeg",
@@ -1755,12 +1763,12 @@
         {
           "file": "_MG_1531.jpeg",
           "caption": "Church",
-          "include": true
+          "include": false
         },
         {
           "file": "_MG_1599.jpeg",
           "caption": "Valley ",
-          "include": true
+          "include": false
         },
         {
           "file": "AbbyBW.jpeg",
@@ -1775,7 +1783,7 @@
         {
           "file": "IMG_0101.jpeg",
           "caption": "River Calder",
-          "include": true
+          "include": false
         },
         {
           "file": "IMG_0103.jpeg",
@@ -1828,12 +1836,12 @@
         {
           "file": "JKcolLpoolWaterFront copy.jpg",
           "caption": " Water Front mash up",
-          "include": true
+          "include": false
         },
         {
           "file": "LpoolwaterfrontDynamic.jpeg",
           "caption": "Waterfront Dynamic",
-          "include": true
+          "include": false
         },
         {
           "file": "Style1.jpg",
@@ -1906,12 +1914,12 @@
         {
           "file": "3boatsFA copy.jpg",
           "caption": "3 boats",
-          "include": true
+          "include": false
         },
         {
           "file": "3ships copy.jpg",
           "caption": "Three Yachts ",
-          "include": true
+          "include": false
         },
         {
           "file": "BatsLighthouse copy.jpg",
@@ -1994,7 +2002,7 @@
         {
           "file": "stMicks copy.jpg",
           "caption": "St Michael’s Mount ",
-          "include": true
+          "include": false
         },
         {
           "file": "stMicksHydranger copy.jpg",
