@@ -203,6 +203,7 @@ DEFAULT_STATE = {
         "title": SITE_TITLE,
         "tagline": SITE_TAGLINE,
         "eyebrow": "Lake District · England",
+        "featuredIntro": "A closer look at some of my favourite images from across Cumbria.",
         "root": DEFAULT_ROOT,
         "hero": {"album": "loughrigg", "photo": "LoughrigPANO.jpeg"},
         "github": {"user": GITHUB_USER, "repo": GITHUB_REPO},
@@ -327,7 +328,22 @@ button{font-family:inherit;cursor:pointer;}
 
 main{max-width:1400px;margin:0 auto;padding:0 1.4rem;}
 
-.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.4rem;padding:2.6rem 0 3.5rem;}
+.section-head{padding-top:2.8rem;}
+.section-head h2{font-size:clamp(1.5rem,2.4vw,2rem);}
+.section-head p{color:var(--ink-soft);max-width:40rem;margin-top:0.5rem;line-height:1.55;}
+
+.feature-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:2rem;padding:1.8rem 0 0.6rem;}
+.feature-item{border:0;background:transparent;box-shadow:none;border-radius:0;overflow:visible;margin-bottom:0;padding:0;text-align:left;}
+.feature-item .feature-img{border-radius:8px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/3;background:var(--surface-2);}
+.feature-item .feature-img img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;}
+.feature-item:hover .feature-img img{transform:scale(1.04);}
+.feature-item .feature-loc{display:block;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-soft);margin-top:0.9rem;}
+.feature-item .feature-cap{font-size:0.92rem;color:var(--ink-soft);margin-top:0.25rem;}
+.feature-item .feature-story{font-family:"Newsreader",serif;font-weight:500;font-size:1.05rem;line-height:1.5;margin-top:0.35rem;color:var(--ink);}
+
+.browse-divider{border:0;border-top:1px solid var(--line);margin:3rem 0 0;}
+
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.4rem;padding:1.6rem 0 3.5rem;}
 .card{position:relative;border-radius:8px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/5;background:var(--surface-2);}
 .card img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease;}
 .card:hover img{transform:scale(1.04);}
@@ -493,6 +509,8 @@ def build_site(state, log=print):
     else:
         warnings.append("Comments are not set up yet — giscus IDs are still placeholders (see README.md).")
 
+    featured_photos = []
+
     for album in albums:
         out_dir = DOCS_DIR / album["key"]
         img_dir = out_dir / "img"
@@ -524,6 +542,15 @@ def build_site(state, log=print):
                 f'<img src="img/{thumb_name}" loading="lazy" alt="{cap}, {esc(album["title"])}">'
                 f'<span class="tile-cap">{cap}</span></button>'
             )
+            if photo.get("featured"):
+                featured_photos.append({
+                    "album_key": album["key"],
+                    "album_title": album["title"],
+                    "thumb": f'{album["key"]}/img/{thumb_name}',
+                    "full": f'{album["key"]}/img/{full_name}',
+                    "caption": photo.get("caption", ""),
+                    "story": photo.get("story", ""),
+                })
         if cover_rel:
             album_covers[album["key"]] = cover_rel
 
@@ -576,6 +603,32 @@ def build_site(state, log=print):
         for a in albums if a["key"] in album_covers
     )
 
+    feature_items = []
+    for fp in featured_photos:
+        cap = esc(fp["caption"])
+        story = esc(fp["story"])
+        alt = f'{cap}, {esc(fp["album_title"])}' if cap else esc(fp["album_title"])
+        lightbox_cap = story or cap
+        text_html = f'<p class="feature-story">{story}</p>' if story else (f'<p class="feature-cap">{cap}</p>' if cap else '')
+        feature_items.append(
+            f'<button class="tile feature-item" type="button" data-full="{fp["full"]}" data-caption="{esc(lightbox_cap)}" aria-label="Open photo: {alt}">'
+            f'<div class="feature-img"><img src="{fp["thumb"]}" loading="lazy" alt="{alt}"></div>'
+            f'<span class="feature-loc">{esc(fp["album_title"])}</span>'
+            f'{text_html}'
+            f'</button>'
+        )
+    feature_intro = esc(site.get("featuredIntro", "") or "")
+    featured_section = ""
+    if feature_items:
+        featured_section = f'''
+  <section class="section-head">
+    <h2>Featured Work</h2>
+    {f'<p>{feature_intro}</p>' if feature_intro else ''}
+    <div class="feature-grid">{''.join(feature_items)}</div>
+  </section>
+  <hr class="browse-divider">
+'''
+
     eyebrow = site.get("eyebrow") or "Lake District · England"
     home_body = f'''
 <header class="hero" id="top" style="--hero-img:url('{hero_rel or ""}')">
@@ -592,9 +645,10 @@ def build_site(state, log=print):
   </div>
 </nav>
 <main>
-  <div class="card-grid">{''.join(cards)}</div>
+{featured_section}  <div class="card-grid">{''.join(cards)}</div>
 </main>
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span></footer>
+{LIGHTBOX_HTML}
 <script src="assets/gallery.js"></script>
 '''
     home_html = page_shell(site["title"], site["tagline"], topbar("", show_home=False) + home_body, css_href="assets/style.css")
@@ -739,15 +793,18 @@ main{padding:1.4rem 1.8rem;overflow-y:auto;}
 .field input, .field textarea{width:100%;padding:0.5rem 0.6rem;border:1px solid var(--line);border-radius:6px;font-family:inherit;font-size:0.92rem;}
 .row{display:flex;gap:1rem;}
 .row .field{flex:1;}
-.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem;margin-top:1rem;}
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:1rem;margin-top:1rem;}
 .photo{border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--surface);}
 .photo img{width:100%;height:130px;object-fit:cover;display:block;background:#eee;}
 .photo.excluded img{opacity:0.35;}
 .photo-body{padding:0.5rem 0.6rem;}
 .photo-body input{width:100%;border:1px solid transparent;background:transparent;font-size:0.82rem;padding:0.2rem;}
 .photo-body input:focus{border-color:var(--line);background:var(--bg);}
-.photo-controls{display:flex;justify-content:space-between;align-items:center;margin-top:0.3rem;}
-.photo-controls label{font-size:0.76rem;display:flex;align-items:center;gap:0.3rem;}
+.photo-controls{display:flex;flex-wrap:wrap;align-items:center;margin-top:0.3rem;}
+.photo-controls label{font-size:0.76rem;display:flex;align-items:center;white-space:nowrap;margin:0.15rem 0.7rem 0.15rem 0;}
+.photo-controls label:last-child{margin-right:0;}
+.photo-controls label input{margin:0 0.3rem 0 0;}
+.storyInput{width:100%;border:1px solid var(--line);border-radius:5px;background:var(--bg);font-size:0.78rem;padding:0.35rem 0.45rem;margin-top:0.4rem;font-family:inherit;resize:vertical;box-sizing:border-box;}
 .hero-radio{font-size:0.72rem;color:var(--ink-soft);}
 .browser{border:1px solid var(--line);border-radius:8px;padding:0.9rem;margin-top:1rem;background:var(--surface);}
 .browser .path{font-size:0.8rem;color:var(--ink-soft);margin-bottom:0.5rem;word-break:break-all;}
@@ -835,10 +892,13 @@ function renderSiteEditor(){
     '<div class="field"><label>Subtitle (small text above the title)</label><input id="fSiteEyebrow" value="' + escAttr(state.site.eyebrow || 'Lake District · England') + '"></div>' +
     '<div class="field"><label>Site title</label><input id="fSiteTitle" value="' + escAttr(state.site.title) + '"></div>' +
     '<div class="field"><label>Home page blurb</label><textarea id="fSiteTagline" rows="3">' + escHtml(state.site.tagline || '') + '</textarea></div>' +
-    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">These are what visitors see on the hero image at the top of your home page. Changes save automatically — click Build site, then Publish, to make them live.</p>';
+    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">These are what visitors see on the hero image at the top of your home page. Changes save automatically — click Build site, then Publish, to make them live.</p>' +
+    '<div class="field" style="margin-top:1.4rem;"><label>Featured Work intro (optional, shown above your featured photos)</label><textarea id="fFeaturedIntro" rows="2">' + escHtml(state.site.featuredIntro || '') + '</textarea></div>' +
+    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">To choose which photos appear in Featured Work, tick "featured" under any photo in an album (left) — you can also add a short story or insight line to go with it.</p>';
   el.querySelector('#fSiteEyebrow').addEventListener('change', function(e){ state.site.eyebrow = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTitle').addEventListener('change', function(e){ state.site.title = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTagline').addEventListener('change', function(e){ state.site.tagline = e.target.value; save(); toast('Saved.'); });
+  el.querySelector('#fFeaturedIntro').addEventListener('change', function(e){ state.site.featuredIntro = e.target.value; save(); toast('Saved.'); });
 }
 
 function renderEditor(){
@@ -889,7 +949,9 @@ function renderEditor(){
         '<div class="photo-controls">' +
           '<label><input type="checkbox" class="incChk" data-idx="' + idx + '" ' + (p.include ? 'checked' : '') + '> include</label>' +
           '<label class="hero-radio"><input type="radio" name="hero" class="heroRadio" data-idx="' + idx + '" ' + (isHero ? 'checked' : '') + '> hero</label>' +
+          '<label><input type="checkbox" class="featChk" data-idx="' + idx + '" ' + (p.featured ? 'checked' : '') + '> featured</label>' +
         '</div>' +
+        (p.featured ? '<textarea class="storyInput" data-idx="' + idx + '" rows="2" placeholder="Optional: a line of story or insight for the Featured Work section">' + escHtml(p.story || '') + '</textarea>' : '') +
       '</div>';
     grid.appendChild(card);
   });
@@ -906,6 +968,12 @@ function renderEditor(){
       state.site.hero = {album: album.key, photo: album.photos[+r.dataset.idx].file};
       save(); toast('Homepage hero photo set.');
     });
+  });
+  grid.querySelectorAll('.featChk').forEach(function(chk){
+    chk.addEventListener('change', function(){ album.photos[+chk.dataset.idx].featured = chk.checked; save(); renderEditor(); });
+  });
+  grid.querySelectorAll('.storyInput').forEach(function(inp){
+    inp.addEventListener('change', function(){ album.photos[+inp.dataset.idx].story = inp.value; save(); });
   });
 }
 
