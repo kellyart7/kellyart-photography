@@ -4,15 +4,15 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "st-michaels",
-      "photo": "StMichealsMountlonefigure copy.jpg"
+      "album": "bluebells",
+      "photo": "BBfallentree copy.jpeg"
     },
     "github": {
       "user": "Kellyart7",
       "repo": "kellyart-photography"
     },
-    "eyebrow": "The English Landscape",
-    "featuredIntro": "Special captured moments on my travels"
+    "eyebrow": "Landscapes",
+    "featuredIntro": "Special captured moments in time on my travels"
   },
   "albums": [
     {
@@ -171,7 +171,7 @@
           "caption": "Cows on the  beach",
           "include": true,
           "featured": true,
-          "story": "Who forgot the swimsuit "
+          "story": "Who forgot the swimsuits"
         },
         {
           "file": "JKRGElterWater.jpeg",
@@ -294,7 +294,7 @@
         {
           "file": "BWRydalPat.jpg",
           "caption": "Path above Rydal, black and white",
-          "include": true
+          "include": false
         },
         {
           "file": "CumbrianPaths.jpg",
@@ -309,7 +309,7 @@
         {
           "file": "FluffyWaterfall.jpeg",
           "caption": "Waterfall, long exposure",
-          "include": true
+          "include": false
         },
         {
           "file": "RydalWalkers.jpg",
@@ -348,12 +348,12 @@
         },
         {
           "file": "_MG_1093.jpeg",
-          "caption": "Lakeland view",
+          "caption": "Lakeland sunset",
           "include": true
         },
         {
           "file": "_MG_1820.jpeg",
-          "caption": "Valley study",
+          "caption": "Rolling Valley",
           "include": true
         },
         {
@@ -363,7 +363,7 @@
         },
         {
           "file": "_MG_1924.jpeg",
-          "caption": "Lakeland view",
+          "caption": "Lakeland vita",
           "include": true
         }
       ]
@@ -377,7 +377,7 @@
         {
           "file": "rydal.jpeg",
           "caption": "Rydal Water, morning",
-          "include": true
+          "include": false
         },
         {
           "file": "RydalPano1.jpeg",
@@ -397,7 +397,7 @@
         {
           "file": "_MG_1153.jpeg",
           "caption": "Rydal Water study",
-          "include": true
+          "include": false
         },
         {
           "file": "RydalWalkers.jpeg",
@@ -420,7 +420,7 @@
         {
           "file": "Bracken copy.jpg",
           "caption": "Autumn bracken",
-          "include": true,
+          "include": false,
           "featured": true,
           "story": "dfhdhdhhf"
         },
@@ -464,7 +464,7 @@
       "photos": [
         {
           "file": "_MG_0527-Enhanced-NR.jpg",
-          "caption": "Thirlmere, enhanced",
+          "caption": "Thirlmere in the rain",
           "include": true
         },
         {
@@ -484,7 +484,7 @@
         },
         {
           "file": "WaterFallHDR copy.jpg",
-          "caption": "Waterfall, HDR",
+          "caption": "Waterfall ",
           "include": true
         },
         {
@@ -608,7 +608,7 @@
         {
           "file": "HolyIsland copy.jpg",
           "caption": "Holy Island shore",
-          "include": false
+          "include": true
         },
         {
           "file": "HolyIslandRustyBoat copy.jpg",
@@ -648,7 +648,7 @@
         {
           "file": "AbbeySideViewBW.jpeg",
           "caption": "Fountains Ruin",
-          "include": false
+          "include": true
         },
         {
           "file": "AbbyFA.jpeg",
@@ -857,7 +857,7 @@
         },
         {
           "file": "RGRubyWoodsFA.jpeg",
-          "caption": "RGRubyWoodsFA",
+          "caption": "Woodland walks",
           "include": true,
           "featured": true,
           "story": "Canine therapy"
@@ -865,7 +865,7 @@
         {
           "file": "RydalLake.jpeg",
           "caption": "RydalLake",
-          "include": true
+          "include": false
         },
         {
           "file": "Saalback.jpeg",
@@ -874,12 +874,12 @@
         },
         {
           "file": "SeascapeFA.jpeg",
-          "caption": "SeascapeFA",
+          "caption": "Seascapeeee",
           "include": true
         },
         {
           "file": "SilvertoneDCGate.jpeg",
-          "caption": "SilvertoneDCGate",
+          "caption": "Silvertone gates",
           "include": true
         },
         {
@@ -907,7 +907,7 @@
       "photos": [
         {
           "file": "AuroraAccy.jpeg",
-          "caption": "AuroraAccy",
+          "caption": "Beams",
           "include": true
         },
         {
@@ -922,7 +922,7 @@
         },
         {
           "file": "AuroraLytham copy.jpg",
-          "caption": "AuroraLytham copy",
+          "caption": "Aurora Lytham composit ",
           "include": true
         },
         {
@@ -932,12 +932,12 @@
         },
         {
           "file": "backgardenAroura.jpg",
-          "caption": "backgardenAroura",
+          "caption": "backgarden Aroura",
           "include": true
         },
         {
           "file": "BigDipperArora copy.jpg",
-          "caption": "BigDipperArora copy",
+          "caption": "Big Dipper",
           "include": true
         },
         {
@@ -957,7 +957,7 @@
         },
         {
           "file": "IMG_7501-Enhanced-NR copy-1.jpeg",
-          "caption": "IMG_7501-Enhanced-NR copy-1",
+          "caption": "Angels ",
           "include": true
         },
         {
@@ -977,7 +977,7 @@
         },
         {
           "file": "KingStAurora copy.jpg",
-          "caption": "King St Aurora ",
+          "caption": "King St Aurora composite ",
           "include": true
         },
         {
@@ -987,12 +987,12 @@
         },
         {
           "file": "LythamPierAurora copy.jpg",
-          "caption": "LythamPierAurora copy",
+          "caption": "Lytham Pier",
           "include": true
         },
         {
           "file": "PendleHill copy.jpg",
-          "caption": "PendleHill copy",
+          "caption": "PendleHill",
           "include": true
         },
         {
@@ -1007,7 +1007,7 @@
         },
         {
           "file": "Polisis Green copy.jpeg",
-          "caption": "Polisis Green copy",
+          "caption": "Polisis ",
           "include": true
         },
         {
@@ -1037,7 +1037,7 @@
         },
         {
           "file": "VerticalVid.jpg",
-          "caption": "VerticalVid",
+          "caption": "Partical burst",
           "include": true
         },
         {
@@ -1071,7 +1071,7 @@
         {
           "file": "3treesfgy.jpeg",
           "caption": "3treesfgy",
-          "include": true
+          "include": false
         },
         {
           "file": "autum fall.jpeg",
@@ -1080,7 +1080,7 @@
         },
         {
           "file": "AutumnFog copy.jpg",
-          "caption": "AutumnFog copy",
+          "caption": "Autumn Fog ",
           "include": true
         },
         {
@@ -1092,7 +1092,7 @@
         },
         {
           "file": "benchView copy.jpg",
-          "caption": "benchView copy",
+          "caption": "The bench awaits you ",
           "include": true
         },
         {
@@ -1114,7 +1114,7 @@
         },
         {
           "file": "fallenTree.jpeg",
-          "caption": "fallenTree",
+          "caption": "Fallen Tree",
           "include": true
         },
         {
@@ -1124,7 +1124,7 @@
         },
         {
           "file": "fgypath1 copy.jpg",
-          "caption": "fgypath1 copy",
+          "caption": "foggy splash",
           "include": true
         },
         {
@@ -1144,7 +1144,7 @@
         },
         {
           "file": "ITimetoExplore.jpg",
-          "caption": "Time toE xplore",
+          "caption": "Time to Explore",
           "include": true
         },
         {
@@ -1288,7 +1288,9 @@
         {
           "file": "lindersfarne.jpeg",
           "caption": "Lindersfarne",
-          "include": true
+          "include": true,
+          "featured": true,
+          "story": "Holy Island "
         },
         {
           "file": "loneParadise.jpeg",
@@ -1297,7 +1299,7 @@
         },
         {
           "file": "LoufriggTarnPano copy.jpg",
-          "caption": "LoufriggTarn",
+          "caption": "Loufrigg Tarn",
           "include": true
         },
         {
@@ -1319,12 +1321,12 @@
         },
         {
           "file": "MoolabarWave.jpg",
-          "caption": "Moolabar Wave",
+          "caption": "Moolabar Splash",
           "include": true
         },
         {
           "file": "moolabyBeach.jpeg",
-          "caption": "moolaby Beach",
+          "caption": "Moolabar Beach",
           "include": true
         },
         {
@@ -1335,7 +1337,7 @@
         {
           "file": "RedCarpet.jpeg",
           "caption": "Red Carpet",
-          "include": true
+          "include": false
         },
         {
           "file": "RydalBluebells copy.jpg",
@@ -1389,12 +1391,12 @@
         },
         {
           "file": "TarnHowsFoggy.jpeg",
-          "caption": "Tarn HowsF oggy",
+          "caption": "Tarn How's Foggy",
           "include": true
         },
         {
           "file": "TarnHowsFoggyBW.jpg",
-          "caption": "Tarn How's Foggy Mono",
+          "caption": "Tarn How's Foggy",
           "include": true
         },
         {
@@ -1635,7 +1637,7 @@
         },
         {
           "file": "MyDomain.jpeg",
-          "caption": "MyDomain",
+          "caption": "My Domain",
           "include": true,
           "featured": true,
           "story": "Im Spartacus "
@@ -1690,7 +1692,7 @@
         },
         {
           "file": "_MG_9938.jpeg",
-          "caption": "_MG_9938",
+          "caption": "Moody",
           "include": true
         },
         {
@@ -1954,7 +1956,7 @@
         },
         {
           "file": "BenjistIves copy.jpg",
-          "caption": "Benji stIves copy",
+          "caption": "Beach Fun",
           "include": true
         },
         {
@@ -1992,7 +1994,7 @@
       "photos": [
         {
           "file": "boattryip.jpg",
-          "caption": "St Michael’s Mount boat trip",
+          "caption": "Boat trip",
           "include": true,
           "featured": true,
           "story": "Why walk"
@@ -2014,7 +2016,7 @@
         },
         {
           "file": "StMichealsMountlonefigure copy.jpg",
-          "caption": "St Michael’s Mount  lone figure ",
+          "caption": " Lone walk",
           "include": true
         },
         {
@@ -2029,7 +2031,7 @@
         },
         {
           "file": "warmBWStMicheals.jpg",
-          "caption": "St Micheals Mount Sepica",
+          "caption": "t Sepica",
           "include": true
         }
       ]
