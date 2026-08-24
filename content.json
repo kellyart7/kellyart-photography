@@ -4,8 +4,8 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "bluebells",
-      "photo": "BBfallentree copy.jpeg"
+      "album": "spring-wood-whalley",
+      "photo": "benchView copy.jpg"
     },
     "github": {
       "user": "Kellyart7",
@@ -779,7 +779,7 @@
           "file": "Bracken copy.jpg",
           "caption": "Autumn bracken",
           "include": false,
-          "featured": true,
+          "featured": false,
           "story": "dfhdhdhhf"
         },
         {
@@ -1185,11 +1185,11 @@
         {
           "file": "Per2.jpeg",
           "caption": "Per2",
-          "include": true
+          "include": false
         },
         {
           "file": "PHillSummit FA.jpeg",
-          "caption": "PHillSummit FA",
+          "caption": "Pendel Hill ",
           "include": true
         },
         {
@@ -1237,12 +1237,12 @@
         {
           "file": "SeascapeFA.jpeg",
           "caption": "Seascapeeee",
-          "include": true
+          "include": false
         },
         {
           "file": "SilvertoneDCGate.jpeg",
           "caption": "Silvertone gates",
-          "include": true
+          "include": false
         },
         {
           "file": "UllswaterFA.jpeg",
@@ -1351,7 +1351,7 @@
         {
           "file": "LythamPierAurora copy.jpg",
           "caption": "Lytham Pier",
-          "include": true
+          "include": false
         },
         {
           "file": "PendleHill copy.jpg",
@@ -1391,7 +1391,7 @@
         {
           "file": "timelapse.jpg",
           "caption": "timelapse",
-          "include": true
+          "include": false
         },
         {
           "file": "vert.jpg",
@@ -1544,7 +1544,7 @@
         {
           "file": "Showoff.jpeg",
           "caption": "Show off",
-          "include": true
+          "include": false
         },
         {
           "file": "SilverBirch copy.jpg",
@@ -1559,7 +1559,8 @@
         {
           "file": "StreamedBlueBells copy.jpg",
           "caption": "Streaming Bluebells",
-          "include": true
+          "include": true,
+          "featured": false
         },
         {
           "file": "wideVistaBBs.jpeg",
@@ -1589,147 +1590,147 @@
         {
           "file": "BBcloseup copy.jpeg",
           "caption": "BBcloseup copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBcloseup copy.jpg",
           "caption": "BBcloseup copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBellsHarshSun copy.jpeg",
           "caption": "BBellsHarshSun copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBellsHarshSun copy.jpg",
           "caption": "BBellsHarshSun copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBfallentree copy.jpeg",
           "caption": "BBfallentree copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBfallentree copy.jpg",
           "caption": "BBfallentree copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBfallentree3712.jpeg",
           "caption": "BBfallentree3712",
-          "include": true
+          "include": false
         },
         {
           "file": "BBwoodssq copy.jpeg",
           "caption": "BBwoodssq copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBwoodssq copy.jpg",
           "caption": "BBwoodssq copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BBwoodssq.jpeg",
           "caption": "BBwoodssq",
-          "include": true
+          "include": false
         },
         {
           "file": "BlueBellsTreeFrame copy.jpeg",
           "caption": "BlueBellsTreeFrame copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BlueBellsTreeFrame copy.jpg",
           "caption": "BlueBellsTreeFrame copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BlueBellsTreeFrame.jpeg",
           "caption": "BlueBellsTreeFrame",
-          "include": true
+          "include": false
         },
         {
           "file": "BlueBellsTreeFrame3712.jpeg",
           "caption": "BlueBellsTreeFrame3712",
-          "include": true
+          "include": false
         },
         {
           "file": "bluebelltrak.jpeg",
           "caption": "bluebelltrak",
-          "include": true
+          "include": false
         },
         {
           "file": "BluebellValley copy.jpeg",
           "caption": "BluebellValley copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BluebellValley copy.jpg",
           "caption": "BluebellValley copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BluebirdSheepFrame copy.jpeg",
           "caption": "BluebirdSheepFrame copy",
-          "include": true
+          "include": false
         },
         {
           "file": "BluebirdSheepFrame copy.jpg",
           "caption": "BluebirdSheepFrame copy",
-          "include": true
+          "include": false
         },
         {
           "file": "framedsheep.jpeg",
           "caption": "framedsheep",
-          "include": true
+          "include": false
         },
         {
           "file": "PathPanoBlueBells copy.jpeg",
           "caption": "PathPanoBlueBells copy",
-          "include": true
+          "include": false
         },
         {
           "file": "PathPanoBlueBells copy.jpg",
           "caption": "PathPanoBlueBells copy",
-          "include": true
+          "include": false
         },
         {
           "file": "PathPanoBlueBells.jpeg",
           "caption": "PathPanoBlueBells",
-          "include": true
+          "include": false
         },
         {
           "file": "PaththruBluebells copy.jpg",
           "caption": "PaththruBluebells copy",
-          "include": true
+          "include": false
         },
         {
           "file": "PaththruBluebells.jpeg",
           "caption": "PaththruBluebells",
-          "include": true
+          "include": false
         },
         {
           "file": "SheepovertheFence.jpeg",
           "caption": "SheepovertheFence",
-          "include": true
+          "include": false
         },
         {
           "file": "SpringBluebella3 copy.jpeg",
           "caption": "SpringBluebella3 copy",
-          "include": true
+          "include": false
         },
         {
           "file": "SpringBluebella3 copy.jpg",
           "caption": "SpringBluebella3 copy",
-          "include": true
+          "include": false
         },
         {
           "file": "SpringBluebella3.jpeg",
           "caption": "SpringBluebella3",
-          "include": true
+          "include": false
         },
         {
           "file": "SpringBluebella3712.jpeg",
@@ -1749,42 +1750,42 @@
         {
           "file": "WGarlicBluebells copy.jpg",
           "caption": "WGarlicBluebells copy",
-          "include": true
+          "include": false
         },
         {
           "file": "whiteFlowers.jpeg",
           "caption": "whiteFlowers",
-          "include": true
+          "include": false
         },
         {
           "file": "WMossBluebells copy.jpg",
           "caption": "WMossBluebells copy",
-          "include": true
+          "include": false
         },
         {
           "file": "GTHarwardLoneTree.jpeg",
           "caption": "GTHarwardLoneTree",
-          "include": true
+          "include": false
         },
         {
           "file": "HiTherejpeg.jpeg",
           "caption": "HiTherejpeg",
-          "include": true
+          "include": false
         },
         {
           "file": "LoneTreeHarwoodwide.jpeg",
           "caption": "LoneTreeHarwoodwide",
-          "include": true
+          "include": false
         },
         {
           "file": "MyDomain.jpeg",
           "caption": "MyDomain",
-          "include": true
+          "include": false
         },
         {
           "file": "YewOK.jpeg",
           "caption": "YewOK",
-          "include": true
+          "include": false
         }
       ],
       "group": "Woodland Photograpy"
@@ -2704,6 +2705,199 @@
         }
       ],
       "group": "Cornwall"
+    },
+    {
+      "key": "my-paintings-original-copies",
+      "title": "My Paintings -Original copies",
+      "blurb": "",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Paintings/MyPaintRaw",
+      "photos": [
+        {
+          "file": "Abstract1 copy.jpg",
+          "caption": "Abstract A",
+          "include": true
+        },
+        {
+          "file": "Abstract2.jpg",
+          "caption": "Abstrac B",
+          "include": true
+        },
+        {
+          "file": "apple.jpeg",
+          "caption": "Apple Blossoms Van Gogh",
+          "include": true
+        },
+        {
+          "file": "boatsonsiene.jpeg",
+          "caption": "Boats on the Seine",
+          "include": true
+        },
+        {
+          "file": "bridge1.jpeg",
+          "caption": "Water Lilies  Bridge Monet",
+          "include": true
+        },
+        {
+          "file": "bridgeparis.jpeg",
+          "caption": "Water Lilies Bridge Monet",
+          "include": true
+        },
+        {
+          "file": "ceszan.jpeg",
+          "caption": "Selfie Ceszan",
+          "include": true
+        },
+        {
+          "file": "cottages.jpeg",
+          "caption": "Rural Cottages Van Gogh",
+          "include": true
+        },
+        {
+          "file": "dancers.jpeg",
+          "caption": "Ballet dancers Degas",
+          "include": true
+        },
+        {
+          "file": "degaNY.jpeg",
+          "caption": "degaNY",
+          "include": false
+        },
+        {
+          "file": "Esher copy.jpg",
+          "caption": "Esher ",
+          "include": true
+        },
+        {
+          "file": "FloranceGawley copy.jpg",
+          "caption": "Florance JK",
+          "include": true
+        },
+        {
+          "file": "Gardensouthern.jpeg",
+          "caption": "Gardens at Arles Van Gogh",
+          "include": true
+        },
+        {
+          "file": "GirlChairmirror.jpeg",
+          "caption": "Girl Chair mirror",
+          "include": true
+        },
+        {
+          "file": "GreenSunflower.jpeg",
+          "caption": "Green Sunflower Van Gogh",
+          "include": true
+        },
+        {
+          "file": "JKBeachHut.jpeg",
+          "caption": "BeachHut JK",
+          "include": true
+        },
+        {
+          "file": "JKKnarsborugh.jpeg",
+          "caption": "Knarsborugh JK",
+          "include": true
+        },
+        {
+          "file": "JKLakeDistrict.jpeg",
+          "caption": "Lake District JK",
+          "include": true
+        },
+        {
+          "file": "Knarsborough copy.jpg",
+          "caption": "Knarsborough copy",
+          "include": true
+        },
+        {
+          "file": "ManetPianoGirl.jpeg",
+          "caption": "Manet PianoGirl",
+          "include": true
+        },
+        {
+          "file": "MonetBridge.jpeg",
+          "caption": "MonetBridge",
+          "include": true
+        },
+        {
+          "file": "MonetHaystacks.jpeg",
+          "caption": "MonetHaystacks",
+          "include": true
+        },
+        {
+          "file": "PicasoWoman.jpeg",
+          "caption": "PicasoWoman",
+          "include": true
+        },
+        {
+          "file": "rankin portrait.jpeg",
+          "caption": "rankin portrait",
+          "include": true
+        },
+        {
+          "file": "RoseDad.JPG",
+          "caption": "RoseDad",
+          "include": true
+        },
+        {
+          "file": "SpanishHouse.jpg",
+          "caption": "SpanishHouse",
+          "include": true
+        },
+        {
+          "file": "StarryNight copy.jpg",
+          "caption": "StarryNight Van Gogh",
+          "include": true
+        },
+        {
+          "file": "SunFlowers.jpeg",
+          "caption": "SunFlowers Van Gogh",
+          "include": true
+        },
+        {
+          "file": "SunflowersTallGreen.jpeg",
+          "caption": "SunflowersTallGreen Van Gogh",
+          "include": true
+        },
+        {
+          "file": "ValentinoBeachcoupleg.jpg",
+          "caption": "ValentinoBeachcoupleg",
+          "include": true
+        },
+        {
+          "file": "VanGoghCottage.jpeg",
+          "caption": "VanGoghCottage Van Gogh",
+          "include": true
+        },
+        {
+          "file": "VanGoghNightCafe.jpeg",
+          "caption": "VanGoghNightCafe Van Gogh",
+          "include": true
+        },
+        {
+          "file": "VanGoghStarryNight.jpeg",
+          "caption": "VanGoghStarryNight Van Gogh",
+          "include": true
+        },
+        {
+          "file": "VGChurchAlvers.jpeg",
+          "caption": "VGChurchAlvers Van Gogh",
+          "include": true
+        },
+        {
+          "file": "VGlake.jpeg",
+          "caption": "VGlake Van Gogh",
+          "include": true
+        },
+        {
+          "file": "VGwheatfields.jpeg",
+          "caption": "VGwheatfields Van Gogh",
+          "include": true
+        },
+        {
+          "file": "YellowSunflowers.jpeg",
+          "caption": "YellowSunflowers Van Gogh",
+          "include": true
+        }
+      ]
     }
   ]
 }
