@@ -99,6 +99,41 @@ plain "email me" link, and the comments section is simply left off each page.
    (nothing to moderate on your end; comments show up as posts in your repo's
    Discussions tab, where you can delete/hide anything if needed).
 
+### Custom domain (optional — e.g. kellyart.co.uk instead of the github.io address)
+
+1. Register a domain with any registrar (123-reg, Namecheap, Cloudflare, etc.) —
+   a `.co.uk` is usually around £8–£15/year. This is the only step with a cost;
+   everything else here is free.
+2. At your registrar, add DNS records pointing the domain at GitHub Pages:
+   - If you're using the bare domain (`kellyart.co.uk`), add four **A** records
+     for `@` pointing at:
+     ```
+     185.199.108.153
+     185.199.109.153
+     185.199.110.153
+     185.199.111.153
+     ```
+   - If you'd rather use `www.kellyart.co.uk`, add a **CNAME** record for `www`
+     pointing at `kellyart7.github.io` instead.
+   - Every registrar's DNS page looks a little different — if you get stuck,
+     tell me the registrar and I can give you exact click-by-click steps.
+3. In the app, click the **Home page text** button, scroll to **Custom domain**,
+   and type your domain in (no `https://`, no trailing slash — just e.g.
+   `kellyart.co.uk`).
+4. Click **Build site**, then **Publish**. This writes the file GitHub Pages
+   needs and pushes it, which tells GitHub to start serving the site from your
+   domain.
+5. On GitHub, open **github.com/Kellyart7/kellyart-photography** → **Settings**
+   → **Pages**, and confirm your domain shows up under "Custom domain" with a
+   green check. Tick **Enforce HTTPS** once it's available (this can take up
+   to 24 hours the first time, while GitHub issues the certificate — until
+   then the site is still reachable over plain http).
+
+DNS changes can take anywhere from a few minutes to a few hours to take effect
+everywhere. Your existing `kellyart7.github.io/kellyart-photography/` address
+keeps working throughout, so there's no risk of the site going down while this
+settles.
+
 ## Everyday use
 
 - **Add photos to an existing album** — select the album on the left, click

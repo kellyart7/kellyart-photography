@@ -219,6 +219,7 @@ DEFAULT_STATE = {
         "about2": "",
         "about3": "",
         "aboutImagePath": "",
+        "customDomain": "",
         "root": DEFAULT_ROOT,
         "hero": {"album": "loughrigg", "photo": "LoughrigPANO.jpeg"},
         "github": {"user": GITHUB_USER, "repo": GITHUB_REPO},
@@ -526,6 +527,13 @@ def build_site(state, log=print):
     (DOCS_DIR / "assets").mkdir(parents=True)
     (DOCS_DIR / "assets" / "style.css").write_text(STYLE_CSS, encoding="utf-8")
     (DOCS_DIR / "assets" / "gallery.js").write_text(GALLERY_JS, encoding="utf-8")
+
+    # If a custom domain is set, write the CNAME file GitHub Pages needs to serve the
+    # site from it. This has to happen on every build (not just once) because the whole
+    # docs/ folder is wiped and rebuilt above, which would otherwise delete it again.
+    custom_domain = (site.get("customDomain") or "").strip()
+    if custom_domain:
+        (DOCS_DIR / "CNAME").write_text(custom_domain + "\n", encoding="utf-8")
 
     warnings = []
     album_covers = {}
@@ -854,6 +862,12 @@ def publish(state, log=print):
     user = state["site"]["github"]["user"]
     repo = state["site"]["github"]["repo"]
     url = f"https://{user}.github.io/{repo}/"
+    custom_domain = (state["site"].get("customDomain") or "").strip()
+    if custom_domain:
+        custom_url = f"https://{custom_domain}/"
+        L(f"Published. Once GitHub Pages finishes deploying (usually under a minute) and your domain's DNS is pointed "
+          f"at GitHub (see README), your site will be live at:\n{custom_url}\n(it'll also keep working at {url} in the meantime)")
+        return {"ok": True, "log": "\n".join(lines), "url": custom_url}
     L(f"Published. Once GitHub Pages finishes deploying (usually under a minute), your site will be live at:\n{url}")
     return {"ok": True, "log": "\n".join(lines), "url": url}
 
@@ -878,6 +892,39 @@ def browse(path):
         return {"path": str(p), "folders": [], "images": [], "error": "Permission denied"}
     parent = str(p.parent) if str(p) != str(p.anchor) else None
     return {"path": str(p), "parent": parent, "folders": folders, "images": images}
+
+def find_missing_photos(state):
+    """For every album, list photos whose file no longer exists at
+    <album's source folder>/<file> — e.g. because it was moved, renamed, or the photo
+    was originally added from a different folder than the album's current one. These
+    show as broken thumbnails in the curator and get silently skipped at build time.
+
+    If an album's whole source folder is unreachable (e.g. a network drive that isn't
+    currently connected), its photos are reported as "unreachable" rather than
+    "missing" — the folder being briefly offline should never look like every photo in
+    it needs deleting."""
+    result = []
+    for album in state["albums"]:
+        src = Path(album.get("sourceFolder", ""))
+        if not src.is_dir():
+            result.append({
+                "key": album["key"],
+                "title": album["title"],
+                "missing": [],
+                "total": len(album["photos"]),
+                "unreachable": True,
+            })
+            continue
+        missing = [p["file"] for p in album["photos"] if not (src / p["file"]).is_file()]
+        if missing:
+            result.append({
+                "key": album["key"],
+                "title": album["title"],
+                "missing": missing,
+                "total": len(album["photos"]),
+                "unreachable": False,
+            })
+    return result
 
 # ----------------------------------------------------------------------------
 # Embedded curation UI
@@ -947,7 +994,8 @@ main{padding:1.4rem 1.8rem;overflow-y:auto;}
 </header>
 <div class="layout">
   <nav class="albums">
-    <div id="siteSettingsBtn" class="album-item" style="margin-bottom:1rem;border-bottom:1px solid var(--line);padding-bottom:0.9rem;"><span>&#9998; Home page text</span></div>
+    <div id="siteSettingsBtn" class="album-item" style="border-bottom:1px solid var(--line);padding-bottom:0.9rem;"><span>&#9998; Home page text</span></div>
+    <div id="missingBtn" class="album-item" style="margin-bottom:1rem;border-bottom:1px solid var(--line);padding-bottom:0.9rem;"><span>&#128269; Find broken photos</span></div>
     <h2>Albums</h2>
     <div id="albumList"></div>
     <button id="btnNewAlbum" style="width:100%;margin-top:0.8rem;">+ New album from folder</button>
@@ -963,6 +1011,8 @@ main{padding:1.4rem 1.8rem;overflow-y:auto;}
 var state = null;
 var activeAlbum = null;
 var showSiteEditor = false;
+var showMissingReport = false;
+var missingReport = null;
 
 function toast(msg){
   var t = document.getElementById('toast');
@@ -990,14 +1040,16 @@ function render(){
 function renderAlbumList(){
   var siteBtn = document.getElementById('siteSettingsBtn');
   siteBtn.classList.toggle('active', showSiteEditor);
+  var missingBtn = document.getElementById('missingBtn');
+  missingBtn.classList.toggle('active', showMissingReport);
   var el = document.getElementById('albumList');
   el.innerHTML = '';
   state.albums.forEach(function(a){
     var n = a.photos.filter(function(p){return p.include;}).length;
     var div = document.createElement('div');
-    div.className = 'album-item' + (!showSiteEditor && a.key === activeAlbum ? ' active' : '');
+    div.className = 'album-item' + (!showSiteEditor && !showMissingReport && a.key === activeAlbum ? ' active' : '');
     div.innerHTML = '<span>' + a.title + '</span><small>' + n + '</small>';
-    div.addEventListener('click', function(){ showSiteEditor = false; activeAlbum = a.key; document.getElementById('newAlbumPanel').classList.add('hidden'); render(); });
+    div.addEventListener('click', function(){ showSiteEditor = false; showMissingReport = false; activeAlbum = a.key; document.getElementById('newAlbumPanel').classList.add('hidden'); render(); });
     el.appendChild(div);
   });
 }
@@ -1025,7 +1077,10 @@ function renderSiteEditor(){
     :
       '<div style="margin-top:0.4rem;"><button id="btnPickAboutImage" type="button">+ Choose a photo</button></div>'
     ) +
-    '</div>';
+    '</div>' +
+    '<h2 style="margin-top:1.8rem;">Custom domain</h2>' +
+    '<div class="field"><label>Your domain (optional — e.g. kellyart.co.uk)</label><input id="fCustomDomain" placeholder="e.g. kellyart.co.uk" value="' + escAttr(state.site.customDomain || '') + '"></div>' +
+    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">Once you\\'ve registered a domain and pointed its DNS at GitHub Pages (see README.md for the exact steps), enter it here with no "https://" or trailing slash. Leave blank to keep using the free kellyart7.github.io address.</p>';
   el.querySelector('#fSiteEyebrow').addEventListener('change', function(e){ state.site.eyebrow = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTitle').addEventListener('change', function(e){ state.site.title = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTagline').addEventListener('change', function(e){ state.site.tagline = e.target.value; save(); toast('Saved.'); });
@@ -1036,6 +1091,11 @@ function renderSiteEditor(){
   el.querySelector('#btnPickAboutImage').addEventListener('click', openAboutImagePicker);
   var clearBtn = el.querySelector('#btnClearAboutImage');
   if(clearBtn){ clearBtn.addEventListener('click', function(){ state.site.aboutImagePath = ''; save(); renderSiteEditor(); toast('Photo removed.'); }); }
+  el.querySelector('#fCustomDomain').addEventListener('change', function(e){
+    state.site.customDomain = e.target.value.trim().replace(/^https?:\\/\\//i, '').replace(/\\/+$/, '');
+    e.target.value = state.site.customDomain;
+    save(); toast('Saved.');
+  });
 }
 
 function openAboutImagePicker(){
@@ -1053,8 +1113,62 @@ function openAboutImagePicker(){
   panel.scrollIntoView({behavior:'smooth'});
 }
 
+function renderMissingReport(){
+  var el = document.getElementById('albumEditor');
+  el.innerHTML = '<h2>Broken photos</h2><p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">Checking your albums against your photo library…</p>';
+  api('/api/missing-photos').then(function(res){
+    missingReport = res.albums;
+    renderMissingReportResults();
+  });
+}
+
+function renderMissingReportResults(){
+  var el = document.getElementById('albumEditor');
+  if(!missingReport || !missingReport.length){
+    el.innerHTML = '<h2>Broken photos</h2><p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">Nothing found — every photo in every album matches a real file in your library.</p>';
+    return;
+  }
+  var html = '<h2>Broken photos</h2><p style="font-size:0.82rem;color:var(--ink-soft);max-width:36rem;">These albums have photo entries that no longer match a file in their source folder — usually because a photo was moved, renamed, or was added from a different folder originally. They show as broken thumbnails, and any already unticked are already left out of the site.</p>';
+  missingReport.forEach(function(a){
+    html += '<div style="margin-top:1.4rem;padding:1rem;border:1px solid var(--line);border-radius:8px;">';
+    html += '<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.6rem;">';
+    html += '<strong>' + escHtml(a.title) + '</strong>';
+    if(a.unreachable){
+      html += '<span style="font-size:0.8rem;color:var(--ink-soft);">Source folder not reachable right now</span>';
+    } else {
+      html += '<button type="button" data-key="' + escAttr(a.key) + '" class="btnRemoveMissing" style="color:#9A3B34;">Remove these ' + a.missing.length + ' from ' + escHtml(a.title) + '</button>';
+    }
+    html += '</div>';
+    if(a.unreachable){
+      html += '<p style="font-size:0.82rem;color:var(--ink-soft);margin-top:0.5rem;">This album\\'s source folder couldn\\'t be found — if it\\'s on a network drive, make sure it\\'s connected, then click "Find broken photos" again. Nothing has been touched.</p>';
+    } else {
+      html += '<p style="font-size:0.82rem;color:var(--ink-soft);margin-top:0.5rem;">' + a.missing.length + ' of ' + a.total + ' photo(s) in this album:</p>';
+      html += '<div style="max-height:9rem;overflow-y:auto;font-size:0.78rem;color:var(--ink-soft);margin-top:0.3rem;line-height:1.6;">' + a.missing.map(escHtml).join('<br>') + '</div>';
+    }
+    html += '</div>';
+  });
+  el.innerHTML = html;
+  el.querySelectorAll('.btnRemoveMissing').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var key = btn.dataset.key;
+      var entry = missingReport.find(function(a){ return a.key === key; });
+      var album = state.albums.find(function(a){ return a.key === key; });
+      if(!entry || !album) return;
+      var missingSet = {};
+      entry.missing.forEach(function(f){ missingSet[f] = true; });
+      album.photos = album.photos.filter(function(p){ return !missingSet[p.file]; });
+      save().then(function(){
+        toast('Removed ' + entry.missing.length + ' from ' + album.title + '.');
+        renderAlbumList();
+        renderMissingReport();
+      });
+    });
+  });
+}
+
 function renderEditor(){
   var el = document.getElementById('albumEditor');
+  if(showMissingReport){ renderMissingReport(); return; }
   if(showSiteEditor){ renderSiteEditor(); return; }
   var album = state.albums.find(function(a){ return a.key === activeAlbum; });
   if(!album){ el.innerHTML = '<p>No album selected.</p>'; return; }
@@ -1153,7 +1267,13 @@ function openAddPhotos(album){
 }
 
 document.getElementById('siteSettingsBtn').addEventListener('click', function(){
-  showSiteEditor = true; activeAlbum = null;
+  showSiteEditor = true; showMissingReport = false; activeAlbum = null;
+  document.getElementById('newAlbumPanel').classList.add('hidden');
+  render();
+});
+
+document.getElementById('missingBtn').addEventListener('click', function(){
+  showMissingReport = true; showSiteEditor = false; activeAlbum = null;
   document.getElementById('newAlbumPanel').classList.add('hidden');
   render();
 });
@@ -1295,6 +1415,8 @@ class Handler(BaseHTTPRequestHandler):
         elif parsed.path == "/api/browse":
             path = unquote(qs.get("path", [DEFAULT_ROOT])[0])
             self._send(200, browse(path))
+        elif parsed.path == "/api/missing-photos":
+            self._send(200, {"albums": find_missing_photos(load_state())})
         elif parsed.path == "/api/thumb":
             path = unquote(qs.get("path", [""])[0])
             size = int(qs.get("size", [str(THUMB_MAX)])[0])
