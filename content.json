@@ -4,8 +4,8 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "spring-wood-whalley",
-      "photo": "benchView copy.jpg"
+      "album": "my-paintings-original-copies",
+      "photo": "apple.jpeg"
     },
     "github": {
       "user": "Kellyart7",
@@ -2708,8 +2708,8 @@
     },
     {
       "key": "my-paintings-original-copies",
-      "title": "My Paintings -Original copies",
-      "blurb": "",
+      "title": "My Paintings - Original copies",
+      "blurb": "Some original works but mainly my interpretation of great works of Art, primarily the Impressionists",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Paintings/MyPaintRaw",
       "photos": [
         {
@@ -2725,7 +2725,8 @@
         {
           "file": "apple.jpeg",
           "caption": "Apple Blossoms Van Gogh",
-          "include": true
+          "include": true,
+          "featured": true
         },
         {
           "file": "boatsonsiene.jpeg",
@@ -2804,48 +2805,48 @@
         },
         {
           "file": "Knarsborough copy.jpg",
-          "caption": "Knarsborough copy",
+          "caption": "Knarsborough JK",
           "include": true
         },
         {
           "file": "ManetPianoGirl.jpeg",
-          "caption": "Manet PianoGirl",
+          "caption": "Girls at the Piano Manet ",
           "include": true
         },
         {
           "file": "MonetBridge.jpeg",
-          "caption": "MonetBridge",
+          "caption": "Water Lilies Bridge Monet 2",
           "include": true
         },
         {
           "file": "MonetHaystacks.jpeg",
-          "caption": "MonetHaystacks",
+          "caption": "Haystacks Monet",
           "include": true
         },
         {
           "file": "PicasoWoman.jpeg",
-          "caption": "PicasoWoman",
+          "caption": "Picaso",
           "include": true
         },
         {
           "file": "rankin portrait.jpeg",
-          "caption": "rankin portrait",
+          "caption": "Rankin JK",
           "include": true
         },
         {
           "file": "RoseDad.JPG",
-          "caption": "RoseDad",
+          "caption": "Mr Ainsworth JK",
           "include": true
         },
         {
           "file": "SpanishHouse.jpg",
-          "caption": "SpanishHouse",
+          "caption": "Spanish House JK",
           "include": true
         },
         {
           "file": "StarryNight copy.jpg",
-          "caption": "StarryNight Van Gogh",
-          "include": true
+          "caption": "Starry Night Van Gogh",
+          "include": false
         },
         {
           "file": "SunFlowers.jpeg",
@@ -2859,45 +2860,46 @@
         },
         {
           "file": "ValentinoBeachcoupleg.jpg",
-          "caption": "ValentinoBeachcoupleg",
+          "caption": "Beach couple Valentino",
           "include": true
         },
         {
           "file": "VanGoghCottage.jpeg",
-          "caption": "VanGoghCottage Van Gogh",
+          "caption": "Cottage Van Gogh",
           "include": true
         },
         {
           "file": "VanGoghNightCafe.jpeg",
-          "caption": "VanGoghNightCafe Van Gogh",
+          "caption": "Night Cafe Van Gogh",
           "include": true
         },
         {
           "file": "VanGoghStarryNight.jpeg",
-          "caption": "VanGoghStarryNight Van Gogh",
+          "caption": "Starry Night Van Gogh",
           "include": true
         },
         {
           "file": "VGChurchAlvers.jpeg",
-          "caption": "VGChurchAlvers Van Gogh",
+          "caption": "Church Van Gogh",
           "include": true
         },
         {
           "file": "VGlake.jpeg",
-          "caption": "VGlake Van Gogh",
+          "caption": "ake Van Gogh",
           "include": true
         },
         {
           "file": "VGwheatfields.jpeg",
-          "caption": "VGwheatfields Van Gogh",
+          "caption": "Wheatfields Van Gogh",
           "include": true
         },
         {
           "file": "YellowSunflowers.jpeg",
-          "caption": "YellowSunflowers Van Gogh",
+          "caption": "Yellow Sunflowers Van Gogh",
           "include": true
         }
-      ]
+      ],
+      "group": "Paintings"
     }
   ]
 }
