@@ -487,6 +487,11 @@ LIGHTBOX_HTML = """
 
 FONT_LINK = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
+# A short fingerprint of the CSS/JS content, appended to their URLs as ?v=... so that
+# browsers (Safari in particular is aggressive about caching plain .css/.js files) always
+# fetch the latest version after a rebuild, instead of silently reusing an old cached copy.
+ASSET_VER = hashlib.md5((STYLE_CSS + GALLERY_JS).encode("utf-8")).hexdigest()[:10]
+
 def esc(s):
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
@@ -499,7 +504,7 @@ def page_shell(title, description, body, css_href="assets/style.css", root_prefi
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 {FONT_LINK}
-<link rel="stylesheet" href="{css_href}">
+<link rel="stylesheet" href="{css_href}?v={ASSET_VER}">
 </head>
 <body>
 {body}
@@ -607,7 +612,7 @@ def build_site(state, log=print):
 {comments_html}
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span><a href="../index.html" class="home-btn">Home</a></footer>
 {LIGHTBOX_HTML}
-<script src="../assets/gallery.js"></script>
+<script src="../assets/gallery.js?v={ASSET_VER}"></script>
 '''
         html = page_shell(f'{album["title"]} — Kellyart Photography', album.get("blurb",""), body, css_href="../assets/style.css")
         (out_dir / "index.html").write_text(html, encoding="utf-8")
@@ -721,7 +726,7 @@ def build_site(state, log=print):
 </main>
 <footer><span>&copy; {time.strftime("%Y")} Kellyart Photography &middot; Lake District, England</span></footer>
 {LIGHTBOX_HTML}
-<script src="assets/gallery.js"></script>
+<script src="assets/gallery.js?v={ASSET_VER}"></script>
 '''
     home_html = page_shell(site["title"], site["tagline"], topbar("", show_home=False) + home_body, css_href="assets/style.css")
     (DOCS_DIR / "index.html").write_text(home_html, encoding="utf-8")

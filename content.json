@@ -428,8 +428,8 @@
         },
         {
           "file": "Buttermere1.jpg",
-          "caption": "Buttermere1",
-          "include": false
+          "caption": "Buttermere",
+          "include": true
         },
         {
           "file": "ButtermereLoneTree.jpeg",
@@ -438,8 +438,8 @@
         },
         {
           "file": "CrummockWater copy.jpg",
-          "caption": "CrummockWater copy",
-          "include": false
+          "caption": "Path",
+          "include": true
         },
         {
           "file": "CrummokTreeframe copy.jpg",
@@ -687,45 +687,6 @@
       "group": "The Lake District"
     },
     {
-      "key": "further-views",
-      "title": "Lake District",
-      "blurb": "A few more favourites from around the valleys.",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Other",
-      "photos": [
-        {
-          "file": "LakesandGeese copy.jpg",
-          "caption": "Geese on the water",
-          "include": true
-        },
-        {
-          "file": "BrathyWalkers copy.jpg",
-          "caption": "Walkers by the Brathay",
-          "include": true
-        },
-        {
-          "file": "_MG_1093.jpeg",
-          "caption": "Lakeland sunset",
-          "include": true
-        },
-        {
-          "file": "_MG_1820.jpeg",
-          "caption": "Rolling Valley",
-          "include": true
-        },
-        {
-          "file": "_MG_1849.jpeg",
-          "caption": "Fellside light",
-          "include": true
-        },
-        {
-          "file": "_MG_1924.jpeg",
-          "caption": "Lakeland vita",
-          "include": true
-        }
-      ],
-      "group": "The Lake District"
-    },
-    {
       "key": "rydal-water",
       "title": "Rydal Water",
       "blurb": "A small lake between Grasmere and Ambleside, quiet and wooded.  Rydal Water is one of the Lake District’s most tranquil and photogenic lakes, tucked between the villages of Ambleside and Grasmere beneath the rugged slopes of Loughrigg Fell. Its peaceful waters, wooded shoreline and surrounding mountains create a wonderfully atmospheric setting for photography, particularly when mist, reflections and soft light transform the landscape. Rich in literary history and closely associated with William Wordsworth, Rydal Water combines natural beauty with a timeless sense of place.",
@@ -733,8 +694,8 @@
       "photos": [
         {
           "file": "rydal.jpeg",
-          "caption": "Rydal Water, morning",
-          "include": false
+          "caption": "View back to Grasmere ",
+          "include": true
         },
         {
           "file": "RydalPano1.jpeg",
