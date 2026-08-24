@@ -423,14 +423,16 @@ footer{margin-top:3rem;padding:2.4rem 1.4rem 3rem;border-top:1px solid var(--lin
 
 .lightbox{position:fixed;inset:0;z-index:100;background:var(--overlay);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.2s ease;}
 .lightbox.open{opacity:1;pointer-events:auto;}
-.lb-figure{max-width:90vw;max-height:82vh;display:flex;flex-direction:column;align-items:center;gap:0.9rem;}
-.lb-figure img{max-width:90vw;max-height:74vh;width:auto;height:auto;border-radius:4px;box-shadow:0 30px 60px -20px rgba(0,0,0,0.6);}
-.lb-cap{color:#EDEFE5;text-align:center;font-size:0.94rem;}
-.lb-btn{position:absolute;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.22);color:#F2F3EC;width:2.6rem;height:2.6rem;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background 0.15s ease;}
+.lb-figure{max-width:96vw;max-height:94vh;display:flex;flex-direction:column;align-items:center;gap:0.8rem;}
+.lb-frame{display:inline-block;background:#F4F4F1;padding:1rem 1rem 0.7rem;border-radius:6px;max-width:95vw;box-shadow:0 0 0 1px rgba(0,0,0,0.08), 0 30px 60px -20px rgba(0,0,0,0.6);}
+.lb-frame img{display:block;max-width:94vw;max-height:82vh;width:auto;height:auto;border-radius:2px;}
+.lb-mark{display:block;text-align:right;font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:#9CA394;font-weight:600;margin-top:0.55rem;}
+.lb-cap{color:#EDEFE5;text-align:center;font-size:0.94rem;max-width:90vw;}
+.lb-btn{position:absolute;z-index:2;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.22);color:#F2F3EC;width:2.6rem;height:2.6rem;border-radius:50%;display:flex;align-items:center;justify-content:center;transition:background 0.15s ease;}
 .lb-btn:hover{background:rgba(255,255,255,0.18);}
 .lb-btn svg{width:18px;height:18px;}
 .lb-close{top:1.4rem;right:1.4rem;} .lb-prev{left:1.4rem;top:50%;transform:translateY(-50%);} .lb-next{right:1.4rem;top:50%;transform:translateY(-50%);}
-@media (max-width:640px){ .lb-prev,.lb-next{width:2.2rem;height:2.2rem;} .lb-prev{left:0.5rem;} .lb-next{right:0.5rem;} .lb-close{top:0.6rem;right:0.6rem;} .grid{columns:2 160px;} }
+@media (max-width:640px){ .lb-prev,.lb-next{width:2.2rem;height:2.2rem;} .lb-prev{left:0.5rem;} .lb-next{right:0.5rem;} .lb-close{top:0.6rem;right:0.6rem;} .lb-frame{padding:0.6rem 0.6rem 0.45rem;} .grid{columns:2 160px;} }
 @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} .tile img,.tile-cap,.card img{transition:none;} }
 """
 
@@ -479,7 +481,7 @@ LIGHTBOX_HTML = """
   <button class="lb-btn lb-close" id="lbClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
   <button class="lb-btn lb-prev" id="lbPrev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
   <button class="lb-btn lb-next" id="lbNext" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
-  <figure class="lb-figure"><img id="lbImg" src="" alt=""><figcaption class="lb-cap" id="lbText"></figcaption></figure>
+  <figure class="lb-figure"><div class="lb-frame"><img id="lbImg" src="" alt=""><span class="lb-mark">Kellyart Photography</span></div><figcaption class="lb-cap" id="lbText"></figcaption></figure>
 </div>
 """
 
