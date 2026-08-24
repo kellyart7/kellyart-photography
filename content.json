@@ -14,7 +14,7 @@
     "eyebrow": "Landscapes",
     "featuredIntro": "Special captured moments in time on my travels",
     "about1": "My Philosophy ",
-    "about2": "Here it is",
+    "about2": "My photography is rooted in an authentic and natural way of seeing the world. I aim to capture moments, landscapes and details as they genuinely appear, while allowing light, atmosphere and composition to shape the final image. Influenced by the balance, mood and timeless quality of fine art paintings, I strive to create photographs that are not simply records of a moment, but images that invite reflection and evoke a sense of beauty, emotion and place.",
     "about3": "Special mention "
   },
   "albums": [
@@ -76,6 +76,301 @@
         {
           "file": "BleaTarn06_98.jpeg",
           "caption": "BleaTarn06_98",
+          "include": true
+        },
+        {
+          "file": "buttermere copy.jpg",
+          "caption": "buttermere copy",
+          "include": true
+        },
+        {
+          "file": "Buttermere1.jpg",
+          "caption": "Buttermere1",
+          "include": true
+        },
+        {
+          "file": "ButtermereLoneTree.jpeg",
+          "caption": "ButtermereLoneTree",
+          "include": true
+        },
+        {
+          "file": "buttermererockmist.jpeg",
+          "caption": "buttermererockmist",
+          "include": true
+        },
+        {
+          "file": "buttermereTreeframe.jpeg",
+          "caption": "buttermereTreeframe",
+          "include": true
+        },
+        {
+          "file": "Buttermerewateerfall copy.jpg",
+          "caption": "Buttermerewateerfall copy",
+          "include": true
+        },
+        {
+          "file": "classicfence.jpg",
+          "caption": "classicfence",
+          "include": true
+        },
+        {
+          "file": "CrummockWater copy.jpg",
+          "caption": "CrummockWater copy",
+          "include": true
+        },
+        {
+          "file": "CrummokPano copy.jpg",
+          "caption": "CrummokPano copy",
+          "include": true
+        },
+        {
+          "file": "CrummokTreeframe copy.jpg",
+          "caption": "CrummokTreeframe copy",
+          "include": true
+        },
+        {
+          "file": "knarleyTree.jpg",
+          "caption": "knarleyTree",
+          "include": true
+        },
+        {
+          "file": "LoneButttermereTree.jpeg",
+          "caption": "LoneButttermereTree",
+          "include": true
+        },
+        {
+          "file": "LoneTreeL.jpeg",
+          "caption": "LoneTreeL",
+          "include": true
+        },
+        {
+          "file": "LTree copy.jpg",
+          "caption": "LTree copy",
+          "include": true
+        },
+        {
+          "file": "_MG_0235.jpeg",
+          "caption": "_MG_0235",
+          "include": true
+        },
+        {
+          "file": "_MG_0245.jpeg",
+          "caption": "_MG_0245",
+          "include": true
+        },
+        {
+          "file": "_MG_0249.jpeg",
+          "caption": "_MG_0249",
+          "include": true
+        },
+        {
+          "file": "_MG_0250.jpeg",
+          "caption": "_MG_0250",
+          "include": true
+        },
+        {
+          "file": "_MG_0266.jpeg",
+          "caption": "_MG_0266",
+          "include": true
+        },
+        {
+          "file": "_MG_0269.jpeg",
+          "caption": "_MG_0269",
+          "include": true
+        },
+        {
+          "file": "_MG_0276.jpeg",
+          "caption": "_MG_0276",
+          "include": true
+        },
+        {
+          "file": "_MG_0315.jpeg",
+          "caption": "_MG_0315",
+          "include": true
+        },
+        {
+          "file": "Bridge-Pano copy.jpg",
+          "caption": "Bridge-Pano copy",
+          "include": true
+        },
+        {
+          "file": "Derwantsmallpanay.jpeg",
+          "caption": "Derwantsmallpanay",
+          "include": true
+        },
+        {
+          "file": "Derwent bridge copy.jpeg",
+          "caption": "Derwent bridge copy",
+          "include": true
+        },
+        {
+          "file": "KeswickHDR.jpeg",
+          "caption": "KeswickHDR",
+          "include": true
+        },
+        {
+          "file": "AutumnReflections.jpeg",
+          "caption": "AutumnReflections",
+          "include": true
+        },
+        {
+          "file": "CowsonBeach.jpg",
+          "caption": "CowsonBeach",
+          "include": true
+        },
+        {
+          "file": "Grasses.jpg",
+          "caption": "Grasses",
+          "include": true
+        },
+        {
+          "file": "IMG_7468.jpeg",
+          "caption": "IMG_7468",
+          "include": true
+        },
+        {
+          "file": "IMG_7484.jpeg",
+          "caption": "IMG_7484",
+          "include": true
+        },
+        {
+          "file": "IMG_7487.jpeg",
+          "caption": "IMG_7487",
+          "include": true
+        },
+        {
+          "file": "JKRGElterWater.jpeg",
+          "caption": "JKRGElterWater",
+          "include": true
+        },
+        {
+          "file": "LangdalesPano.jpeg",
+          "caption": "LangdalesPano",
+          "include": true
+        },
+        {
+          "file": "LangdalesPanoBlur.jpg",
+          "caption": "LangdalesPanoBlur",
+          "include": true
+        },
+        {
+          "file": "LangdalesTreeframe.jpeg",
+          "caption": "LangdalesTreeframe",
+          "include": true
+        },
+        {
+          "file": "redMushMerge.jpeg",
+          "caption": "redMushMerge",
+          "include": true
+        },
+        {
+          "file": "RedMushrooms copy.jpg",
+          "caption": "RedMushrooms copy",
+          "include": true
+        },
+        {
+          "file": "SQBratheySnowy.jpeg",
+          "caption": "SQBratheySnowy",
+          "include": true
+        },
+        {
+          "file": "sqRothay.jpeg",
+          "caption": "sqRothay",
+          "include": true
+        },
+        {
+          "file": "sunrays.jpeg",
+          "caption": "sunrays",
+          "include": true
+        },
+        {
+          "file": "TreeShadowinSnow.jpg",
+          "caption": "TreeShadowinSnow",
+          "include": true
+        },
+        {
+          "file": "TreeShadowsBrath.jpeg",
+          "caption": "TreeShadowsBrath",
+          "include": true
+        },
+        {
+          "file": "WhatsitallaboutBenji.jpeg",
+          "caption": "WhatsitallaboutBenji",
+          "include": true
+        },
+        {
+          "file": "BenjiRGfetch.jpeg",
+          "caption": "BenjiRGfetch",
+          "include": true
+        },
+        {
+          "file": "BWvillage.jpeg",
+          "caption": "BWvillage",
+          "include": true
+        },
+        {
+          "file": "grasmereCottage copy.jpg",
+          "caption": "grasmereCottage copy",
+          "include": true
+        },
+        {
+          "file": "GrassmereGold.jpeg",
+          "caption": "GrassmereGold",
+          "include": true
+        },
+        {
+          "file": "GrassmereIsland.jpeg",
+          "caption": "GrassmereIsland",
+          "include": true
+        },
+        {
+          "file": "GrassmereSeagull.jpeg",
+          "caption": "GrassmereSeagull",
+          "include": true
+        },
+        {
+          "file": "whitehouse.jpeg",
+          "caption": "whitehouse",
+          "include": true
+        },
+        {
+          "file": "169lake.jpeg",
+          "caption": "169lake",
+          "include": true
+        },
+        {
+          "file": "_MG_2198.jpeg",
+          "caption": "_MG_2198",
+          "include": true
+        },
+        {
+          "file": "_MG_2246.jpeg",
+          "caption": "_MG_2246",
+          "include": true
+        },
+        {
+          "file": "_MG_2248.jpeg",
+          "caption": "_MG_2248",
+          "include": true
+        },
+        {
+          "file": "_MG_2270.jpeg",
+          "caption": "_MG_2270",
+          "include": true
+        },
+        {
+          "file": "_MG_2286.jpeg",
+          "caption": "_MG_2286",
+          "include": true
+        },
+        {
+          "file": "HawswaterPANO.jpeg",
+          "caption": "HawswaterPANO",
+          "include": true
+        },
+        {
+          "file": "RockLake.jpeg",
+          "caption": "RockLake",
           "include": true
         }
       ],
@@ -1275,8 +1570,209 @@
           "file": "YForest.jpeg",
           "caption": "Cool",
           "include": true
+        },
+        {
+          "file": "BBcloseup copy.jpeg",
+          "caption": "BBcloseup copy",
+          "include": true
+        },
+        {
+          "file": "BBcloseup copy.jpg",
+          "caption": "BBcloseup copy",
+          "include": true
+        },
+        {
+          "file": "BBellsHarshSun copy.jpeg",
+          "caption": "BBellsHarshSun copy",
+          "include": true
+        },
+        {
+          "file": "BBellsHarshSun copy.jpg",
+          "caption": "BBellsHarshSun copy",
+          "include": true
+        },
+        {
+          "file": "BBfallentree copy.jpeg",
+          "caption": "BBfallentree copy",
+          "include": true
+        },
+        {
+          "file": "BBfallentree copy.jpg",
+          "caption": "BBfallentree copy",
+          "include": true
+        },
+        {
+          "file": "BBfallentree3712.jpeg",
+          "caption": "BBfallentree3712",
+          "include": true
+        },
+        {
+          "file": "BBwoodssq copy.jpeg",
+          "caption": "BBwoodssq copy",
+          "include": true
+        },
+        {
+          "file": "BBwoodssq copy.jpg",
+          "caption": "BBwoodssq copy",
+          "include": true
+        },
+        {
+          "file": "BBwoodssq.jpeg",
+          "caption": "BBwoodssq",
+          "include": true
+        },
+        {
+          "file": "BlueBellsTreeFrame copy.jpeg",
+          "caption": "BlueBellsTreeFrame copy",
+          "include": true
+        },
+        {
+          "file": "BlueBellsTreeFrame copy.jpg",
+          "caption": "BlueBellsTreeFrame copy",
+          "include": true
+        },
+        {
+          "file": "BlueBellsTreeFrame.jpeg",
+          "caption": "BlueBellsTreeFrame",
+          "include": true
+        },
+        {
+          "file": "BlueBellsTreeFrame3712.jpeg",
+          "caption": "BlueBellsTreeFrame3712",
+          "include": true
+        },
+        {
+          "file": "bluebelltrak.jpeg",
+          "caption": "bluebelltrak",
+          "include": true
+        },
+        {
+          "file": "BluebellValley copy.jpeg",
+          "caption": "BluebellValley copy",
+          "include": true
+        },
+        {
+          "file": "BluebellValley copy.jpg",
+          "caption": "BluebellValley copy",
+          "include": true
+        },
+        {
+          "file": "BluebirdSheepFrame copy.jpeg",
+          "caption": "BluebirdSheepFrame copy",
+          "include": true
+        },
+        {
+          "file": "BluebirdSheepFrame copy.jpg",
+          "caption": "BluebirdSheepFrame copy",
+          "include": true
+        },
+        {
+          "file": "framedsheep.jpeg",
+          "caption": "framedsheep",
+          "include": true
+        },
+        {
+          "file": "PathPanoBlueBells copy.jpeg",
+          "caption": "PathPanoBlueBells copy",
+          "include": true
+        },
+        {
+          "file": "PathPanoBlueBells copy.jpg",
+          "caption": "PathPanoBlueBells copy",
+          "include": true
+        },
+        {
+          "file": "PathPanoBlueBells.jpeg",
+          "caption": "PathPanoBlueBells",
+          "include": true
+        },
+        {
+          "file": "PaththruBluebells copy.jpg",
+          "caption": "PaththruBluebells copy",
+          "include": true
+        },
+        {
+          "file": "PaththruBluebells.jpeg",
+          "caption": "PaththruBluebells",
+          "include": true
+        },
+        {
+          "file": "SheepovertheFence.jpeg",
+          "caption": "SheepovertheFence",
+          "include": true
+        },
+        {
+          "file": "SpringBluebella3 copy.jpeg",
+          "caption": "SpringBluebella3 copy",
+          "include": true
+        },
+        {
+          "file": "SpringBluebella3 copy.jpg",
+          "caption": "SpringBluebella3 copy",
+          "include": true
+        },
+        {
+          "file": "SpringBluebella3.jpeg",
+          "caption": "SpringBluebella3",
+          "include": true
+        },
+        {
+          "file": "SpringBluebella3712.jpeg",
+          "caption": "SpringBluebella3712",
+          "include": true
+        },
+        {
+          "file": "SubdudeWoods copy.jpg",
+          "caption": "SubdudeWoods copy",
+          "include": true
+        },
+        {
+          "file": "WGarlicBluebells copy.jpeg",
+          "caption": "WGarlicBluebells copy",
+          "include": true
+        },
+        {
+          "file": "WGarlicBluebells copy.jpg",
+          "caption": "WGarlicBluebells copy",
+          "include": true
+        },
+        {
+          "file": "whiteFlowers.jpeg",
+          "caption": "whiteFlowers",
+          "include": true
+        },
+        {
+          "file": "WMossBluebells copy.jpg",
+          "caption": "WMossBluebells copy",
+          "include": true
+        },
+        {
+          "file": "GTHarwardLoneTree.jpeg",
+          "caption": "GTHarwardLoneTree",
+          "include": true
+        },
+        {
+          "file": "HiTherejpeg.jpeg",
+          "caption": "HiTherejpeg",
+          "include": true
+        },
+        {
+          "file": "LoneTreeHarwoodwide.jpeg",
+          "caption": "LoneTreeHarwoodwide",
+          "include": true
+        },
+        {
+          "file": "MyDomain.jpeg",
+          "caption": "MyDomain",
+          "include": true
+        },
+        {
+          "file": "YewOK.jpeg",
+          "caption": "YewOK",
+          "include": true
         }
-      ]
+      ],
+      "group": "Woodland Photograpy"
     },
     {
       "key": "panorama",
@@ -1974,8 +2470,104 @@
           "file": "PadstowPano copy.jpg",
           "caption": "Padstow Pano",
           "include": true
+        },
+        {
+          "file": "3boatsFA copy.jpg",
+          "caption": "3boatsFA copy",
+          "include": true
+        },
+        {
+          "file": "3ships copy.jpg",
+          "caption": "3ships copy",
+          "include": true
+        },
+        {
+          "file": "BatsLighthouse copy.jpg",
+          "caption": "BatsLighthouse copy",
+          "include": true
+        },
+        {
+          "file": "BayBoats copy.jpg",
+          "caption": "BayBoats copy",
+          "include": true
+        },
+        {
+          "file": "BeachedBoatsIsIves copy.jpg",
+          "caption": "BeachedBoatsIsIves copy",
+          "include": true
+        },
+        {
+          "file": "BenjistIves copy.jpg",
+          "caption": "BenjistIves copy",
+          "include": true
+        },
+        {
+          "file": "boats.jpg",
+          "caption": "boats",
+          "include": true
+        },
+        {
+          "file": "BRGStIves copy.jpg",
+          "caption": "BRGStIves copy",
+          "include": true
+        },
+        {
+          "file": "RGBBoatStIves copy.jpg",
+          "caption": "RGBBoatStIves copy",
+          "include": true
+        },
+        {
+          "file": "RGBStIves.jpg",
+          "caption": "RGBStIves",
+          "include": true
+        },
+        {
+          "file": "StIvesBeachBum copy.jpg",
+          "caption": "StIvesBeachBum copy",
+          "include": true
+        },
+        {
+          "file": "boattryip.jpg",
+          "caption": "boattryip",
+          "include": true
+        },
+        {
+          "file": "RGBenjiStMicksM copy.jpg",
+          "caption": "RGBenjiStMicksM copy",
+          "include": true
+        },
+        {
+          "file": "RGBenjiSTMiichealsMountA4.jpg",
+          "caption": "RGBenjiSTMiichealsMountA4",
+          "include": true
+        },
+        {
+          "file": "RoseBenjiStMichealMount copy.jpg",
+          "caption": "RoseBenjiStMichealMount copy",
+          "include": true
+        },
+        {
+          "file": "StMichealsMountlonefigure copy.jpg",
+          "caption": "StMichealsMountlonefigure copy",
+          "include": true
+        },
+        {
+          "file": "stMicks copy.jpg",
+          "caption": "stMicks copy",
+          "include": true
+        },
+        {
+          "file": "stMicksHydranger copy.jpg",
+          "caption": "stMicksHydranger copy",
+          "include": true
+        },
+        {
+          "file": "warmBWStMicheals.jpg",
+          "caption": "warmBWStMicheals",
+          "include": true
         }
-      ]
+      ],
+      "group": "Cornwall"
     },
     {
       "key": "st-ives",
