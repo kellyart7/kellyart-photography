@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Kelly Art Photography",
-    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. ",
+    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\nPainting in oils and acrylics is a true passion of mine. I enjoy studying and recreating the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work. For me, painting is a continual journey of creativity, learning and personal expression.",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
       "album": "my-paintings-original-copies",
@@ -1468,7 +1468,7 @@
           "file": "billylikesthis1.jpeg",
           "caption": "Billy likes this",
           "include": true,
-          "featured": true,
+          "featured": false,
           "story": "Not sure why"
         },
         {
