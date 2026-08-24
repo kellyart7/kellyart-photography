@@ -12,7 +12,10 @@
       "repo": "kellyart-photography"
     },
     "eyebrow": "Landscapes",
-    "featuredIntro": "Special captured moments in time on my travels"
+    "featuredIntro": "Special captured moments in time on my travels",
+    "about1": "My Philosophy ",
+    "about2": "Here it is",
+    "about3": "Special mention "
   },
   "albums": [
     {
@@ -54,8 +57,29 @@
           "file": "BleaTarn06_90.jpeg",
           "caption": "Late light on the tarn",
           "include": true
+        },
+        {
+          "file": "BleaTarn06_02.jpeg",
+          "caption": "BleaTarn06_02",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_09.jpeg",
+          "caption": "BleaTarn06_09",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_35-1.jpeg",
+          "caption": "BleaTarn06_35-1",
+          "include": true
+        },
+        {
+          "file": "BleaTarn06_98.jpeg",
+          "caption": "BleaTarn06_98",
+          "include": true
         }
-      ]
+      ],
+      "group": "The Lake District"
     },
     {
       "key": "buttermere",
@@ -104,6 +128,36 @@
         {
           "file": "LoneButttermereTree.jpeg",
           "caption": "Lone tree, Buttermere",
+          "include": true
+        },
+        {
+          "file": "Buttermere1.jpg",
+          "caption": "Buttermere1",
+          "include": true
+        },
+        {
+          "file": "ButtermereLoneTree.jpeg",
+          "caption": "ButtermereLoneTree",
+          "include": true
+        },
+        {
+          "file": "CrummockWater copy.jpg",
+          "caption": "CrummockWater copy",
+          "include": true
+        },
+        {
+          "file": "CrummokTreeframe copy.jpg",
+          "caption": "CrummokTreeframe copy",
+          "include": true
+        },
+        {
+          "file": "LoneTreeL.jpeg",
+          "caption": "LoneTreeL",
+          "include": true
+        },
+        {
+          "file": "LTree copy.jpg",
+          "caption": "LTree copy",
           "include": true
         }
       ]
@@ -1227,7 +1281,7 @@
     {
       "key": "panorama",
       "title": "Panorama",
-      "blurb": "My panoramic series explores the unique potential of the wide-format image, capturing landscapes in a way that reflects the scale and grandeur of the scene as experienced in person. By bringing together a wider field of view, panoramics allow sweeping compositions, dramatic skies and subtle details to work together, creating images that draw the viewer into the landscape and offer a greater sense of place.",
+      "blurb": "Landscapes Beyond the Ordinary Frame\n\nMy panoramic series explores the unique potential of the wide-format image, capturing landscapes in a way that reflects the scale and grandeur of the scene as experienced in person. By bringing together a wider field of view, panoramics allow sweeping compositions, dramatic skies and subtle details to work together, creating images that draw the viewer into the landscape and offer a greater sense of place.",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Pano Project",
       "photos": [
         {
