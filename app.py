@@ -218,6 +218,7 @@ DEFAULT_STATE = {
         "about1": "",
         "about2": "",
         "about3": "",
+        "aboutImagePath": "",
         "root": DEFAULT_ROOT,
         "hero": {"album": "loughrigg", "photo": "LoughrigPANO.jpeg"},
         "github": {"user": GITHUB_USER, "repo": GITHUB_REPO},
@@ -336,13 +337,15 @@ button{font-family:inherit;cursor:pointer;}
 .quicklinks-links a:hover{border-color:var(--moss);background:var(--moss);color:var(--moss-ink);}
 
 .quicklinks-groups{display:flex;flex-direction:column;gap:0.6rem;}
-.qgroup summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:0.5rem;border:1px solid var(--line);background:var(--surface-2);color:var(--ink);padding:0.44rem 1.1rem;border-radius:999px;font-size:0.83rem;font-weight:600;}
+.qgroup summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:0.55rem;border:1px solid var(--line);background:var(--surface-2);color:var(--moss);padding:0.5rem 1.15rem;border-radius:999px;font-size:0.92rem;font-weight:700;}
 .qgroup summary::-webkit-details-marker{display:none;}
 .qgroup summary:hover{border-color:var(--moss);}
 .qgroup summary::after{content:"+";font-weight:700;color:var(--ink-soft);}
 .qgroup[open] summary::after{content:"–";}
 .qgroup-count{font-size:0.74rem;color:var(--ink-soft);font-weight:600;}
 .qgroup .quicklinks-links{margin-top:0.7rem;padding-left:0.1rem;}
+.qgroup-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.2rem;margin-top:1.1rem;width:100%;}
+.qgroup-grid .card{aspect-ratio:4/5;}
 
 .hero{position:relative;min-height:clamp(260px,40vh,440px);display:flex;align-items:flex-end;padding:5vw 6vw 2.4rem;background:linear-gradient(180deg, rgba(20,23,18,0.12) 0%, rgba(14,16,12,0.68) 88%), var(--hero-img) center 60%/cover no-repeat;}
 .hero-inner{position:relative;z-index:1;color:#F2F3EC;max-width:46rem;}
@@ -407,6 +410,8 @@ footer{margin-top:3rem;padding:2.4rem 1.4rem 3rem;border-top:1px solid var(--lin
 .contact-form button:hover{opacity:0.9;}
 .contact-fallback{margin-top:1.8rem;font-size:0.98rem;line-height:1.6;}
 .contact-fallback a{color:var(--moss);font-weight:600;text-decoration:underline;text-underline-offset:2px;}
+.about-logo{width:84px;height:84px;border-radius:50%;box-shadow:0 8px 22px -8px rgba(20,24,18,0.35);margin-bottom:1.4rem;background:var(--surface);}
+.about-photo{display:block;width:100%;max-width:22rem;border-radius:10px;box-shadow:var(--shadow);margin:0.4rem 0 1.6rem;}
 
 .lightbox{position:fixed;inset:0;z-index:100;background:var(--overlay);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity 0.2s ease;}
 .lightbox.open{opacity:1;pointer-events:auto;}
@@ -629,6 +634,16 @@ def build_site(state, log=print):
     def pill(a):
         return f'<a href="{a["key"]}/index.html">{esc(a["title"])}</a>'
 
+    def group_card(a):
+        cover = album_covers.get(a["key"], "")
+        n = sum(1 for p in a["photos"] if p.get("include", True))
+        return (
+            f'<a class="card" href="{a["key"]}/index.html">'
+            f'<img src="{cover}" loading="lazy" alt="{esc(a["title"])}">'
+            f'<div class="card-label"><span>{n} photograph{"s" if n != 1 else ""}</span><h3>{esc(a["title"])}</h3></div>'
+            f'</a>'
+        )
+
     if any(a.get("group") for a in nav_albums):
         groups = {}
         for a in nav_albums:
@@ -639,7 +654,7 @@ def build_site(state, log=print):
             group_sections.append(
                 f'<details class="qgroup"><summary>{esc(group_name)} '
                 f'<span class="qgroup-count">{len(group_albums)}</span></summary>'
-                f'<div class="quicklinks-links">{"".join(pill(a) for a in group_albums)}</div></details>'
+                f'<div class="qgroup-grid">{"".join(group_card(a) for a in group_albums)}</div></details>'
             )
         quicklinks = f'<div class="quicklinks-groups">{"".join(group_sections)}</div>'
     else:
@@ -702,10 +717,29 @@ def build_site(state, log=print):
     about_html = "".join(f"<p>{p}</p>" for p in about_paragraphs if p)
     if not about_html:
         about_html = '<p class="contact-fallback">More about me is coming soon.</p>'
+
+    about_photo_html = ""
+    about_image_path = site.get("aboutImagePath")
+    if about_image_path:
+        src = Path(about_image_path)
+        if src.exists():
+            about_img_dir = DOCS_DIR / "about" / "img"
+            about_img_dir.mkdir(parents=True, exist_ok=True)
+            try:
+                photo_bytes, _ = resized_jpeg_bytes(src, 900, 84)
+                (about_img_dir / "photo.jpg").write_bytes(photo_bytes)
+                about_photo_html = '<img class="about-photo" src="img/photo.jpg" alt="A photo for the About page">'
+            except Exception as e:
+                warnings.append(f"Could not process About page photo {src}: {e}")
+        else:
+            warnings.append(f"About page photo missing, skipped: {src}")
+
     about_body = topbar("../") + f'''
 <main>
   <div class="contact-wrap">
+    <img class="about-logo" src="{LOGO_DATA_URI}" alt="{esc(site["title"])} logo" width="84" height="84">
     <h2>About</h2>
+    {about_photo_html}
     {about_html}
   </div>
 </main>
@@ -962,7 +996,17 @@ function renderSiteEditor(){
     '<div class="field"><label>Paragraph 1</label><textarea id="fAbout1" rows="3">' + escHtml(state.site.about1 || '') + '</textarea></div>' +
     '<div class="field"><label>Paragraph 2</label><textarea id="fAbout2" rows="3">' + escHtml(state.site.about2 || '') + '</textarea></div>' +
     '<div class="field"><label>Paragraph 3</label><textarea id="fAbout3" rows="3">' + escHtml(state.site.about3 || '') + '</textarea></div>' +
-    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">These fill your About page (linked from every page). Leave any blank to skip it — you don\\'t need all three.</p>';
+    '<p style="font-size:0.82rem;color:var(--ink-soft);max-width:34rem;">These fill your About page (linked from every page). Leave any blank to skip it — you don\\'t need all three.</p>' +
+    '<div class="field" style="margin-top:1rem;"><label>About page photo (optional)</label>' +
+    (state.site.aboutImagePath ?
+      '<div style="display:flex;align-items:center;gap:0.9rem;margin-top:0.4rem;">' +
+        '<img src="/api/thumb?path=' + encodeURIComponent(state.site.aboutImagePath) + '&size=160" style="width:84px;height:84px;object-fit:cover;border-radius:8px;border:1px solid var(--line);">' +
+        '<div><button id="btnPickAboutImage" type="button">Change photo</button> <button id="btnClearAboutImage" type="button" style="color:#9A3B34;">Remove</button></div>' +
+      '</div>'
+    :
+      '<div style="margin-top:0.4rem;"><button id="btnPickAboutImage" type="button">+ Choose a photo</button></div>'
+    ) +
+    '</div>';
   el.querySelector('#fSiteEyebrow').addEventListener('change', function(e){ state.site.eyebrow = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTitle').addEventListener('change', function(e){ state.site.title = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fSiteTagline').addEventListener('change', function(e){ state.site.tagline = e.target.value; save(); toast('Saved.'); });
@@ -970,6 +1014,24 @@ function renderSiteEditor(){
   el.querySelector('#fAbout1').addEventListener('change', function(e){ state.site.about1 = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fAbout2').addEventListener('change', function(e){ state.site.about2 = e.target.value; save(); toast('Saved.'); });
   el.querySelector('#fAbout3').addEventListener('change', function(e){ state.site.about3 = e.target.value; save(); toast('Saved.'); });
+  el.querySelector('#btnPickAboutImage').addEventListener('click', openAboutImagePicker);
+  var clearBtn = el.querySelector('#btnClearAboutImage');
+  if(clearBtn){ clearBtn.addEventListener('click', function(){ state.site.aboutImagePath = ''; save(); renderSiteEditor(); toast('Photo removed.'); }); }
+}
+
+function openAboutImagePicker(){
+  var panel = document.getElementById('newAlbumPanel');
+  panel.classList.remove('hidden');
+  panel.dataset.mode = 'about-image';
+  panel.dataset.targetKey = '';
+  var startPath = state.site.root;
+  if(state.site.aboutImagePath){
+    var parts = state.site.aboutImagePath.split('/');
+    parts.pop();
+    startPath = parts.join('/');
+  }
+  renderBrowser(panel, startPath);
+  panel.scrollIntoView({behavior:'smooth'});
 }
 
 function renderEditor(){
@@ -1095,17 +1157,23 @@ function renderBrowser(panel, path){
     if(res.images.length){
       html += '<div style="margin-top:0.5rem;font-size:0.82rem;color:var(--ink-soft);">' + res.images.length + ' photo(s) in this folder</div>';
       html += '<div class="pick-list">';
+      var isAboutImage = panel.dataset.mode === 'about-image';
       res.images.forEach(function(img, i){
         var thumbSrc = '/api/thumb?path=' + encodeURIComponent(res.path + '/' + img) + '&size=200';
-        html += '<label><input type="checkbox" class="pickChk" value="' + escAttr(img) + '" checked style="display:none;">' +
-                '<img src="' + thumbSrc + '" loading="lazy">' + escHtml(img.slice(0,14)) + '</label>';
+        if(isAboutImage){
+          html += '<label><input type="radio" name="aboutImgPick" class="pickRadio" value="' + escAttr(img) + '" style="display:none;">' +
+                  '<img src="' + thumbSrc + '" loading="lazy">' + escHtml(img.slice(0,14)) + '</label>';
+        } else {
+          html += '<label><input type="checkbox" class="pickChk" value="' + escAttr(img) + '" checked style="display:none;">' +
+                  '<img src="' + thumbSrc + '" loading="lazy">' + escHtml(img.slice(0,14)) + '</label>';
+        }
       });
       html += '</div>';
       html += '<div class="row" style="margin-top:0.7rem;">' +
         (panel.dataset.mode === 'new' ? '<div class="field"><label>New album title</label><input id="newAlbumTitle" placeholder="e.g. Wastwater"></div>' : '') +
         '</div>' +
         '<button id="btnConfirmAdd" class="primary" style="margin-top:0.4rem;">' +
-          (panel.dataset.mode === 'new' ? 'Create album with selected photos' : 'Add selected photos') +
+          (panel.dataset.mode === 'new' ? 'Create album with selected photos' : (isAboutImage ? 'Use this photo' : 'Add selected photos')) +
         '</button> <button id="btnCancelBrowse">Cancel</button>';
     }
     panel.innerHTML = html;
@@ -1122,6 +1190,16 @@ function renderBrowser(panel, path){
 }
 
 function confirmAddPhotos(panel){
+  if(panel.dataset.mode === 'about-image'){
+    var pickedRadio = panel.querySelector('.pickRadio:checked');
+    if(!pickedRadio){ toast('Select a photo.'); return; }
+    state.site.aboutImagePath = panel.dataset.currentPath + '/' + pickedRadio.value;
+    panel.classList.add('hidden');
+    save();
+    renderSiteEditor();
+    toast('Photo set.');
+    return;
+  }
   var checked = Array.prototype.slice.call(panel.querySelectorAll('.pickChk')).filter(function(c){ return c.checked; }).map(function(c){ return c.value; });
   if(!checked.length){ toast('Select at least one photo.'); return; }
   var path = panel.dataset.currentPath;
