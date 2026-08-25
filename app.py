@@ -20,7 +20,7 @@ Requires: Python 3.9+, Pillow (`pip3 install --user pillow`), and for one-click 
 creation the GitHub CLI (`gh`, already authenticated) — optional, manual setup works too.
 """
 
-import json, os, re, sys, io, shutil, subprocess, threading, webbrowser, hashlib, time
+import json, os, re, sys, io, shutil, subprocess, threading, webbrowser, hashlib, time, socket
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs, unquote
 from pathlib import Path
@@ -47,7 +47,11 @@ STATE_PATH = APP_DIR / "content.json"
 DOCS_DIR = APP_DIR / "docs"
 CACHE_DIR = APP_DIR / ".thumb_cache"
 PORT = int(os.environ.get("PORT", "8765"))
-HOST = "127.0.0.1"  # this Mac only
+# "0.0.0.0" listens on every network interface, not just this Mac, so other devices on
+# the same Wi-Fi/home network (your iMac, iPhone, etc.) can open the curator too — over
+# http://<this-Mac's-name>.local:8765 or http://<this-Mac's-IP>:8765 (both are printed
+# on startup). There's no password, so anything on that same network can reach it.
+HOST = "0.0.0.0"
 
 DEFAULT_ROOT = "/Volumes/Public/Network Photos/PORTFOLIO"
 SITE_TITLE = "Kellyart Photography"
@@ -1447,12 +1451,36 @@ class Handler(BaseHTTPRequestHandler):
         else:
             self._send(404, {"error": "not found"})
 
+def local_lan_ip():
+    """Best-effort guess at this Mac's IP address on the local network. Doesn't actually
+    send any data — just asks the OS which network interface it would use."""
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("8.8.8.8", 80))
+        return s.getsockname()[0]
+    except OSError:
+        return None
+    finally:
+        s.close()
+
+def local_hostname():
+    name = socket.gethostname()
+    return name if name.endswith(".local") else f"{name}.local"
+
 def main():
     load_state()
     server = ThreadingHTTPServer((HOST, PORT), Handler)
-    url = f"http://localhost:{PORT}"
-    print(f"\nKellyart Photography curator running at {url}\n(Ctrl+C to stop)\n")
-    threading.Timer(0.6, lambda: webbrowser.open(url)).start()
+    local_url = f"http://localhost:{PORT}"
+    lan_ip = local_lan_ip()
+    print(f"\nKellyart Photography curator running.\n")
+    print(f"On this Mac:                          {local_url}")
+    print(f"On other devices on the same Wi-Fi:    http://{local_hostname()}:{PORT}")
+    if lan_ip:
+        print(f"  (or, if that doesn't work)           http://{lan_ip}:{PORT}")
+    print(f"\nmacOS may ask, the first time, whether to allow incoming network "
+          f"connections for python3 — click Allow, or other devices won't be able to connect.")
+    print(f"\n(Ctrl+C to stop)\n")
+    threading.Timer(0.6, lambda: webbrowser.open(local_url)).start()
     try:
         server.serve_forever()
     except KeyboardInterrupt:

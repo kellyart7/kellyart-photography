@@ -4,8 +4,8 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\n",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "my-paintings-original-copies",
-      "photo": "cottages.jpeg"
+      "album": "malham",
+      "photo": "cove.jpeg"
     },
     "github": {
       "user": "Kellyart7",
@@ -2271,6 +2271,70 @@
         }
       ],
       "group": "Paintings"
+    },
+    {
+      "key": "malham",
+      "title": "Malham",
+      "blurb": "Malham, Yorkshire\nMalham is a landscape that rewards patience. From the dramatic limestone of Malham Cove to the quiet waters and open spaces of the surrounding Dales, there is always something different to discover.\nThese images explore Malham through light, atmosphere and mood — moments when the familiar landscape takes on a different character. From deep shadows and muted tones to the subtle blues of early morning and evening, the aim is not simply to record the landscape, but to capture how it feels.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Yorkshire/Mlaham",
+      "photos": [
+        {
+          "file": "_MG_0199.jpeg",
+          "caption": "_MG_0199",
+          "include": false
+        },
+        {
+          "file": "cove.jpeg",
+          "caption": "cove",
+          "include": true
+        },
+        {
+          "file": "equipSKY.jpeg",
+          "caption": "Farm Machinery ",
+          "include": true
+        },
+        {
+          "file": "FarmEqPano copy.jpg",
+          "caption": "Barn ",
+          "include": true
+        },
+        {
+          "file": "FarmEqPanoSKY2.jpeg",
+          "caption": "FarmEqPanoSKY2",
+          "include": false
+        },
+        {
+          "file": "farmEquip2.jpeg",
+          "caption": "farmEquip2",
+          "include": false
+        },
+        {
+          "file": "farmEquipment.jpeg",
+          "caption": "farm Equipment",
+          "include": true
+        },
+        {
+          "file": "JanetFoss5.jpeg",
+          "caption": "Janet Foss",
+          "include": true
+        },
+        {
+          "file": "janetsFoss3.jpeg",
+          "caption": "janets Foss colour",
+          "include": true
+        },
+        {
+          "file": "JKBK.jpeg",
+          "caption": "JKBK",
+          "include": false
+        },
+        {
+          "file": "moors.jpeg",
+          "caption": "moors",
+          "include": true
+        }
+      ],
+      "group": "Places"
     }
   ]
 }

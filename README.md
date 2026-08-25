@@ -20,8 +20,19 @@ publish a real multi-page site to GitHub Pages — all from your Mac, whenever y
    ```
    Your Mac's browser opens automatically at `http://localhost:8765`. Leave that
    window open while you use it; close it (Ctrl+C, or just close the Terminal
-   window) when you're done. This only runs on this Mac — it's not reachable from
-   your phone or any other device.
+   window) when you're done.
+
+   Other devices on the same Wi-Fi (your iMac, iPhone, etc.) can use it too — the
+   Terminal window prints the address to use, e.g. `http://kellys-macbook.local:8765`
+   (if that doesn't load, it also prints a plain IP address like `http://192.168.1.23:8765`
+   as a backup — this one can change from time to time, the `.local` address usually
+   won't). The app still only runs while it's running on this Mac; the other devices are
+   just opening it in a browser, the same as any website.
+
+   The first time you do this, macOS will likely ask whether to allow incoming network
+   connections for `python3` — click **Allow**, or other devices won't be able to reach
+   it. There's no password on the curator, so anything else on the same Wi-Fi network
+   could open it too — fine for a normal home network, but worth knowing.
 
 3. **First publish** — click **Publish**. Since you already have `git`/`gh`
    authenticated on this Mac, the app will:
