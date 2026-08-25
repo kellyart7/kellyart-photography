@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Kelly Art Photography",
-    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\nPainting in oils and acrylics is a true passion of mine. I enjoy studying and recreating the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work. For me, painting is a continual journey of creativity, learning and personal expression.",
+    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\n",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
       "album": "my-paintings-original-copies",
@@ -12,10 +12,10 @@
       "repo": "kellyart-photography"
     },
     "eyebrow": "Landscapes",
-    "featuredIntro": "Special captured moments in time on my travels",
+    "featuredIntro": "Painting in oils and acrylics is a true passion of mine. I enjoy studying and recreating the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work. For me, painting is a continual journey of creativity, learning and personal expression.",
     "about1": "My Philosophy ",
     "about2": "My photography is rooted in an authentic and natural way of seeing the world. I aim to capture moments, landscapes and details as they genuinely appear, while allowing light, atmosphere and composition to shape the final image. Influenced by the balance, mood and timeless quality of fine art paintings, I strive to create photographs that are not simply records of a moment, but images that invite reflection and evoke a sense of beauty, emotion and place.",
-    "about3": "Special mention ",
+    "about3": "I have also upload some examples of my attempt at reproducing some Fine Art paintings.  Not something I do much anymore...",
     "aboutImagePath": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Portraites/John/JKVanGogh.jpg"
   },
   "albums": [
@@ -78,301 +78,6 @@
           "file": "BleaTarn06_98.jpeg",
           "caption": "BleaTarn06_98",
           "include": true
-        },
-        {
-          "file": "buttermere copy.jpg",
-          "caption": "buttermere copy",
-          "include": false
-        },
-        {
-          "file": "Buttermere1.jpg",
-          "caption": "Buttermere1",
-          "include": false
-        },
-        {
-          "file": "ButtermereLoneTree.jpeg",
-          "caption": "ButtermereLoneTree",
-          "include": false
-        },
-        {
-          "file": "buttermererockmist.jpeg",
-          "caption": "buttermererockmist",
-          "include": false
-        },
-        {
-          "file": "buttermereTreeframe.jpeg",
-          "caption": "buttermereTreeframe",
-          "include": false
-        },
-        {
-          "file": "Buttermerewateerfall copy.jpg",
-          "caption": "Buttermerewateerfall copy",
-          "include": false
-        },
-        {
-          "file": "classicfence.jpg",
-          "caption": "classicfence",
-          "include": false
-        },
-        {
-          "file": "CrummockWater copy.jpg",
-          "caption": "CrummockWater copy",
-          "include": false
-        },
-        {
-          "file": "CrummokPano copy.jpg",
-          "caption": "CrummokPano copy",
-          "include": false
-        },
-        {
-          "file": "CrummokTreeframe copy.jpg",
-          "caption": "CrummokTreeframe copy",
-          "include": false
-        },
-        {
-          "file": "knarleyTree.jpg",
-          "caption": "knarleyTree",
-          "include": false
-        },
-        {
-          "file": "LoneButttermereTree.jpeg",
-          "caption": "LoneButttermereTree",
-          "include": false
-        },
-        {
-          "file": "LoneTreeL.jpeg",
-          "caption": "LoneTreeL",
-          "include": false
-        },
-        {
-          "file": "LTree copy.jpg",
-          "caption": "LTree copy",
-          "include": false
-        },
-        {
-          "file": "_MG_0235.jpeg",
-          "caption": "_MG_0235",
-          "include": false
-        },
-        {
-          "file": "_MG_0245.jpeg",
-          "caption": "_MG_0245",
-          "include": false
-        },
-        {
-          "file": "_MG_0249.jpeg",
-          "caption": "_MG_0249",
-          "include": false
-        },
-        {
-          "file": "_MG_0250.jpeg",
-          "caption": "_MG_0250",
-          "include": false
-        },
-        {
-          "file": "_MG_0266.jpeg",
-          "caption": "_MG_0266",
-          "include": false
-        },
-        {
-          "file": "_MG_0269.jpeg",
-          "caption": "_MG_0269",
-          "include": false
-        },
-        {
-          "file": "_MG_0276.jpeg",
-          "caption": "_MG_0276",
-          "include": false
-        },
-        {
-          "file": "_MG_0315.jpeg",
-          "caption": "_MG_0315",
-          "include": false
-        },
-        {
-          "file": "Bridge-Pano copy.jpg",
-          "caption": "Bridge-Pano copy",
-          "include": false
-        },
-        {
-          "file": "Derwantsmallpanay.jpeg",
-          "caption": "Derwantsmallpanay",
-          "include": false
-        },
-        {
-          "file": "Derwent bridge copy.jpeg",
-          "caption": "Derwent bridge copy",
-          "include": false
-        },
-        {
-          "file": "KeswickHDR.jpeg",
-          "caption": "KeswickHDR",
-          "include": false
-        },
-        {
-          "file": "AutumnReflections.jpeg",
-          "caption": "AutumnReflections",
-          "include": false
-        },
-        {
-          "file": "CowsonBeach.jpg",
-          "caption": "CowsonBeach",
-          "include": false
-        },
-        {
-          "file": "Grasses.jpg",
-          "caption": "Grasses",
-          "include": false
-        },
-        {
-          "file": "IMG_7468.jpeg",
-          "caption": "IMG_7468",
-          "include": false
-        },
-        {
-          "file": "IMG_7484.jpeg",
-          "caption": "IMG_7484",
-          "include": true
-        },
-        {
-          "file": "IMG_7487.jpeg",
-          "caption": "IMG_7487",
-          "include": true
-        },
-        {
-          "file": "JKRGElterWater.jpeg",
-          "caption": "JKRGElterWater",
-          "include": true
-        },
-        {
-          "file": "LangdalesPano.jpeg",
-          "caption": "LangdalesPano",
-          "include": true
-        },
-        {
-          "file": "LangdalesPanoBlur.jpg",
-          "caption": "LangdalesPanoBlur",
-          "include": true
-        },
-        {
-          "file": "LangdalesTreeframe.jpeg",
-          "caption": "LangdalesTreeframe",
-          "include": false
-        },
-        {
-          "file": "redMushMerge.jpeg",
-          "caption": "redMushMerge",
-          "include": false
-        },
-        {
-          "file": "RedMushrooms copy.jpg",
-          "caption": "RedMushrooms copy",
-          "include": false
-        },
-        {
-          "file": "SQBratheySnowy.jpeg",
-          "caption": "SQBratheySnowy",
-          "include": false
-        },
-        {
-          "file": "sqRothay.jpeg",
-          "caption": "sqRothay",
-          "include": false
-        },
-        {
-          "file": "sunrays.jpeg",
-          "caption": "sunrays",
-          "include": false
-        },
-        {
-          "file": "TreeShadowinSnow.jpg",
-          "caption": "TreeShadowinSnow",
-          "include": false
-        },
-        {
-          "file": "TreeShadowsBrath.jpeg",
-          "caption": "TreeShadowsBrath",
-          "include": false
-        },
-        {
-          "file": "WhatsitallaboutBenji.jpeg",
-          "caption": "WhatsitallaboutBenji",
-          "include": false
-        },
-        {
-          "file": "BenjiRGfetch.jpeg",
-          "caption": "BenjiRGfetch",
-          "include": false
-        },
-        {
-          "file": "BWvillage.jpeg",
-          "caption": "BWvillage",
-          "include": true
-        },
-        {
-          "file": "grasmereCottage copy.jpg",
-          "caption": "grasmereCottage copy",
-          "include": true
-        },
-        {
-          "file": "GrassmereGold.jpeg",
-          "caption": "GrassmereGold",
-          "include": true
-        },
-        {
-          "file": "GrassmereIsland.jpeg",
-          "caption": "GrassmereIsland",
-          "include": true
-        },
-        {
-          "file": "GrassmereSeagull.jpeg",
-          "caption": "GrassmereSeagull",
-          "include": true
-        },
-        {
-          "file": "whitehouse.jpeg",
-          "caption": "whitehouse",
-          "include": false
-        },
-        {
-          "file": "169lake.jpeg",
-          "caption": "169lake",
-          "include": false
-        },
-        {
-          "file": "_MG_2198.jpeg",
-          "caption": "_MG_2198",
-          "include": false
-        },
-        {
-          "file": "_MG_2246.jpeg",
-          "caption": "_MG_2246",
-          "include": false
-        },
-        {
-          "file": "_MG_2248.jpeg",
-          "caption": "_MG_2248",
-          "include": false
-        },
-        {
-          "file": "_MG_2270.jpeg",
-          "caption": "_MG_2270",
-          "include": false
-        },
-        {
-          "file": "_MG_2286.jpeg",
-          "caption": "_MG_2286",
-          "include": false
-        },
-        {
-          "file": "HawswaterPANO.jpeg",
-          "caption": "HawswaterPANO",
-          "include": false
-        },
-        {
-          "file": "RockLake.jpeg",
-          "caption": "RockLake",
-          "include": false
         }
       ],
       "group": "The Lake District"
@@ -981,7 +686,7 @@
         {
           "file": "Allyway.jpeg",
           "caption": "Ally way",
-          "include": true
+          "include": false
         },
         {
           "file": "BAHousseFA.jpeg",
@@ -1006,7 +711,7 @@
         {
           "file": "BWfog.jpeg",
           "caption": "Foggy view",
-          "include": true
+          "include": false
         },
         {
           "file": "BWMerseyEstury.jpeg",
@@ -1547,206 +1252,6 @@
           "file": "YForest.jpeg",
           "caption": "Cool",
           "include": true
-        },
-        {
-          "file": "BBcloseup copy.jpeg",
-          "caption": "BBcloseup copy",
-          "include": false
-        },
-        {
-          "file": "BBcloseup copy.jpg",
-          "caption": "BBcloseup copy",
-          "include": false
-        },
-        {
-          "file": "BBellsHarshSun copy.jpeg",
-          "caption": "BBellsHarshSun copy",
-          "include": false
-        },
-        {
-          "file": "BBellsHarshSun copy.jpg",
-          "caption": "BBellsHarshSun copy",
-          "include": false
-        },
-        {
-          "file": "BBfallentree copy.jpeg",
-          "caption": "BBfallentree copy",
-          "include": false
-        },
-        {
-          "file": "BBfallentree copy.jpg",
-          "caption": "BBfallentree copy",
-          "include": false
-        },
-        {
-          "file": "BBfallentree3712.jpeg",
-          "caption": "BBfallentree3712",
-          "include": false
-        },
-        {
-          "file": "BBwoodssq copy.jpeg",
-          "caption": "BBwoodssq copy",
-          "include": false
-        },
-        {
-          "file": "BBwoodssq copy.jpg",
-          "caption": "BBwoodssq copy",
-          "include": false
-        },
-        {
-          "file": "BBwoodssq.jpeg",
-          "caption": "BBwoodssq",
-          "include": false
-        },
-        {
-          "file": "BlueBellsTreeFrame copy.jpeg",
-          "caption": "BlueBellsTreeFrame copy",
-          "include": false
-        },
-        {
-          "file": "BlueBellsTreeFrame copy.jpg",
-          "caption": "BlueBellsTreeFrame copy",
-          "include": false
-        },
-        {
-          "file": "BlueBellsTreeFrame.jpeg",
-          "caption": "BlueBellsTreeFrame",
-          "include": false
-        },
-        {
-          "file": "BlueBellsTreeFrame3712.jpeg",
-          "caption": "BlueBellsTreeFrame3712",
-          "include": false
-        },
-        {
-          "file": "bluebelltrak.jpeg",
-          "caption": "bluebelltrak",
-          "include": false
-        },
-        {
-          "file": "BluebellValley copy.jpeg",
-          "caption": "BluebellValley copy",
-          "include": false
-        },
-        {
-          "file": "BluebellValley copy.jpg",
-          "caption": "BluebellValley copy",
-          "include": false
-        },
-        {
-          "file": "BluebirdSheepFrame copy.jpeg",
-          "caption": "BluebirdSheepFrame copy",
-          "include": false
-        },
-        {
-          "file": "BluebirdSheepFrame copy.jpg",
-          "caption": "BluebirdSheepFrame copy",
-          "include": false
-        },
-        {
-          "file": "framedsheep.jpeg",
-          "caption": "framedsheep",
-          "include": false
-        },
-        {
-          "file": "PathPanoBlueBells copy.jpeg",
-          "caption": "PathPanoBlueBells copy",
-          "include": false
-        },
-        {
-          "file": "PathPanoBlueBells copy.jpg",
-          "caption": "PathPanoBlueBells copy",
-          "include": false
-        },
-        {
-          "file": "PathPanoBlueBells.jpeg",
-          "caption": "PathPanoBlueBells",
-          "include": false
-        },
-        {
-          "file": "PaththruBluebells copy.jpg",
-          "caption": "PaththruBluebells copy",
-          "include": false
-        },
-        {
-          "file": "PaththruBluebells.jpeg",
-          "caption": "PaththruBluebells",
-          "include": false
-        },
-        {
-          "file": "SheepovertheFence.jpeg",
-          "caption": "SheepovertheFence",
-          "include": false
-        },
-        {
-          "file": "SpringBluebella3 copy.jpeg",
-          "caption": "SpringBluebella3 copy",
-          "include": false
-        },
-        {
-          "file": "SpringBluebella3 copy.jpg",
-          "caption": "SpringBluebella3 copy",
-          "include": false
-        },
-        {
-          "file": "SpringBluebella3.jpeg",
-          "caption": "SpringBluebella3",
-          "include": false
-        },
-        {
-          "file": "SpringBluebella3712.jpeg",
-          "caption": "SpringBluebella3712",
-          "include": true
-        },
-        {
-          "file": "SubdudeWoods copy.jpg",
-          "caption": "SubdudeWoods copy",
-          "include": true
-        },
-        {
-          "file": "WGarlicBluebells copy.jpeg",
-          "caption": "WGarlicBluebells copy",
-          "include": true
-        },
-        {
-          "file": "WGarlicBluebells copy.jpg",
-          "caption": "WGarlicBluebells copy",
-          "include": false
-        },
-        {
-          "file": "whiteFlowers.jpeg",
-          "caption": "whiteFlowers",
-          "include": false
-        },
-        {
-          "file": "WMossBluebells copy.jpg",
-          "caption": "WMossBluebells copy",
-          "include": false
-        },
-        {
-          "file": "GTHarwardLoneTree.jpeg",
-          "caption": "GTHarwardLoneTree",
-          "include": false
-        },
-        {
-          "file": "HiTherejpeg.jpeg",
-          "caption": "HiTherejpeg",
-          "include": false
-        },
-        {
-          "file": "LoneTreeHarwoodwide.jpeg",
-          "caption": "LoneTreeHarwoodwide",
-          "include": false
-        },
-        {
-          "file": "MyDomain.jpeg",
-          "caption": "MyDomain",
-          "include": false
-        },
-        {
-          "file": "YewOK.jpeg",
-          "caption": "YewOK",
-          "include": false
         }
       ],
       "group": "Woodland Photograpy"
@@ -1780,7 +1285,7 @@
         {
           "file": "FullLoughriggTarn copy.jpg",
           "caption": "LoughriggTarn",
-          "include": true
+          "include": false
         },
         {
           "file": "goldenski.heic",
@@ -1790,12 +1295,12 @@
         {
           "file": "HenleyBeach.jpeg",
           "caption": "Henley Beach",
-          "include": true
+          "include": false
         },
         {
           "file": "Holywalk.jpeg",
           "caption": "Holy Island walk",
-          "include": false
+          "include": true
         },
         {
           "file": "kricthberg.jpeg",
@@ -1805,7 +1310,7 @@
         {
           "file": "KritchburgLearningSlope.jpeg",
           "caption": "Kritchburg Learning Slope",
-          "include": true
+          "include": false
         },
         {
           "file": "LandsEndLighthouse copy.jpeg",
@@ -1826,7 +1331,7 @@
         },
         {
           "file": "LoufriggTarnPano copy.jpg",
-          "caption": "Loufrigg Tarn",
+          "caption": "Loughrig Tarn",
           "include": true
         },
         {
@@ -1894,7 +1399,7 @@
         {
           "file": "skopoles.jpg",
           "caption": "Skopoles",
-          "include": true
+          "include": false
         },
         {
           "file": "snowdonfromAngelsey.jpeg",
@@ -1939,7 +1444,7 @@
         {
           "file": "TarnPano1234.jpeg",
           "caption": "Tarn Pano",
-          "include": true
+          "include": false
         },
         {
           "file": "TarnPanoclean.jpg",
@@ -2453,101 +1958,6 @@
           "file": "PadstowPano copy.jpg",
           "caption": "Padstow Pano",
           "include": true
-        },
-        {
-          "file": "3boatsFA copy.jpg",
-          "caption": "3boatsFA copy",
-          "include": true
-        },
-        {
-          "file": "3ships copy.jpg",
-          "caption": "3ships copy",
-          "include": true
-        },
-        {
-          "file": "BatsLighthouse copy.jpg",
-          "caption": "BatsLighthouse copy",
-          "include": true
-        },
-        {
-          "file": "BayBoats copy.jpg",
-          "caption": "BayBoats copy",
-          "include": true
-        },
-        {
-          "file": "BeachedBoatsIsIves copy.jpg",
-          "caption": "BeachedBoatsIsIves copy",
-          "include": true
-        },
-        {
-          "file": "BenjistIves copy.jpg",
-          "caption": "BenjistIves copy",
-          "include": true
-        },
-        {
-          "file": "boats.jpg",
-          "caption": "boats",
-          "include": true
-        },
-        {
-          "file": "BRGStIves copy.jpg",
-          "caption": "BRGStIves copy",
-          "include": true
-        },
-        {
-          "file": "RGBBoatStIves copy.jpg",
-          "caption": "RGBBoatStIves copy",
-          "include": true
-        },
-        {
-          "file": "RGBStIves.jpg",
-          "caption": "RGBStIves",
-          "include": true
-        },
-        {
-          "file": "StIvesBeachBum copy.jpg",
-          "caption": "StIvesBeachBum copy",
-          "include": true
-        },
-        {
-          "file": "boattryip.jpg",
-          "caption": "boattryip",
-          "include": true
-        },
-        {
-          "file": "RGBenjiStMicksM copy.jpg",
-          "caption": "RGBenjiStMicksM copy",
-          "include": true
-        },
-        {
-          "file": "RGBenjiSTMiichealsMountA4.jpg",
-          "caption": "RGBenjiSTMiichealsMountA4",
-          "include": true
-        },
-        {
-          "file": "RoseBenjiStMichealMount copy.jpg",
-          "caption": "RoseBenjiStMichealMount copy",
-          "include": true
-        },
-        {
-          "file": "StMichealsMountlonefigure copy.jpg",
-          "caption": "StMichealsMountlonefigure copy",
-          "include": true
-        },
-        {
-          "file": "stMicks copy.jpg",
-          "caption": "stMicks copy",
-          "include": true
-        },
-        {
-          "file": "stMicksHydranger copy.jpg",
-          "caption": "stMicksHydranger copy",
-          "include": true
-        },
-        {
-          "file": "warmBWStMicheals.jpg",
-          "caption": "warmBWStMicheals",
-          "include": true
         }
       ],
       "group": "Cornwall"
@@ -2561,7 +1971,7 @@
         {
           "file": "3boatsFA copy.jpg",
           "caption": "3 boats",
-          "include": false
+          "include": true
         },
         {
           "file": "3ships copy.jpg",
@@ -2652,7 +2062,7 @@
         {
           "file": "stMicks copy.jpg",
           "caption": "St Michael’s Mount ",
-          "include": false
+          "include": true
         },
         {
           "file": "stMicksHydranger copy.jpg",
@@ -2702,7 +2112,7 @@
         {
           "file": "bridgeparis.jpeg",
           "caption": "Water Lilies Bridge Monet",
-          "include": true
+          "include": false
         },
         {
           "file": "ceszan.jpeg",
@@ -2717,7 +2127,7 @@
         {
           "file": "dancers.jpeg",
           "caption": "Ballet dancers Degas",
-          "include": true
+          "include": false
         },
         {
           "file": "degaNY.jpeg",
@@ -2727,22 +2137,22 @@
         {
           "file": "Esher copy.jpg",
           "caption": "Esher ",
-          "include": true
+          "include": false
         },
         {
           "file": "FloranceGawley copy.jpg",
           "caption": "Florance JK",
-          "include": true
+          "include": false
         },
         {
           "file": "Gardensouthern.jpeg",
           "caption": "Gardens at Arles Van Gogh",
-          "include": true
+          "include": false
         },
         {
           "file": "GirlChairmirror.jpeg",
           "caption": "Girl Chair mirror",
-          "include": true
+          "include": false
         },
         {
           "file": "GreenSunflower.jpeg",
@@ -2752,12 +2162,12 @@
         {
           "file": "JKBeachHut.jpeg",
           "caption": "BeachHut JK",
-          "include": true
+          "include": false
         },
         {
           "file": "JKKnarsborugh.jpeg",
           "caption": "Knarsborugh JK",
-          "include": true
+          "include": false
         },
         {
           "file": "JKLakeDistrict.jpeg",
@@ -2797,12 +2207,12 @@
         {
           "file": "RoseDad.JPG",
           "caption": "Mr Ainsworth JK",
-          "include": true
+          "include": false
         },
         {
           "file": "SpanishHouse.jpg",
           "caption": "Spanish House JK",
-          "include": true
+          "include": false
         },
         {
           "file": "StarryNight copy.jpg",
