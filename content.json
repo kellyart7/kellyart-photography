@@ -2349,7 +2349,7 @@
         },
         {
           "file": "CloseUpClouds.jpeg",
-          "caption": "CloseUpClouds",
+          "caption": "Our Moon covering our Star",
           "include": true
         },
         {
@@ -2360,23 +2360,25 @@
         {
           "file": "lythamEclipse1 copy.jpeg",
           "caption": "Lytham Eclipse 2026",
+          "include": false,
+          "featured": false,
+          "story": "Unforgettable experience never to be forgotten. A composite image capturing the emotion of the day"
+        },
+        {
+          "file": "pierComposite.jpeg",
+          "caption": "Composite from the day",
           "include": true,
           "featured": true,
           "story": "Unforgettable experience never to be forgotten. A composite image capturing the emotion of the day"
         },
         {
-          "file": "pierComposite.jpeg",
-          "caption": "pierComposite",
-          "include": true
-        },
-        {
           "file": "Sequence colour.jpeg",
-          "caption": "Sequence colour",
+          "caption": "SequenceMoon-Sunset",
           "include": true
         },
         {
           "file": "Tme Blend.jpeg",
-          "caption": "Tme Blend",
+          "caption": "Time Blend",
           "include": true
         }
       ],
