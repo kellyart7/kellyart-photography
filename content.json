@@ -4,8 +4,8 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\n",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "malham",
-      "photo": "cove.jpeg"
+      "album": "st-annes-partial-eclipse-2026",
+      "photo": "CloseUpClouds.jpeg"
     },
     "github": {
       "user": "Kellyart7",
@@ -2335,6 +2335,52 @@
         }
       ],
       "group": "Places"
+    },
+    {
+      "key": "st-annes-partial-eclipse-2026",
+      "title": "St Annes Partial Eclipse 2026",
+      "blurb": "Lytham St Annes – Partial Solar Eclipse, 2026\nOn a clear August evening, the skies above beach became the stage for one of nature’s most extraordinary spectacles: the partial solar eclipse of 2026.\nAs the Moon slowly moved across the face of the Sun, the familiar coastal light began to change. For a brief period, the landscape took on an unusual atmosphere — a subtle reminder of the immense scale and movement of our solar system.\nPhotographing the eclipse from the Lancashire coast was a challenge in timing, preparation and patience. Thses images captures a fleeting alignment between the Earth, Moon and Sun — a moment that will not be repeated in quite the same way.\nFor me, it was more than simply photographing an astronomical event. It was an opportunity to combine two lifelong interests: photography and the wonder of the universe.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Night and ASTRO/Partical Eclipse",
+      "photos": [
+        {
+          "file": "blended.jpeg",
+          "caption": "blended",
+          "include": false
+        },
+        {
+          "file": "CloseUpClouds.jpeg",
+          "caption": "CloseUpClouds",
+          "include": true
+        },
+        {
+          "file": "comp.jpeg",
+          "caption": "comp",
+          "include": false
+        },
+        {
+          "file": "lythamEclipse1 copy.jpeg",
+          "caption": "Lytham Eclipse 2026",
+          "include": true,
+          "featured": true,
+          "story": "Unforgettable experience never to be forgotten. A composite image capturing the emotion of the day"
+        },
+        {
+          "file": "pierComposite.jpeg",
+          "caption": "pierComposite",
+          "include": true
+        },
+        {
+          "file": "Sequence colour.jpeg",
+          "caption": "Sequence colour",
+          "include": true
+        },
+        {
+          "file": "Tme Blend.jpeg",
+          "caption": "Tme Blend",
+          "include": true
+        }
+      ],
+      "group": "Project work"
     }
   ]
 }
