@@ -4,8 +4,8 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\n",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "st-annes-partial-eclipse-2026",
-      "photo": "CloseUpClouds.jpeg"
+      "album": "blea-tarn",
+      "photo": "Blea Tarn.jpeg"
     },
     "github": {
       "user": "Kellyart7",
@@ -105,25 +105,25 @@
         },
         {
           "file": "buttermereTreeframe.jpeg",
-          "caption": "Framed by lakeside trees",
+          "caption": "Framed lakeside",
           "include": true,
           "featured": true,
           "story": "A sense of depth here framing the water with two grand trees"
         },
         {
           "file": "classicfence.jpg",
-          "caption": "The classic fence line",
+          "caption": "The classic fence vista",
           "include": true
         },
         {
           "file": "CrummokPano copy.jpg",
-          "caption": "Panoramic Vies",
+          "caption": "Full Panoramic View",
           "include": true,
           "featured": false
         },
         {
           "file": "knarleyTree.jpg",
-          "caption": "Lakeside tree",
+          "caption": "Lakeside routed tree",
           "include": true
         },
         {
@@ -133,7 +133,7 @@
         },
         {
           "file": "Buttermere1.jpg",
-          "caption": "Buttermere",
+          "caption": "Buttermere shore",
           "include": true
         },
         {
@@ -143,7 +143,7 @@
         },
         {
           "file": "CrummockWater copy.jpg",
-          "caption": "Path",
+          "caption": "Lakeside Path",
           "include": true
         },
         {
@@ -153,7 +153,7 @@
         },
         {
           "file": "LoneTreeL.jpeg",
-          "caption": "Lone Tree",
+          "caption": "Lone Tree with a misted Fleetwith Pike",
           "include": true
         },
         {
@@ -172,12 +172,12 @@
       "photos": [
         {
           "file": "Bridge-Pano copy.jpg",
-          "caption": "Bridge panorama",
+          "caption": "Stunning Bridge Surprise ",
           "include": true
         },
         {
           "file": "KeswickHDR.jpeg",
-          "caption": "Keswick Dramatic shoreline",
+          "caption": "Keswick Drama",
           "include": true
         },
         {
@@ -187,7 +187,7 @@
         },
         {
           "file": "_MG_0250.jpeg",
-          "caption": "Along the shore",
+          "caption": "River Derwent",
           "include": true
         },
         {
@@ -199,7 +199,7 @@
         },
         {
           "file": "_MG_0315.jpeg",
-          "caption": "Fells study",
+          "caption": "Keswick Fells ",
           "include": true
         }
       ],
@@ -242,7 +242,7 @@
         },
         {
           "file": "SQBratheySnowy.jpeg",
-          "caption": "Brathay in snow",
+          "caption": "River Brathay snowbound ",
           "include": true
         },
         {
@@ -252,7 +252,7 @@
         },
         {
           "file": "TreeShadowsBrath.jpeg",
-          "caption": "Tree shadows, Brathay",
+          "caption": "Shadows",
           "include": true
         }
       ],
@@ -312,12 +312,12 @@
         },
         {
           "file": "169lake.jpeg",
-          "caption": "Wide lake view",
+          "caption": "Panoramic sun-drenched valley ",
           "include": true
         },
         {
           "file": "RockLake.jpeg",
-          "caption": "Rock shoreline",
+          "caption": "Rocky shoreline",
           "include": true
         },
         {
@@ -334,7 +334,7 @@
         },
         {
           "file": "_MG_2286.jpeg",
-          "caption": "Haweswater study",
+          "caption": "Haweswater small water beck",
           "include": true
         }
       ],
@@ -409,7 +409,7 @@
         },
         {
           "file": "RydalLoneTreeBW.jpeg",
-          "caption": "Lone tree, black and white",
+          "caption": "Rydal waters Lone tree",
           "include": true
         },
         {
@@ -460,7 +460,7 @@
         },
         {
           "file": "TarnHowsGoldenL (1).jpg",
-          "caption": "Golden light",
+          "caption": "Golden Peaks",
           "include": true
         },
         {
@@ -489,7 +489,7 @@
       "photos": [
         {
           "file": "_MG_0527-Enhanced-NR.jpg",
-          "caption": "Thirlmere in the rain",
+          "caption": "Wet wet wet Thirlmere ",
           "include": true
         },
         {
@@ -519,7 +519,7 @@
         },
         {
           "file": "yellowSplashtree.jpeg",
-          "caption": "Autumn tree, yellow splash",
+          "caption": "Yellow splash",
           "include": true
         }
       ],
@@ -562,12 +562,12 @@
       "photos": [
         {
           "file": "bam.jpeg",
-          "caption": "Bamburgh Castle grass",
+          "caption": "Bamburgh Castle long grass",
           "include": true
         },
         {
           "file": "Banburg copy.jpg",
-          "caption": "Bamburgh Castle river",
+          "caption": "Bamburgh river",
           "include": true
         },
         {
@@ -582,19 +582,19 @@
         },
         {
           "file": "Banburgdetail copy.jpg",
-          "caption": "Bamburgh Castle ",
+          "caption": "Awesome Bamburgh Castle ",
           "include": true
         },
         {
           "file": "BanburgHolyWalk.jpg",
-          "caption": "Romantic walk",
+          "caption": "Romantic stroll ",
           "include": true,
           "featured": true,
           "story": "42"
         },
         {
           "file": "BanburgPath copy.jpg",
-          "caption": "Bamburgh Castle more paths",
+          "caption": "Bamburgh Castle inviting paths",
           "include": true
         },
         {
@@ -604,7 +604,7 @@
         },
         {
           "file": "beachLayerCastle copy.jpg",
-          "caption": "Bamburgh Castle dune",
+          "caption": "Bamburgh Castle sanddunes",
           "include": true
         },
         {
@@ -614,12 +614,12 @@
         },
         {
           "file": "CastleHI copy.jpg",
-          "caption": "Holy Island ",
+          "caption": "Holy Island boats",
           "include": true
         },
         {
           "file": "GrassforegroundCastle copy.jpg",
-          "caption": "GrassforegroundCastle copy",
+          "caption": "Grassy Dunes",
           "include": true
         },
         {
@@ -675,7 +675,7 @@
         },
         {
           "file": "AbbeySideViewBW.jpeg",
-          "caption": "Fountains Ruin",
+          "caption": "Fountains abbey Ruin",
           "include": true
         },
         {
@@ -695,7 +695,7 @@
         },
         {
           "file": "BentTreeTarn copy.jpeg",
-          "caption": "Bowing tree",
+          "caption": "Bowing to the Tarn",
           "include": true
         },
         {
@@ -740,7 +740,7 @@
         },
         {
           "file": "FApumphouse.jpeg",
-          "caption": "Liverpool pumphouse",
+          "caption": "The Pumphouse",
           "include": true
         },
         {
@@ -750,7 +750,7 @@
         },
         {
           "file": "GatetotheWoods.jpeg",
-          "caption": "Gate to the Woods",
+          "caption": "Gate to the Woods at Dean Clough",
           "include": true
         },
         {
@@ -760,7 +760,7 @@
         },
         {
           "file": "grandSquare.jpeg",
-          "caption": "The Grand Square",
+          "caption": "The Grand Square Venice",
           "include": true
         },
         {
@@ -830,7 +830,7 @@
         },
         {
           "file": "Paddys2.jpeg",
-          "caption": "Paddys2",
+          "caption": "LiverpoolCathedral ",
           "include": true
         },
         {
@@ -855,7 +855,7 @@
         },
         {
           "file": "PHillSummit FA.jpeg",
-          "caption": "Pendel Hill ",
+          "caption": "Pendle Hill summit joy",
           "include": true
         },
         {
@@ -885,7 +885,7 @@
         },
         {
           "file": "RGRubyWoodsFA.jpeg",
-          "caption": "Woodland walks",
+          "caption": "Woodlands walks",
           "include": true,
           "featured": true,
           "story": "Canine therapy"
@@ -931,12 +931,12 @@
     {
       "key": "northern-lights",
       "title": "Northern Lights",
-      "blurb": "All original Skys captured from my garden in Accrington.  Some foregrounds have been added from my own my portfolio for fun, imaging what it would have looked like ",
+      "blurb": "All original Skys captured from my garden in Accrington.  Some foregrounds have been added from my own my portfolio for fun, imaging what it would have looked like around the area",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Night and ASTRO/AURORA",
       "photos": [
         {
           "file": "AuroraAccy.jpeg",
-          "caption": "Beams",
+          "caption": "Beaming Plasma in Accrington ",
           "include": true
         },
         {
@@ -951,7 +951,7 @@
         },
         {
           "file": "AuroraLytham copy.jpg",
-          "caption": "Aurora Lytham composit ",
+          "caption": "Aurora Lytham composite ",
           "include": true
         },
         {
@@ -961,12 +961,12 @@
         },
         {
           "file": "backgardenAroura.jpg",
-          "caption": "backgarden Aroura",
+          "caption": "Back garden Angel",
           "include": true
         },
         {
           "file": "BigDipperArora copy.jpg",
-          "caption": "Big Dipper",
+          "caption": "Big Dipper cluster",
           "include": true
         },
         {
@@ -986,7 +986,7 @@
         },
         {
           "file": "IMG_7501-Enhanced-NR copy-1.jpeg",
-          "caption": "Angels ",
+          "caption": "Multicoloured Angles in the Skys ",
           "include": true
         },
         {
@@ -1006,7 +1006,7 @@
         },
         {
           "file": "KingStAurora copy.jpg",
-          "caption": "King St Aurora composite ",
+          "caption": "Whalley composite ",
           "include": true
         },
         {
@@ -1021,7 +1021,7 @@
         },
         {
           "file": "PendleHill copy.jpg",
-          "caption": "PendleHill",
+          "caption": "Pendle Hill composite ",
           "include": true
         },
         {
@@ -1036,7 +1036,7 @@
         },
         {
           "file": "Polisis Green copy.jpeg",
-          "caption": "Polisis ",
+          "caption": "Polaris the star of the north",
           "include": true
         },
         {
@@ -1066,7 +1066,7 @@
         },
         {
           "file": "VerticalVid.jpg",
-          "caption": "Partical burst",
+          "caption": "Partical bursting allover ",
           "include": true
         },
         {
@@ -1076,12 +1076,12 @@
         },
         {
           "file": "WhalleyAurora copy.jpg",
-          "caption": "Whalley Aurora ",
+          "caption": "Whalley village  Aurora ",
           "include": true
         },
         {
           "file": "WindermereAuroraSelfi copy.jpg",
-          "caption": "Windermere Aurora",
+          "caption": "Windermere Aurora composite ",
           "include": true
         }
       ],
@@ -1105,7 +1105,7 @@
         },
         {
           "file": "autum fall.jpeg",
-          "caption": "autum fall",
+          "caption": "Autumn fall",
           "include": true
         },
         {
@@ -1115,14 +1115,14 @@
         },
         {
           "file": "AutumnOrange copy.jpg",
-          "caption": "Autumn Orange ",
+          "caption": "Autumn Orange extravaganza ",
           "include": true,
           "featured": true,
           "story": "Spectacular display"
         },
         {
           "file": "benchView copy.jpg",
-          "caption": "The bench awaits you ",
+          "caption": "The bench awaits your thoughts",
           "include": true
         },
         {
@@ -1132,7 +1132,7 @@
         },
         {
           "file": "billylikesthis1.jpeg",
-          "caption": "Billy likes this",
+          "caption": "Billy likes this one",
           "include": true,
           "featured": false,
           "story": "Not sure why"
@@ -1144,7 +1144,7 @@
         },
         {
           "file": "fallenTree.jpeg",
-          "caption": "Fallen Tree",
+          "caption": "Fallen Tree did it make a sound?",
           "include": true
         },
         {
@@ -1154,8 +1154,8 @@
         },
         {
           "file": "fgypath1 copy.jpg",
-          "caption": "foggy splash",
-          "include": true
+          "caption": "Foggy autumnal splash",
+          "include": false
         },
         {
           "file": "FGyWoods copy.jpg",
@@ -1184,7 +1184,7 @@
         },
         {
           "file": "panoPreAutumn.jpg",
-          "caption": "I was strolling along",
+          "caption": "I was strolling along ",
           "include": true
         },
         {
@@ -1250,7 +1250,7 @@
         },
         {
           "file": "YForest.jpeg",
-          "caption": "Cool",
+          "caption": "Cool show",
           "include": true
         }
       ],
@@ -1264,7 +1264,7 @@
       "photos": [
         {
           "file": "AlbertDock.jpeg",
-          "caption": "AlbertDock",
+          "caption": "Classic Albert Dock",
           "include": true
         },
         {
@@ -1274,7 +1274,7 @@
         },
         {
           "file": "bluebellswide.jpeg",
-          "caption": "bluebells wide",
+          "caption": "A sea of Bluebells",
           "include": true
         },
         {
@@ -1284,7 +1284,7 @@
         },
         {
           "file": "FullLoughriggTarn copy.jpg",
-          "caption": "LoughriggTarn",
+          "caption": "Loughrigg Tarn",
           "include": false
         },
         {
@@ -1331,7 +1331,7 @@
         },
         {
           "file": "LoufriggTarnPano copy.jpg",
-          "caption": "Loughrig Tarn",
+          "caption": "Loughrigg Tarn",
           "include": true
         },
         {
@@ -1353,12 +1353,12 @@
         },
         {
           "file": "MoolabarWave.jpg",
-          "caption": "Moolabar Splash",
+          "caption": "Mooloolabar Splash",
           "include": true
         },
         {
           "file": "moolabyBeach.jpeg",
-          "caption": "Moolabar Beach",
+          "caption": "Caloundra Golden Beach",
           "include": true
         },
         {
@@ -1373,7 +1373,7 @@
         },
         {
           "file": "RydalBluebells copy.jpg",
-          "caption": "Rydal Bluebells ",
+          "caption": "Rydal Water Bluebells ",
           "include": true
         },
         {
@@ -1428,7 +1428,7 @@
         },
         {
           "file": "TarnHowsFoggyBW.jpg",
-          "caption": "Tarn How's Foggy",
+          "caption": "Tarn How's Foggy Monochrome ",
           "include": true
         },
         {
@@ -1448,7 +1448,7 @@
         },
         {
           "file": "TarnPanoclean.jpg",
-          "caption": "Tarn Pano Langdale Pikes",
+          "caption": "Loughrigg Tarn Pano Langdale Pikes",
           "include": true
         },
         {
@@ -1458,7 +1458,7 @@
         },
         {
           "file": "WelshCottage.jpeg",
-          "caption": "Welsh Cottage",
+          "caption": "Llanrwst Bridge & Cottage",
           "include": true
         }
       ],
@@ -1472,7 +1472,7 @@
       "photos": [
         {
           "file": "BBcloseup copy.jpeg",
-          "caption": "Bluebells ",
+          "caption": "Bluebells — Hyacinthoides non-scripta",
           "include": true
         },
         {
@@ -1482,7 +1482,7 @@
         },
         {
           "file": "BBellsHarshSun copy.jpeg",
-          "caption": "Harsh Sun",
+          "caption": "Harsh light",
           "include": true
         },
         {
@@ -1537,7 +1537,7 @@
         },
         {
           "file": "BlueBellsTreeFrame3712.jpeg",
-          "caption": "See Blue",
+          "caption": "See of Blue",
           "include": true
         },
         {
@@ -1557,7 +1557,7 @@
         },
         {
           "file": "BluebirdSheepFrame copy.jpeg",
-          "caption": "Sheepish view",
+          "caption": "Sheepish peak",
           "include": true
         },
         {
@@ -1582,7 +1582,7 @@
         },
         {
           "file": "PathPanoBlueBells.jpeg",
-          "caption": "Path Pano Bluebells",
+          "caption": "Path Bluebells",
           "include": true
         },
         {
@@ -1661,8 +1661,9 @@
         },
         {
           "file": "HiTherejpeg.jpeg",
-          "caption": "Hi There, don't forget",
-          "include": true
+          "caption": "Hi There, lest we  forget",
+          "include": true,
+          "featured": false
         },
         {
           "file": "LoneTreeHarwoodwide.jpeg",
@@ -1876,7 +1877,7 @@
         {
           "file": "albertdock.jpeg",
           "caption": "Albert dock",
-          "include": true
+          "include": false
         },
         {
           "file": "CrosbyVista.jpeg",
@@ -1951,12 +1952,12 @@
         },
         {
           "file": "padstowboats copy.jpg",
-          "caption": "padstow boats",
+          "caption": "Padstow harbour boats",
           "include": true
         },
         {
           "file": "PadstowPano copy.jpg",
-          "caption": "Padstow Pano",
+          "caption": "Padstow Bay",
           "include": true
         }
       ],
@@ -1970,7 +1971,7 @@
       "photos": [
         {
           "file": "3boatsFA copy.jpg",
-          "caption": "3 boats",
+          "caption": "Three",
           "include": true
         },
         {
@@ -2056,7 +2057,7 @@
         },
         {
           "file": "StMichealsMountlonefigure copy.jpg",
-          "caption": " Lone walk",
+          "caption": " Lone walker",
           "include": true
         },
         {
@@ -2071,7 +2072,7 @@
         },
         {
           "file": "warmBWStMicheals.jpg",
-          "caption": "t Sepica",
+          "caption": "Sepica",
           "include": true
         }
       ],
@@ -2285,7 +2286,7 @@
         },
         {
           "file": "cove.jpeg",
-          "caption": "cove",
+          "caption": "Impassive Cove",
           "include": true
         },
         {
@@ -2310,17 +2311,17 @@
         },
         {
           "file": "farmEquipment.jpeg",
-          "caption": "farm Equipment",
+          "caption": "Rusty Equipment",
           "include": true
         },
         {
           "file": "JanetFoss5.jpeg",
-          "caption": "Janet Foss",
+          "caption": "Janets Foss",
           "include": true
         },
         {
           "file": "janetsFoss3.jpeg",
-          "caption": "janets Foss colour",
+          "caption": "Janets Foss colour",
           "include": true
         },
         {
@@ -2330,7 +2331,7 @@
         },
         {
           "file": "moors.jpeg",
-          "caption": "moors",
+          "caption": "Surrounding moors",
           "include": true
         }
       ],
@@ -2349,7 +2350,7 @@
         },
         {
           "file": "CloseUpClouds.jpeg",
-          "caption": "Our Moon covering our Star",
+          "caption": "The Moon covering our Star",
           "include": true
         },
         {
@@ -2373,12 +2374,12 @@
         },
         {
           "file": "Sequence colour.jpeg",
-          "caption": "SequenceMoon-Sunset",
+          "caption": "Sequenced Moon-Sunset",
           "include": true
         },
         {
           "file": "Tme Blend.jpeg",
-          "caption": "Time Blend",
+          "caption": "Time Blended - 30mins",
           "include": true
         }
       ],
