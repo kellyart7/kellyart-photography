@@ -1,18 +1,18 @@
 {
   "site": {
     "title": "Kelly Art Photography",
-    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images. \n\n",
+    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images.   In addition I have dabbbled with traditional fine art Painting in oils and acrylics, it is a true passion of mine. I enjoy studying and trying to recreate the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work. For me, painting is a continual journey of creativity, learning and personal expression.\n",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "blea-tarn",
-      "photo": "Blea Tarn.jpeg"
+      "album": "rome",
+      "photo": "_MG_3218.jpeg"
     },
     "github": {
       "user": "Kellyart7",
       "repo": "kellyart-photography"
     },
     "eyebrow": "Landscapes and Art Images",
-    "featuredIntro": "In addition I have dabbbled with traditional fine art Painting in oils and acrylics, it is a true passion of mine. I enjoy studying and trying to recreate the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work. For me, painting is a continual journey of creativity, learning and personal expression.",
+    "featuredIntro": "The featured work here represents my favourite photograph from each of the Albums below",
     "about1": "My Philosophy ",
     "about2": "My photography is rooted in an authentic and natural way of seeing the world. I aim to capture moments, landscapes and details as they genuinely appear, while allowing light, atmosphere and composition to shape the final image. Influenced by the balance, mood and timeless quality of fine art paintings, I strive to create photographs that are not simply records of a moment, but images that invite reflection and evoke a sense of beauty, emotion and place.",
     "about3": "I have also upload some examples of my attempt at reproducing some Fine Art paintings.  ",
@@ -2384,6 +2384,82 @@
         }
       ],
       "group": "Project work"
+    },
+    {
+      "key": "rome",
+      "title": "Rome",
+      "blurb": "Flying visit to Rome in the Summer",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/Italy/Rome",
+      "photos": [
+        {
+          "file": "_MG_3122.jpeg",
+          "caption": "Romes Coliseum ",
+          "include": true
+        },
+        {
+          "file": "_MG_3167.jpeg",
+          "caption": "The Forum ",
+          "include": true
+        },
+        {
+          "file": "_MG_3169.jpeg",
+          "caption": "Forum ",
+          "include": true
+        },
+        {
+          "file": "_MG_3187.jpeg",
+          "caption": "Forum",
+          "include": true
+        },
+        {
+          "file": "_MG_3211.jpeg",
+          "caption": "St Pauls from the Tber",
+          "include": true,
+          "featured": true
+        },
+        {
+          "file": "_MG_3214.jpeg",
+          "caption": "River Tiber",
+          "include": true
+        },
+        {
+          "file": "_MG_3218.jpeg",
+          "caption": "River Tiber",
+          "include": true,
+          "featured": false
+        },
+        {
+          "file": "_MG_3220.jpeg",
+          "caption": "Castel sant  Angelo",
+          "include": true
+        },
+        {
+          "file": "_MG_3225.jpeg",
+          "caption": "St Pauls",
+          "include": true
+        },
+        {
+          "file": "_MG_3274.jpeg",
+          "caption": "St Pauls square",
+          "include": true
+        },
+        {
+          "file": "_MG_3297.jpeg",
+          "caption": "St Pauls Statue",
+          "include": true
+        },
+        {
+          "file": "IMG_3272.jpeg",
+          "caption": "St Pauls Piazza ",
+          "include": true
+        },
+        {
+          "file": "WeddingCakePalmTree.jpg",
+          "caption": "Wedding CakeP almTree",
+          "include": true
+        }
+      ],
+      "group": "Places"
     }
   ]
 }
