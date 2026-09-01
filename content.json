@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Kelly Art Photography",
-    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. I hope you enjoy taking a stroll through the galleries and discovering some of my current work. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images.   In addition I have dabbbled with traditional fine art Painting in oils and acrylics, it is a true passion of mine. I enjoy studying and trying to recreate the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work. For me, painting is a continual journey of creativity, learning and personal expression.\n",
+    "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images.   In addition I have  added some of my own fine art Painting in oils and acrylics, it is a true passion of mine. I enjoy studying and trying to recreate the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work.",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
       "album": "rome",
@@ -12,7 +12,7 @@
       "repo": "kellyart-photography"
     },
     "eyebrow": "Landscapes and Art Images",
-    "featuredIntro": "The featured work here represents my favourite photograph from each of the Albums below",
+    "featuredIntro": "The images featured here are my favourite photograph from each album below.",
     "about1": "My Philosophy ",
     "about2": "My photography is rooted in an authentic and natural way of seeing the world. I aim to capture moments, landscapes and details as they genuinely appear, while allowing light, atmosphere and composition to shape the final image. Influenced by the balance, mood and timeless quality of fine art paintings, I strive to create photographs that are not simply records of a moment, but images that invite reflection and evoke a sense of beauty, emotion and place.",
     "about3": "I have also upload some examples of my attempt at reproducing some Fine Art paintings.  ",
@@ -259,47 +259,6 @@
       "group": "The Lake District"
     },
     {
-      "key": "grasmere",
-      "title": "Grasmere",
-      "blurb": "Grasmere is one of the Lake District’s most enchanting locations, where a peaceful lake sits beneath a dramatic amphitheatre of surrounding fells. Its calm waters, winding shoreline and ever-changing light provide wonderful opportunities for landscape photography throughout the year. The village itself has a rich history, with roots stretching back to the early medieval period, and is famously associated with the poet William Wordsworth, who made his home at nearby Dove Cottage in 1799 and drew much of his inspiration from the beauty of the surrounding landscape.",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Grassmere",
-      "photos": [
-        {
-          "file": "BWvillage.jpeg",
-          "caption": "The village, black and white",
-          "include": true
-        },
-        {
-          "file": "grasmereCottage copy.jpg",
-          "caption": "Lakeland cottage",
-          "include": true
-        },
-        {
-          "file": "GrassmereGold.jpeg",
-          "caption": "Golden hour",
-          "include": true,
-          "featured": true,
-          "story": "Wow reminds me of a Turner painting"
-        },
-        {
-          "file": "GrassmereIsland.jpeg",
-          "caption": "The island",
-          "include": true
-        },
-        {
-          "file": "GrassmereSeagull.jpeg",
-          "caption": "Seagull calm",
-          "include": true
-        },
-        {
-          "file": "whitehouse.jpeg",
-          "caption": "The white cottage  ",
-          "include": true
-        }
-      ],
-      "group": "The Lake District"
-    },
-    {
       "key": "haweswater",
       "title": "Haweswater",
       "blurb": "A remote reservoir valley, wide skies and rock shorelines.  Haweswater Reservoir lies in one of the Lake District’s most remote and atmospheric valleys, surrounded by rugged fells and dramatic open landscapes. Created in the 1930s to provide water for Manchester, the reservoir now forms a striking part of the landscape, with its winding shoreline and towering mountains offering endless opportunities for photography. Changing weather, mist, reflections and seasonal light can transform Haweswater from a tranquil scene into a dramatic and evocative landscape.",
@@ -387,45 +346,6 @@
           "include": true,
           "featured": true,
           "story": "The art of contemplation "
-        }
-      ],
-      "group": "The Lake District"
-    },
-    {
-      "key": "rydal-water",
-      "title": "Rydal Water",
-      "blurb": "A small lake between Grasmere and Ambleside, quiet and wooded.  Rydal Water is one of the Lake District’s most tranquil and photogenic lakes, tucked between the villages of Ambleside and Grasmere beneath the rugged slopes of Loughrigg Fell. Its peaceful waters, wooded shoreline and surrounding mountains create a wonderfully atmospheric setting for photography, particularly when mist, reflections and soft light transform the landscape. Rich in literary history and closely associated with William Wordsworth, Rydal Water combines natural beauty with a timeless sense of place.",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/Rydal",
-      "photos": [
-        {
-          "file": "rydal.jpeg",
-          "caption": "View back to Grasmere ",
-          "include": true
-        },
-        {
-          "file": "RydalPano1.jpeg",
-          "caption": "Rydal Water panorama",
-          "include": true
-        },
-        {
-          "file": "RydalLoneTreeBW.jpeg",
-          "caption": "Rydal waters Lone tree",
-          "include": true
-        },
-        {
-          "file": "RydalCave copy.jpeg",
-          "caption": "Rydal Cave",
-          "include": true
-        },
-        {
-          "file": "_MG_1153.jpeg",
-          "caption": "Rydal Water study",
-          "include": false
-        },
-        {
-          "file": "RydalWalkers.jpeg",
-          "caption": "Walkers by the lake",
-          "include": true
         }
       ],
       "group": "The Lake District"
@@ -2398,22 +2318,22 @@
         },
         {
           "file": "_MG_3167.jpeg",
-          "caption": "The Forum ",
+          "caption": "The Forum very busy",
           "include": true
         },
         {
           "file": "_MG_3169.jpeg",
-          "caption": "Forum ",
+          "caption": "Forum and Wedding Cake",
           "include": true
         },
         {
           "file": "_MG_3187.jpeg",
-          "caption": "Forum",
+          "caption": "Forum Columns",
           "include": true
         },
         {
           "file": "_MG_3211.jpeg",
-          "caption": "St Pauls from the Tber",
+          "caption": "St Pauls from the Tiber",
           "include": true,
           "featured": true
         },
@@ -2424,13 +2344,13 @@
         },
         {
           "file": "_MG_3218.jpeg",
-          "caption": "River Tiber",
+          "caption": "Rich colours of the River Tiber",
           "include": true,
           "featured": false
         },
         {
           "file": "_MG_3220.jpeg",
-          "caption": "Castel sant  Angelo",
+          "caption": "Castel Sant' Angelo",
           "include": true
         },
         {
@@ -2440,7 +2360,7 @@
         },
         {
           "file": "_MG_3274.jpeg",
-          "caption": "St Pauls square",
+          "caption": "St Pauls Piazza from the Basilicas ",
           "include": true
         },
         {
@@ -2460,6 +2380,120 @@
         }
       ],
       "group": "Places"
+    },
+    {
+      "key": "rydal-and-grassmere",
+      "title": "Rydal and Grassmere",
+      "blurb": "Grasmere is one of the Lake District’s most enchanting locations, where a peaceful lake sits beneath a dramatic amphitheatre of surrounding fells. Its calm waters, winding shoreline and ever-changing light provide wonderful opportunities for landscape photography throughout the year. The village itself has a rich history, with roots stretching back to the early medieval period, and is famously associated with the poet William Wordsworth, who made his home at nearby Dove Cottage in 1799 and drew much of his inspiration from the beauty of the surrounding landscape.",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/GrassmereRYDAL",
+      "photos": [
+        {
+          "file": "_MG_1153.jpeg",
+          "caption": "_MG_1153",
+          "include": true
+        },
+        {
+          "file": "_MG_1155.jpeg",
+          "caption": "_MG_1155",
+          "include": true
+        },
+        {
+          "file": "_MG_1185.jpeg",
+          "caption": "_MG_1185",
+          "include": true
+        },
+        {
+          "file": "BenjiRGfetch.jpeg",
+          "caption": "BenjiRGfetch",
+          "include": true
+        },
+        {
+          "file": "BWvillage.jpeg",
+          "caption": "BWvillage",
+          "include": true
+        },
+        {
+          "file": "grasmereCottage copy.jpg",
+          "caption": "grasmereCottage copy",
+          "include": true
+        },
+        {
+          "file": "GrassmereDock.jpeg",
+          "caption": "GrassmereDock",
+          "include": true
+        },
+        {
+          "file": "GrassmereGold.jpeg",
+          "caption": "GrassmereGold",
+          "include": true
+        },
+        {
+          "file": "GrassmereIsland.jpeg",
+          "caption": "GrassmereIsland",
+          "include": true
+        },
+        {
+          "file": "GrassmereSeagull.jpeg",
+          "caption": "GrassmereSeagull",
+          "include": true
+        },
+        {
+          "file": "LowRydalTreeHDR.jpeg",
+          "caption": "LowRydalTreeHDR",
+          "include": true
+        },
+        {
+          "file": "LTreeMoonHDR.jpeg",
+          "caption": "LTreeMoonHDR",
+          "include": true
+        },
+        {
+          "file": "LTwithBackground.jpeg",
+          "caption": "LTwithBackground",
+          "include": true
+        },
+        {
+          "file": "rydal.jpeg",
+          "caption": "rydal",
+          "include": true
+        },
+        {
+          "file": "RydalCave copy.jpeg",
+          "caption": "RydalCave copy",
+          "include": true
+        },
+        {
+          "file": "RydalGBlur copy.jpg",
+          "caption": "RydalGBlur copy",
+          "include": true
+        },
+        {
+          "file": "RydalLake.jpeg",
+          "caption": "RydalLake",
+          "include": true
+        },
+        {
+          "file": "RydalLoneTreeBW.jpeg",
+          "caption": "RydalLoneTreeBW",
+          "include": true
+        },
+        {
+          "file": "RydalPano1.jpeg",
+          "caption": "RydalPano1",
+          "include": true
+        },
+        {
+          "file": "RydalWalkers.jpeg",
+          "caption": "RydalWalkers",
+          "include": true
+        },
+        {
+          "file": "whitehouse.jpeg",
+          "caption": "whitehouse",
+          "include": true
+        }
+      ],
+      "group": "The Lake District"
     }
   ]
 }
