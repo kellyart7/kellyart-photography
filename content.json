@@ -2384,113 +2384,115 @@
     {
       "key": "rydal-and-grassmere",
       "title": "Rydal and Grassmere",
-      "blurb": "Grasmere is one of the Lake District’s most enchanting locations, where a peaceful lake sits beneath a dramatic amphitheatre of surrounding fells. Its calm waters, winding shoreline and ever-changing light provide wonderful opportunities for landscape photography throughout the year. The village itself has a rich history, with roots stretching back to the early medieval period, and is famously associated with the poet William Wordsworth, who made his home at nearby Dove Cottage in 1799 and drew much of his inspiration from the beauty of the surrounding landscape.",
+      "blurb": "Grasmere and Rydal is one of the Lake District’s most enchanting locations, where peaceful slake sit beneath a dramatic amphitheatre of surrounding fells. There calm waters, winding shoreline and ever-changing light provide wonderful opportunities for landscape photography throughout the year. Grasmere village itself has a rich history, with roots stretching back to the early medieval period, and is famously associated with the poet William Wordsworth, who made his home at nearby Dove Cottage in 1799 and drew much of his inspiration from the beauty of the surrounding landscape.",
       "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Landscapes Locations/England/Lake District/GrassmereRYDAL",
       "photos": [
         {
           "file": "_MG_1153.jpeg",
-          "caption": "_MG_1153",
+          "caption": "Grasmere Island",
           "include": true
         },
         {
           "file": "_MG_1155.jpeg",
-          "caption": "_MG_1155",
+          "caption": "Daffodil Hotel",
           "include": true
         },
         {
           "file": "_MG_1185.jpeg",
-          "caption": "_MG_1185",
+          "caption": "Rydal's Lone Tree ",
           "include": true
         },
         {
           "file": "BenjiRGfetch.jpeg",
-          "caption": "BenjiRGfetch",
+          "caption": "White cottage ",
           "include": true
         },
         {
           "file": "BWvillage.jpeg",
-          "caption": "BWvillage",
+          "caption": "Grasmere fells",
           "include": true
         },
         {
           "file": "grasmereCottage copy.jpg",
-          "caption": "grasmereCottage copy",
+          "caption": "Rolling in",
           "include": true
         },
         {
           "file": "GrassmereDock.jpeg",
-          "caption": "GrassmereDock",
+          "caption": "Grasmere Faeryland",
           "include": true
         },
         {
           "file": "GrassmereGold.jpeg",
-          "caption": "GrassmereGold",
-          "include": true
+          "caption": "Grassmere Gold",
+          "include": true,
+          "featured": true,
+          "story": "Like a Monet masterpiece"
         },
         {
           "file": "GrassmereIsland.jpeg",
           "caption": "GrassmereIsland",
-          "include": true
+          "include": false
         },
         {
           "file": "GrassmereSeagull.jpeg",
-          "caption": "GrassmereSeagull",
+          "caption": "Grassmere Seagull",
           "include": true
         },
         {
           "file": "LowRydalTreeHDR.jpeg",
-          "caption": "LowRydalTreeHDR",
+          "caption": "Rydal Tree",
           "include": true
         },
         {
           "file": "LTreeMoonHDR.jpeg",
-          "caption": "LTreeMoonHDR",
+          "caption": "Moonrise",
           "include": true
         },
         {
           "file": "LTwithBackground.jpeg",
           "caption": "LTwithBackground",
-          "include": true
+          "include": false
         },
         {
           "file": "rydal.jpeg",
-          "caption": "rydal",
+          "caption": "Towards Helm Crag",
           "include": true
         },
         {
           "file": "RydalCave copy.jpeg",
-          "caption": "RydalCave copy",
+          "caption": "Cave ",
           "include": true
         },
         {
           "file": "RydalGBlur copy.jpg",
-          "caption": "RydalGBlur copy",
+          "caption": "Cold Dawn",
           "include": true
         },
         {
           "file": "RydalLake.jpeg",
-          "caption": "RydalLake",
+          "caption": "Rydal Lake",
           "include": true
         },
         {
           "file": "RydalLoneTreeBW.jpeg",
-          "caption": "RydalLoneTreeBW",
+          "caption": "Rydal Tones",
           "include": true
         },
         {
           "file": "RydalPano1.jpeg",
           "caption": "RydalPano1",
-          "include": true
+          "include": false
         },
         {
           "file": "RydalWalkers.jpeg",
-          "caption": "RydalWalkers",
+          "caption": "Rydal Walkers",
           "include": true
         },
         {
           "file": "whitehouse.jpeg",
           "caption": "whitehouse",
-          "include": true
+          "include": false
         }
       ],
       "group": "The Lake District"
