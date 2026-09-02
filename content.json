@@ -2496,6 +2496,62 @@
         }
       ],
       "group": "The Lake District"
+    },
+    {
+      "key": "eclipse",
+      "title": "Eclipse",
+      "blurb": "Historic event in Lytham St Annes",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Astrophotography/Eclipse",
+      "photos": [
+        {
+          "file": "BWsequence.jpeg",
+          "caption": "BW sequence",
+          "include": true
+        },
+        {
+          "file": "ColouredSeq.jpeg",
+          "caption": "Coloured Sequence",
+          "include": true
+        },
+        {
+          "file": "comp.jpeg",
+          "caption": "Actual",
+          "include": true
+        },
+        {
+          "file": "Fullday.jpeg",
+          "caption": "Full day",
+          "include": true,
+          "featured": true,
+          "story": "Composite of time"
+        },
+        {
+          "file": "IMG_8121.jpeg",
+          "caption": "IMG_8121",
+          "include": false
+        },
+        {
+          "file": "lythamEclipse1 copy.jpg",
+          "caption": "Eclipsed Pier ",
+          "include": true
+        },
+        {
+          "file": "moonlight.jpeg",
+          "caption": "moonlight",
+          "include": true
+        },
+        {
+          "file": "pierin eclipse.jpeg",
+          "caption": "Light feeling on the day",
+          "include": true
+        },
+        {
+          "file": "Tweaked.jpeg",
+          "caption": "Tweaked",
+          "include": false
+        }
+      ],
+      "group": "Project work"
     }
   ]
 }
