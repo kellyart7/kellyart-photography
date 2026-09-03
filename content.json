@@ -4,18 +4,18 @@
     "tagline": "Welcome to my photography portfolio, a collection of images, ideas and ongoing projects inspired by the landscapes and places I love to explore. Your thoughts, observations and constructive comments are always welcome, as they help me develop my photography and see familiar subjects from a different perspective. Feel free to email me with any comments and requests for images.   In addition I have  added some of my own fine art Painting in oils and acrylics, it is a true passion of mine. I enjoy studying and trying to recreate the beauty, technique and atmosphere of the old masters, while also using these influences to inspire and develop my own original work.",
     "root": "/Volumes/Public/Network Photos/PORTFOLIO",
     "hero": {
-      "album": "rome",
-      "photo": "_MG_3218.jpeg"
+      "album": "haweswater",
+      "photo": "_MG_2246.jpeg"
     },
     "github": {
       "user": "Kellyart7",
       "repo": "kellyart-photography"
     },
     "eyebrow": "Landscapes and Art Images",
-    "featuredIntro": "The images featured here are my favourite photograph from each album below.",
+    "featuredIntro": "The images featured here are a selection of my favourite photographs",
     "about1": "My Philosophy ",
     "about2": "My photography is rooted in an authentic and natural way of seeing the world. I aim to capture moments, landscapes and details as they genuinely appear, while allowing light, atmosphere and composition to shape the final image. Influenced by the balance, mood and timeless quality of fine art paintings, I strive to create photographs that are not simply records of a moment, but images that invite reflection and evoke a sense of beauty, emotion and place.",
-    "about3": "I have also upload some examples of my attempt at reproducing some Fine Art paintings.  ",
+    "about3": "I have also upload some examples of my some paintings.  ",
     "aboutImagePath": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Portraites/John/JKVanGogh.jpg"
   },
   "albums": [
@@ -41,7 +41,7 @@
           "file": "BleaTarn06_06.jpeg",
           "caption": "Pikes above the tarn",
           "include": true,
-          "featured": true,
+          "featured": false,
           "story": "Classic shot featuring the Langdale Pikes"
         },
         {
@@ -193,7 +193,7 @@
         {
           "file": "_MG_0269.jpeg",
           "caption": "Fells across the water",
-          "include": true,
+          "include": false,
           "featured": true,
           "story": "A typical lakeland view"
         },
@@ -288,7 +288,7 @@
           "file": "_MG_2246.jpeg",
           "caption": "Valley light",
           "include": true,
-          "featured": true,
+          "featured": false,
           "story": "Hang on spring here soon"
         },
         {
@@ -844,165 +844,6 @@
           "file": "wrayCastleViewBWFA.jpeg",
           "caption": "wrayCastleViewBWFA",
           "include": false
-        }
-      ],
-      "group": "Project work"
-    },
-    {
-      "key": "northern-lights",
-      "title": "Northern Lights",
-      "blurb": "All original Skys captured from my garden in Accrington.  Some foregrounds have been added from my own my portfolio for fun, imaging what it would have looked like around the area",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Night and ASTRO/AURORA",
-      "photos": [
-        {
-          "file": "AuroraAccy.jpeg",
-          "caption": "Beaming Plasma in Accrington ",
-          "include": true
-        },
-        {
-          "file": "AuroraAccy.jpg",
-          "caption": "AuroraAccy",
-          "include": false
-        },
-        {
-          "file": "AuroraLytham copy.jpeg",
-          "caption": "AuroraLytham copy",
-          "include": false
-        },
-        {
-          "file": "AuroraLytham copy.jpg",
-          "caption": "Aurora Lytham composite ",
-          "include": true
-        },
-        {
-          "file": "backgardenAroura.jpeg",
-          "caption": "backgardenAroura",
-          "include": false
-        },
-        {
-          "file": "backgardenAroura.jpg",
-          "caption": "Back garden Angel",
-          "include": true
-        },
-        {
-          "file": "BigDipperArora copy.jpg",
-          "caption": "Big Dipper cluster",
-          "include": true
-        },
-        {
-          "file": "ClaytonLancs copy.jpg",
-          "caption": "ClaytonLancs copy",
-          "include": false
-        },
-        {
-          "file": "EletricSolarWind copy.jpeg",
-          "caption": "EletricSolarWind copy",
-          "include": false
-        },
-        {
-          "file": "EletricSolarWind copy.jpg",
-          "caption": "EletricSolarWind copy",
-          "include": false
-        },
-        {
-          "file": "IMG_7501-Enhanced-NR copy-1.jpeg",
-          "caption": "Multicoloured Angles in the Skys ",
-          "include": true
-        },
-        {
-          "file": "IMG_7501-Enhanced-NR copy.jpeg",
-          "caption": "IMG_7501-Enhanced-NR copy",
-          "include": false
-        },
-        {
-          "file": "IMG_7501-Enhanced-NR copy.jpg",
-          "caption": "IMG_7501-Enhanced-NR copy",
-          "include": false
-        },
-        {
-          "file": "KingStAurora copy.jpeg",
-          "caption": "KingStAurora copy",
-          "include": false
-        },
-        {
-          "file": "KingStAurora copy.jpg",
-          "caption": "Whalley composite ",
-          "include": true
-        },
-        {
-          "file": "LythamPierAurora copy.jpeg",
-          "caption": "LythamPierAurora copy",
-          "include": false
-        },
-        {
-          "file": "LythamPierAurora copy.jpg",
-          "caption": "Lytham Pier",
-          "include": false
-        },
-        {
-          "file": "PendleHill copy.jpg",
-          "caption": "Pendle Hill composite ",
-          "include": true
-        },
-        {
-          "file": "PolarisOutShoneby the Aroura copy.jpeg",
-          "caption": "PolarisOutShoneby the Aroura copy",
-          "include": false
-        },
-        {
-          "file": "PolarisOutShoneby the Aroura copy.jpg",
-          "caption": "PolarisOutShoneby the Aroura copy",
-          "include": false
-        },
-        {
-          "file": "Polisis Green copy.jpeg",
-          "caption": "Polaris the star of the north",
-          "include": true
-        },
-        {
-          "file": "Polisis Green copy.jpg",
-          "caption": "Polisis Green copy",
-          "include": false
-        },
-        {
-          "file": "Processed copy.jpeg",
-          "caption": "Processed copy",
-          "include": false
-        },
-        {
-          "file": "Processed copy.jpg",
-          "caption": "Processed copy",
-          "include": false
-        },
-        {
-          "file": "timelapse.jpg",
-          "caption": "timelapse",
-          "include": false
-        },
-        {
-          "file": "vert.jpg",
-          "caption": "vert",
-          "include": false
-        },
-        {
-          "file": "VerticalVid.jpg",
-          "caption": "Partical bursting allover ",
-          "include": true
-        },
-        {
-          "file": "WhalleyAurora copy.jpeg",
-          "caption": "WhalleyAurora copy",
-          "include": false
-        },
-        {
-          "file": "WhalleyAurora copy.jpg",
-          "caption": "Whalley village  Aurora ",
-          "include": true
-        },
-        {
-          "file": "WindermereAuroraSelfi copy.jpg",
-          "caption": "Windermere Aurora composite ",
-          "include": true
         }
       ],
       "group": "Project work"
@@ -1594,7 +1435,7 @@
           "file": "MyDomain.jpeg",
           "caption": "My Domain",
           "include": true,
-          "featured": true,
+          "featured": false,
           "story": "Im Spartacus "
         },
         {
@@ -1999,201 +1840,6 @@
       "group": "Cornwall"
     },
     {
-      "key": "my-paintings-original-copies",
-      "title": "My Paintings - Original copies",
-      "blurb": "Some original works but mainly my interpretation of great works of Art, primarily the Impressionists",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Paintings/MyPaintRaw",
-      "photos": [
-        {
-          "file": "Abstract1 copy.jpg",
-          "caption": "Abstract A",
-          "include": true
-        },
-        {
-          "file": "Abstract2.jpg",
-          "caption": "Abstrac B",
-          "include": true
-        },
-        {
-          "file": "apple.jpeg",
-          "caption": "Apple Blossoms Van Gogh",
-          "include": true,
-          "featured": true
-        },
-        {
-          "file": "boatsonsiene.jpeg",
-          "caption": "Boats on the Seine",
-          "include": true
-        },
-        {
-          "file": "bridge1.jpeg",
-          "caption": "Water Lilies  Bridge Monet",
-          "include": true
-        },
-        {
-          "file": "bridgeparis.jpeg",
-          "caption": "Water Lilies Bridge Monet",
-          "include": false
-        },
-        {
-          "file": "ceszan.jpeg",
-          "caption": "Selfie Ceszan",
-          "include": true
-        },
-        {
-          "file": "cottages.jpeg",
-          "caption": "Rural Cottages Van Gogh",
-          "include": true
-        },
-        {
-          "file": "dancers.jpeg",
-          "caption": "Ballet dancers Degas",
-          "include": false
-        },
-        {
-          "file": "degaNY.jpeg",
-          "caption": "degaNY",
-          "include": false
-        },
-        {
-          "file": "Esher copy.jpg",
-          "caption": "Esher ",
-          "include": false
-        },
-        {
-          "file": "FloranceGawley copy.jpg",
-          "caption": "Florance JK",
-          "include": false
-        },
-        {
-          "file": "Gardensouthern.jpeg",
-          "caption": "Gardens at Arles Van Gogh",
-          "include": false
-        },
-        {
-          "file": "GirlChairmirror.jpeg",
-          "caption": "Girl Chair mirror",
-          "include": false
-        },
-        {
-          "file": "GreenSunflower.jpeg",
-          "caption": "Green Sunflower Van Gogh",
-          "include": true
-        },
-        {
-          "file": "JKBeachHut.jpeg",
-          "caption": "BeachHut JK",
-          "include": false
-        },
-        {
-          "file": "JKKnarsborugh.jpeg",
-          "caption": "Knarsborugh JK",
-          "include": false
-        },
-        {
-          "file": "JKLakeDistrict.jpeg",
-          "caption": "Lake District JK",
-          "include": true
-        },
-        {
-          "file": "Knarsborough copy.jpg",
-          "caption": "Knarsborough JK",
-          "include": true
-        },
-        {
-          "file": "ManetPianoGirl.jpeg",
-          "caption": "Girls at the Piano Manet ",
-          "include": true
-        },
-        {
-          "file": "MonetBridge.jpeg",
-          "caption": "Water Lilies Bridge Monet 2",
-          "include": true
-        },
-        {
-          "file": "MonetHaystacks.jpeg",
-          "caption": "Haystacks Monet",
-          "include": true
-        },
-        {
-          "file": "PicasoWoman.jpeg",
-          "caption": "Picaso",
-          "include": true
-        },
-        {
-          "file": "rankin portrait.jpeg",
-          "caption": "Rankin JK",
-          "include": true
-        },
-        {
-          "file": "RoseDad.JPG",
-          "caption": "Mr Ainsworth JK",
-          "include": false
-        },
-        {
-          "file": "SpanishHouse.jpg",
-          "caption": "Spanish House JK",
-          "include": false
-        },
-        {
-          "file": "StarryNight copy.jpg",
-          "caption": "Starry Night Van Gogh",
-          "include": false
-        },
-        {
-          "file": "SunFlowers.jpeg",
-          "caption": "SunFlowers Van Gogh",
-          "include": true
-        },
-        {
-          "file": "SunflowersTallGreen.jpeg",
-          "caption": "SunflowersTallGreen Van Gogh",
-          "include": true
-        },
-        {
-          "file": "ValentinoBeachcoupleg.jpg",
-          "caption": "Beach couple Valentino",
-          "include": true
-        },
-        {
-          "file": "VanGoghCottage.jpeg",
-          "caption": "Cottage Van Gogh",
-          "include": true
-        },
-        {
-          "file": "VanGoghNightCafe.jpeg",
-          "caption": "Night Cafe Van Gogh",
-          "include": true
-        },
-        {
-          "file": "VanGoghStarryNight.jpeg",
-          "caption": "Starry Night Van Gogh",
-          "include": true
-        },
-        {
-          "file": "VGChurchAlvers.jpeg",
-          "caption": "Church Van Gogh",
-          "include": true
-        },
-        {
-          "file": "VGlake.jpeg",
-          "caption": "ake Van Gogh",
-          "include": true
-        },
-        {
-          "file": "VGwheatfields.jpeg",
-          "caption": "Wheatfields Van Gogh",
-          "include": true
-        },
-        {
-          "file": "YellowSunflowers.jpeg",
-          "caption": "Yellow Sunflowers Van Gogh",
-          "include": true
-        }
-      ],
-      "group": "Paintings"
-    },
-    {
       "key": "malham",
       "title": "Malham",
       "blurb": "Malham, Yorkshire\nMalham is a landscape that rewards patience. From the dramatic limestone of Malham Cove to the quiet waters and open spaces of the surrounding Dales, there is always something different to discover.\nThese images explore Malham through light, atmosphere and mood — moments when the familiar landscape takes on a different character. From deep shadows and muted tones to the subtle blues of early morning and evening, the aim is not simply to record the landscape, but to capture how it feels.",
@@ -2256,54 +1902,6 @@
         }
       ],
       "group": "Places"
-    },
-    {
-      "key": "st-annes-partial-eclipse-2026",
-      "title": "St Annes Partial Eclipse 2026",
-      "blurb": "Lytham St Annes – Partial Solar Eclipse, 2026\nOn a clear August evening, the skies above beach became the stage for one of nature’s most extraordinary spectacles: the partial solar eclipse of 2026.\nAs the Moon slowly moved across the face of the Sun, the familiar coastal light began to change. For a brief period, the landscape took on an unusual atmosphere — a subtle reminder of the immense scale and movement of our solar system.\nPhotographing the eclipse from the Lancashire coast was a challenge in timing, preparation and patience. Thses images captures a fleeting alignment between the Earth, Moon and Sun — a moment that will not be repeated in quite the same way.\nFor me, it was more than simply photographing an astronomical event. It was an opportunity to combine two lifelong interests: photography and the wonder of the universe.",
-      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Genre/Night and ASTRO/Partical Eclipse",
-      "photos": [
-        {
-          "file": "blended.jpeg",
-          "caption": "blended",
-          "include": false
-        },
-        {
-          "file": "CloseUpClouds.jpeg",
-          "caption": "The Moon covering our Star",
-          "include": true
-        },
-        {
-          "file": "comp.jpeg",
-          "caption": "comp",
-          "include": false
-        },
-        {
-          "file": "lythamEclipse1 copy.jpeg",
-          "caption": "Lytham Eclipse 2026",
-          "include": false,
-          "featured": false,
-          "story": "Unforgettable experience never to be forgotten. A composite image capturing the emotion of the day"
-        },
-        {
-          "file": "pierComposite.jpeg",
-          "caption": "Composite from the day",
-          "include": true,
-          "featured": true,
-          "story": "Unforgettable experience never to be forgotten. A composite image capturing the emotion of the day"
-        },
-        {
-          "file": "Sequence colour.jpeg",
-          "caption": "Sequenced Moon-Sunset",
-          "include": true
-        },
-        {
-          "file": "Tme Blend.jpeg",
-          "caption": "Time Blended - 30mins",
-          "include": true
-        }
-      ],
-      "group": "Project work"
     },
     {
       "key": "rome",
@@ -2427,7 +2025,7 @@
           "caption": "Grassmere Gold",
           "include": true,
           "featured": true,
-          "story": "Like a Monet masterpiece"
+          "story": "Reminds me of a Monet "
         },
         {
           "file": "GrassmereIsland.jpeg",
@@ -2552,6 +2150,205 @@
         }
       ],
       "group": "Project work"
+    },
+    {
+      "key": "my-art",
+      "title": "My Art",
+      "blurb": "",
+      "sourceFolder": "/Volumes/Public/Network Photos/PORTFOLIO/Projects/Paintings/MyPaintRaw",
+      "photos": [
+        {
+          "file": "Abstract1 copy.jpg",
+          "caption": "Abstract1 copy",
+          "include": true
+        },
+        {
+          "file": "Abstract2.jpg",
+          "caption": "Abstract2",
+          "include": true
+        },
+        {
+          "file": "apple.jpeg",
+          "caption": "apple",
+          "include": true,
+          "featured": true
+        },
+        {
+          "file": "boatsonsiene.jpeg",
+          "caption": "Monet",
+          "include": true
+        },
+        {
+          "file": "bridge1.jpeg",
+          "caption": "Monet",
+          "include": true
+        },
+        {
+          "file": "bridgeparis.jpeg",
+          "caption": "bridge Monet ",
+          "include": true
+        },
+        {
+          "file": "ceszan.jpeg",
+          "caption": "ceszan",
+          "include": true
+        },
+        {
+          "file": "cottages.jpeg",
+          "caption": "cottages",
+          "include": true
+        },
+        {
+          "file": "dancers.jpeg",
+          "caption": "dancers",
+          "include": true
+        },
+        {
+          "file": "degaNY.jpeg",
+          "caption": "dega",
+          "include": true
+        },
+        {
+          "file": "Esher copy.jpg",
+          "caption": "Esher copy",
+          "include": true
+        },
+        {
+          "file": "FloranceGawley copy.jpg",
+          "caption": "Florance ",
+          "include": true
+        },
+        {
+          "file": "Gardensouthern.jpeg",
+          "caption": "Gardens ",
+          "include": true
+        },
+        {
+          "file": "GirlChairmirror.jpeg",
+          "caption": "GirlChairmirror",
+          "include": false
+        },
+        {
+          "file": "GreenSunflower.jpeg",
+          "caption": "Green Sunflower",
+          "include": true
+        },
+        {
+          "file": "JKBeachHut.jpeg",
+          "caption": "JKBeach",
+          "include": true
+        },
+        {
+          "file": "JKKnarsborugh.jpeg",
+          "caption": "JK Knarsborugh",
+          "include": true
+        },
+        {
+          "file": "JKLakeDistrict.jpeg",
+          "caption": "JKLakeDistrict",
+          "include": false
+        },
+        {
+          "file": "Knarsborough copy.jpg",
+          "caption": "Knarsborough copy",
+          "include": false
+        },
+        {
+          "file": "ManetPianoGirl.jpeg",
+          "caption": "Manet Piano Girls",
+          "include": true
+        },
+        {
+          "file": "MonetBridge.jpeg",
+          "caption": "Monet Bridge",
+          "include": true
+        },
+        {
+          "file": "MonetHaystacks.jpeg",
+          "caption": "Monet Haystacks",
+          "include": true
+        },
+        {
+          "file": "PicasoWoman.jpeg",
+          "caption": "Picaso Woman",
+          "include": true
+        },
+        {
+          "file": "rankin portrait.jpeg",
+          "caption": "rankin portrait",
+          "include": true
+        },
+        {
+          "file": "RoseDad.JPG",
+          "caption": "RoseDad",
+          "include": true
+        },
+        {
+          "file": "SpanishHouse.jpg",
+          "caption": "SpanishHouse",
+          "include": false
+        },
+        {
+          "file": "StarryNight copy.jpg",
+          "caption": "StarryNight copy",
+          "include": true
+        },
+        {
+          "file": "SunFlowers.jpeg",
+          "caption": "SunFlowers",
+          "include": true
+        },
+        {
+          "file": "SunflowersTallGreen.jpeg",
+          "caption": "SunflowersTallGreen",
+          "include": true
+        },
+        {
+          "file": "ValentinoBeachcoupleg.jpg",
+          "caption": "Valentino",
+          "include": true
+        },
+        {
+          "file": "VanGoghCottage.jpeg",
+          "caption": "Van GoghCottage",
+          "include": true
+        },
+        {
+          "file": "VanGoghNightCafe.jpeg",
+          "caption": "Van Gogh Night Cafe",
+          "include": true
+        },
+        {
+          "file": "VanGoghStarryNight.jpeg",
+          "caption": "Van Gogh Starry Night",
+          "include": true
+        },
+        {
+          "file": "venicewall.jpeg",
+          "caption": "Venicewall",
+          "include": true
+        },
+        {
+          "file": "VGChurchAlvers.jpeg",
+          "caption": "VGChurchAlvers",
+          "include": true
+        },
+        {
+          "file": "VGlake.jpeg",
+          "caption": "VGlake",
+          "include": true
+        },
+        {
+          "file": "VGwheatfields.jpeg",
+          "caption": "Wheatfields",
+          "include": true
+        },
+        {
+          "file": "YellowSunflowers.jpeg",
+          "caption": "Yellow Sunflowers",
+          "include": true
+        }
+      ]
     }
   ]
 }
