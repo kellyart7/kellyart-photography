@@ -2091,6 +2091,16 @@
           "file": "whitehouse.jpeg",
           "caption": "whitehouse",
           "include": false
+        },
+        {
+          "file": "ClassicDerwent copy.jpg",
+          "caption": "ClassicDerwent copy",
+          "include": true
+        },
+        {
+          "file": "IMG_8328.jpg",
+          "caption": "IMG_8328",
+          "include": true
         }
       ],
       "group": "The Lake District"
