@@ -203,6 +203,21 @@
           "include": true
         },
         {
+          "file": "_MG_1153.jpeg",
+          "caption": "_MG_1153",
+          "include": true
+        },
+        {
+          "file": "_MG_1155.jpeg",
+          "caption": "_MG_1155",
+          "include": true
+        },
+        {
+          "file": "_MG_1185.jpeg",
+          "caption": "_MG_1185",
+          "include": true
+        },
+        {
           "file": "BenjiRGfetch.jpeg",
           "caption": "BenjiRGfetch",
           "include": true
@@ -218,6 +233,11 @@
           "include": true
         },
         {
+          "file": "grasmereCottage copy.jpg",
+          "caption": "grasmereCottage copy",
+          "include": true
+        },
+        {
           "file": "GrasmereSeagul copy.jpg",
           "caption": "GrasmereSeagul copy",
           "include": true
@@ -228,8 +248,48 @@
           "include": true
         },
         {
+          "file": "GrassmereGold.jpeg",
+          "caption": "GrassmereGold",
+          "include": true
+        },
+        {
+          "file": "GrassmereIsland.jpeg",
+          "caption": "GrassmereIsland",
+          "include": true
+        },
+        {
+          "file": "GrassmereSeagull.jpeg",
+          "caption": "GrassmereSeagull",
+          "include": true
+        },
+        {
+          "file": "LowRydalTreeHDR.jpeg",
+          "caption": "LowRydalTreeHDR",
+          "include": true
+        },
+        {
+          "file": "LTreeMoonHDR.jpeg",
+          "caption": "LTreeMoonHDR",
+          "include": true
+        },
+        {
+          "file": "LTwithBackground.jpeg",
+          "caption": "LTwithBackground",
+          "include": true
+        },
+        {
           "file": "MyBestside copy.jpg",
           "caption": "MyBestside copy",
+          "include": true
+        },
+        {
+          "file": "rydal.jpeg",
+          "caption": "rydal",
+          "include": true
+        },
+        {
+          "file": "RydalCave copy.jpeg",
+          "caption": "RydalCave copy",
           "include": true
         },
         {
@@ -245,6 +305,36 @@
         {
           "file": "RydalLoneTreeBW.jpeg",
           "caption": "RydalLoneTreeBW",
+          "include": true
+        },
+        {
+          "file": "RydalPano1.jpeg",
+          "caption": "RydalPano1",
+          "include": true
+        },
+        {
+          "file": "RydalWalkers.jpeg",
+          "caption": "RydalWalkers",
+          "include": true
+        },
+        {
+          "file": "whitehouse.jpeg",
+          "caption": "whitehouse",
+          "include": true
+        },
+        {
+          "file": "ClassicDerwent copy.jpg",
+          "caption": "ClassicDerwent copy",
+          "include": true
+        },
+        {
+          "file": "DerwentGate.jpg",
+          "caption": "DerwentGate",
+          "include": true
+        },
+        {
+          "file": "IMG_7991_PANORAMA.jpeg",
+          "caption": "IMG_7991_PANORAMA",
           "include": true
         }
       ],
@@ -2138,13 +2228,18 @@
           "include": false
         },
         {
-          "file": "ClassicDerwent copy.jpg",
-          "caption": "ClassicDerwent copy",
+          "file": "BLUEGrassmere copy.jpg",
+          "caption": "BLUEGrassmere copy",
           "include": true
         },
         {
-          "file": "IMG_8328.jpg",
-          "caption": "IMG_8328",
+          "file": "GrasmereSeagul copy.jpg",
+          "caption": "GrasmereSeagul copy",
+          "include": true
+        },
+        {
+          "file": "MyBestside copy.jpg",
+          "caption": "MyBestside copy",
           "include": true
         }
       ],
